@@ -3,7 +3,6 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
- header {
   padding: 100px 0 100px;
 }
 
@@ -15,6 +14,7 @@
 
 section {
   padding: 100px 0;
+
 }
 
 .bg-primary {
@@ -23,4 +23,3 @@ section {
 
 .table td, .table th{
   color:black
-}
