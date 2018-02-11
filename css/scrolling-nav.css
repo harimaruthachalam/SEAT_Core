@@ -14,13 +14,11 @@
 
 section {
   padding: 100px 0;
-
 }
 
 .bg-primary {
-  height:0px;
+  height:200px;
 }
 
 .table td, .table th{
   color:black
-}
