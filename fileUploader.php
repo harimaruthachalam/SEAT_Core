@@ -18,7 +18,7 @@
     system('rm '.$path.'*');
     $path = $path . basename( $_FILES['uploaded_file']['name']);
     if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {
-      $command = '../../../../Desktop/GraphMatching/build/graphmatching -B -s -i ';
+      $command = 'algo/GraphMatching/build/graphmatching -B -s -i ';
       $command = $command.$path;
       $command = $command.' -o ';
       $command = $command.'temp/output.txt';
