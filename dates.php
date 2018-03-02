@@ -21,43 +21,7 @@
 
   <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">SEAT | IITM</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="flowchart.html">Flowchart</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="statistics.html">Statistics</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="faq.html">FAQs</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="dates.html">Important Dates</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1>Student Elective Allocation Tool</h1>
-      </div>
-    </header>
+    <?php include 'header.php' ?>
 
 
     <section id="dates" class="bg-light">

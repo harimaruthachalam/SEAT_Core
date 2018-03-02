@@ -22,41 +22,7 @@
 
 <body id="page-top">
 
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
-		id="mainNav">
-		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top">SEAT |
-				IITM</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#navbarResponsive" aria-controls="navbarResponsive"
-				aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="index.html#about">About</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="flowchart.html">Flowchart</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="statistics.html">Statistics</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="faq.html">FAQs</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="dates.html">Important Dates</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<header class="bg-primary text-white">
-		<div class="container text-center">
-			<h1>Student Elective Allocation Tool</h1>
-		</div>
-	</header>
+	<?php include 'header.php' ?>
 
 	<section id="faq" class="bg-light">
 		<div class="container">
@@ -189,10 +155,10 @@
 									expect that the estimation will become easier.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion"
 href="#collapseOne6" aria-expanded="false" aria-controls="collapseOne6">How do faculty members communicate
 										extra details for this offering of the course?</a></p>
-									
+
 <div id="collapseOne6" class="collapse" role="tabpanel" aria-labelledby="headingOne">
 									Once the slotbook is approved by the TTC Chair, individual
 									faculty members can provide data pertaining to courses that
@@ -210,7 +176,7 @@ href="#collapseOne6" aria-expanded="false" aria-controls="collapseOne6">How do f
 										prerequisites.</em> <br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion"
 href="#collapseOne7" aria-expanded="false" aria-controls="collapseOne7">What about COT for courses?</a></p>
 <div id="collapseOne7" class="collapse" role="tabpanel" aria-labelledby="headingOne">
 									With this new system in place, COT will change its form --
@@ -228,7 +194,7 @@ href="#collapseOne7" aria-expanded="false" aria-controls="collapseOne7">What abo
 									students.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion"
 href="#collapseOne8" aria-expanded="false" aria-controls="collapseOne8">What are different ranking
 										criteria?</a></p>
 									<div id="collapseOne8" class="collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -239,7 +205,7 @@ href="#collapseOne8" aria-expanded="false" aria-controls="collapseOne8">What are
 									Random.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion"
 href="#collapseOne9" aria-expanded="false" aria-controls="collapseOne9">How is ranking criteria different
 										from pre-requisites?</a></p>
 										<div id="collapseOne9" class="collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -261,7 +227,7 @@ href="#collapseOne9" aria-expanded="false" aria-controls="collapseOne9">How is r
 							<div id="collapseTwo" class="collapse" role="tabpanel"
 								aria-labelledby="headingTwo">
 								<div class="card-block">
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo1" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo1"
 aria-expanded="false" aria-controls="collapseTwo1">What are inputs to SEAT?</a></p>
 <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
 									SEAT uses workflow to get its input from students. Every
@@ -278,10 +244,10 @@ aria-expanded="false" aria-controls="collapseTwo1">What are inputs to SEAT?</a><
 									<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo2" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo2"
 aria-expanded="false" aria-controls="collapseTwo2">How do I know what courses I am
 										eligible to take?</a></p>
-										
+
 <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
 									Workflow shows you all the courses that are being offered
 									across different departments that are available as electives.
@@ -292,7 +258,7 @@ aria-expanded="false" aria-controls="collapseTwo2">How do I know what courses I 
 									faculty offering the course.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo3" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo3"
 aria-expanded="false" aria-controls="collapseTwo3">How do I form my preference list
 										when I have several types of electives to credits like
 										Humanities, Mathematics and others?</a></p>
@@ -306,7 +272,7 @@ aria-expanded="false" aria-controls="collapseTwo3">How do I form my preference l
 									list.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo4" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo4"
 aria-expanded="false" aria-controls="collapseTwo4">What is a colour for a course in
 										the student’s preference list?</a></p>
 								<div id="collapseTwo4" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -327,17 +293,17 @@ aria-expanded="false" aria-controls="collapseTwo4">What is a colour for a course
 									colour. The SEAT software takes care of slot conflicts.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo5" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo5"
 aria-expanded="false" aria-controls="collapseTwo5">What about COT (Consent of Teacher)
 										for courses?</a></p>
-									
+
 <div id="collapseTwo5" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
 									There is no more paper COT for students starting from 2015-16
 									batch. COT has been replaced with course prerequisites and
 									course capacities declared for SEAT.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo6" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo6"
 aria-expanded="false" aria-controls="collapseTwo6">What are the different ranking
 										criteria for courses to rank students?</a></p>
 										<div id="collapseTwo6" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -408,7 +374,7 @@ aria-expanded="false" aria-controls="collapseTwo6">What are the different rankin
 									capacity of the course) may not be allocated to the course. <br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo7" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo7"
 aria-expanded="false" aria-controls="collapseTwo7">How is ranking criteria different
 										from pre-requisites?</a></p>
 									<div id="collapseTwo7" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -419,7 +385,7 @@ aria-expanded="false" aria-controls="collapseTwo7">How is ranking criteria diffe
 									course capacities.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo8" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo8"
 aria-expanded="false" aria-controls="collapseTwo8">What are some of the things
 										students should keep in mind when filling preferences?</a></p>
 									<div id="collapseTwo8" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -441,7 +407,7 @@ aria-expanded="false" aria-controls="collapseTwo8">What are some of the things
 									be allotted from the set of courses with “no colour”.<br />
 									<br />
 									</div>
-									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo9" 
+									<p class="text-primary"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo9"
 aria-expanded="false" aria-controls="collapseTwo9">What happens to students who do not
 										get allocated enough electives or are dissatisfied with some
 										of their allotted courses?</a></p>
