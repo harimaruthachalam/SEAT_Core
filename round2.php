@@ -23,22 +23,18 @@
 
     <?php include 'header.php' ?>
 
-
-    <section id="contact" class="bg-light">
+	<section id="flow" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h3>Contact us at </h3>
-    <p> seat@wmail.iitm.ac.in
-</p>
-
-			</div>
+            <h2>Flowchart</h2>
+			<img src="images/round2.png" alt="Round 2" height="70%" width="68%">
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-	<br><br><br><br><br><br><br><br><br><br><br>
     <footer class="py-1 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; SEAT | IITM 2018</p>

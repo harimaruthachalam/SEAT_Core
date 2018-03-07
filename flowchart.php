@@ -29,8 +29,8 @@
           <div class="col-lg-8 mx-auto">
             <h2>Flowchart</h2>
 
-			<img src="images/round1.png" alt="Round 1" height="35%" width="68%">
-			<img src="images/round2.png" alt="Round 2" height="40%" width="80%">
+			<img src="images/round1.png" alt="Round 1" height="70%" width="68%"><br>
+			<a href="round2.php">Click here to view Round 2 Sequence</a> 
           </div>
         </div>
       </div>
