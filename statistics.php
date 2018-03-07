@@ -61,7 +61,7 @@ function drawChart() {
     }
 
   // Optional; add a title and set the width and height of the chart
-  var options = {'title':"<?php echo $_GET["sem"] ?>", 'width':650, 'height':400};
+  var options = {'title':"<?php echo $_GET["sem"] ?>", 'width':650, 'height':350,fontSize:16};
 
   // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -124,7 +124,44 @@ return $count;
 
 
 ?>
-<a href="links.php">Click here to view other semesters(or rounds) statistics</a>
+<table align="right" border="0">
+<?php
+$sems=array("Jan-May 2018 Round 1","Jan-May 2018 Round 2","July-Nov 2017 Round 1","July-Nov 2017 Round 2","Jan-May 2017 HS-MA allotment","July-Nov 2016");
+$arrlength = count($sems);
+  echo "<br>";
+    echo "<br>";
+	  echo "<br>";
+
+for($x = 0; $x < $arrlength; $x++)
+{
+if($sems[$x]===$_GET["sem"])
+continue;
+else
+{
+?>
+<tr>	
+<td><a href="statistics.php?sem=<?php echo $sems[$x] ?>"><?php echo $sems[$x] ?></a></td>
+</tr>
+<?php
+}    
+}
+?>
+</table>
+<br><br><br><br><br><br>
+<footer class="py-1 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; SEAT | IITM 2018</p>
+      </div>
+    </footer>
+	
+	 <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
 </html>

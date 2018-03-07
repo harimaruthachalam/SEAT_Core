@@ -438,6 +438,7 @@ aria-expanded="false" aria-controls="collapseTwo9">What happens to students who 
 	</section>
 
 	<!-- Footer -->
+	<br><br><br><br><br><br><br><br><br>
 	<footer class="py-1 bg-dark">
 		<div class="container">
 			<p class="m-0 text-center text-white">Copyright &copy; SEAT |

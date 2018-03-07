@@ -69,7 +69,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-1 bg-dark">
+-	<br><br><br><br><br><br><br><br><br><br><br>
+     <footer class="py-1 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; SEAT | IITM 2018</p>
       </div>
