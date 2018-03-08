@@ -22,7 +22,12 @@
 
  <?php include 'header.php' ?>
 
-<h1>My Web Page</h1>
+
+     <section id="intro" class="bg-light">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-8 mx-auto">
+             <h3><?php echo $_GET["sem"] ?></h3>
 
 <div id="piechart"></div>
 
@@ -61,7 +66,7 @@ function drawChart() {
     }
 
   // Optional; add a title and set the width and height of the chart
-  var options = {'title':"<?php echo $_GET["sem"] ?>", 'width':650, 'height':350,fontSize:16};
+  var options = {'title':null, 'width':550, 'height':300, fontSize:16};
 
   // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -139,21 +144,27 @@ continue;
 else
 {
 ?>
-<tr>	
+<tr>
 <td><a href="statistics.php?sem=<?php echo $sems[$x] ?>"><?php echo $sems[$x] ?></a></td>
 </tr>
 <?php
-}    
+}
 }
 ?>
 </table>
-<br><br><br><br><br><br>
+
+
+			</div>
+        </div>
+      </div>
+    </section>
+
 <footer class="py-1 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; SEAT | IITM 2018</p>
       </div>
     </footer>
-	
+
 	 <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 

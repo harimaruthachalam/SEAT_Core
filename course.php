@@ -21,6 +21,14 @@
 <body id="page-top">
 <?php include 'header.php' ?>
 
+
+     <section id="intro" class="bg-light">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-8 mx-auto">
+             <h3><?php echo getTitle(); ?></h3>
+
+
 <div id="piechart"></div>
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -106,7 +114,7 @@ function drawChart() {
     }
 
   // Optional; add a title and set the width and height of the chart
-  var options = {'title':"<?php echo getTitle() ?>", 'width':550, 'height':700};
+  var options = {'title':null, 'width':550, 'height':300, fontSize:16};
 
   // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -251,6 +259,13 @@ return $ret;
 }
 
 ?>
+
+
+			</div>
+        </div>
+      </div>
+    </section>
+
 <footer class="py-1 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; SEAT | IITM 2018</p>
