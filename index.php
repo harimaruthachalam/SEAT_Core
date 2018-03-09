@@ -29,8 +29,8 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h3>SEAT</h3>
-    <p class="lead">SEAT stands for Student Elective Allocation Tool.</p>
-
+    <p class="lead" style="text-align:justify">SEAT stands for Student Elective Allocation Tool.</p>
+<p style="text-align:justify">
 Starting from the 2015 batch, the curriculum for B.Tech. and Dual Degree students has been
 revised to include many more electives ​​. There is a significant increase from the
 number of electives that were allowed in the old curriculum. Students have flexibility in
@@ -48,7 +48,7 @@ slot-conflicts and the number of credits allotted is within the credit limit pro
 student.<br><br>
 SEAT operates in 2 rounds. Any modifications to the allotment after the 2nd round is outside
 the purview of SEAT.
-
+</p>
 			</div>
         </div>
       </div>
