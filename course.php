@@ -15,7 +15,11 @@
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+	<style type="text/css">
+		svg > g > g:last-child { pointer-events: none }
+		
+		
+	</style>
   </head>
 
 <body id="page-top">
@@ -29,7 +33,39 @@
              <h3><?php echo getTitle(); ?></h3>
 
 
-<div id="piechart"></div>
+<table border="0" cellspacing="60">
+<tr>
+<td><div id="piechart"></div></td>
+<td>
+<table align="right" border="0">
+<?php
+$sems=array("Jan-May 2018 Round 1","Jan-May 2018 Round 2","July-Nov 2017 Round 1","July-Nov 2017 Round 2","Jan-May 2017","July-Nov 2016");
+$arrlength = count($sems);
+  echo "<br>";
+    echo "<br>";
+	  echo "<br>";
+
+for($x = 0; $x < $arrlength; $x++)
+{
+if($sems[$x]===$_GET["sem"])
+{
+	
+ echo "<tr><td>$sems[$x]</td></tr>";
+}
+else
+{
+?>
+<tr>
+<td><a href="statistics.php?sem=<?php echo $sems[$x] ?>"><?php echo $sems[$x] ?></a></td>
+</tr>
+<?php
+}
+}
+?>
+</table>
+</td>
+</tr>
+</table>
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
@@ -114,7 +150,7 @@ function drawChart() {
     }
 
   // Optional; add a title and set the width and height of the chart
-  var options = {'title':null, 'width':550, 'height':300, fontSize:16};
+  var options = {'title':null, 'width':550, 'height':500, fontSize:16};
 
   // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -266,11 +302,8 @@ return $ret;
       </div>
     </section>
 
-<footer class="py-1 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; SEAT | IITM 2018</p>
-      </div>
-    </footer>
+<?php include 'footer.php' ?>
+
 
 </body>
 </html>
