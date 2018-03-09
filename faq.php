@@ -438,13 +438,7 @@ aria-expanded="false" aria-controls="collapseTwo9">What happens to students who 
 	</section>
 
 	<!-- Footer -->
-	<footer class="py-1 bg-dark">
-		<div class="container">
-			<p class="m-0 text-center text-white">Copyright &copy; SEAT |
-				IITM 2018</p>
-		</div>
-		<!-- /.container -->
-	</footer>
+<?php include 'footer.php' ?>
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="vendor/jquery/jquery.min.js"></script>

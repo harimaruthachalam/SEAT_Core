@@ -28,19 +28,14 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Flowchart</h2>
-			<img src="images/round2.png" alt="Round 2" height="70%" width="68%">
+			<img src="images/round2.png" alt="Round 2" height="75%" width="88%">
           </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-1 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; SEAT | IITM 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    <?php include 'footer.php' ?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
