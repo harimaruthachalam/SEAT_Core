@@ -15,10 +15,10 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="statistics.php?sem=Jan-May 2018 Round 1">Statistics</a>
-        </li>
+        <!-- </li>
   <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="allocat.php">Allocation</a>
-        </li>
+        </li> -->
   <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="faq.php">FAQs</a>
         </li>
