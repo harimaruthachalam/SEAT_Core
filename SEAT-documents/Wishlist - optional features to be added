@@ -1,0 +1,11 @@
+THE FOLLOWING OPTIONAL FEATURES CAN BE ADDED TO SEAT
+
+1. Iterative Maximum Weight Bipartite Matching Algorithm: Assign edges weights based on the student and course preferences, and iteratively do a Maximum Weight Bipartite Matching
+
+2. Iterative One Sided Matching Algorithm : Use some one sided matching algorithm like RMM in an iterative fashion
+
+3. Stochastic Local Search : Use some stochastic local search meta heuristic (like Simulated Annealing, Ant Colony Optiminization,etc.) to come up with the best matching. There is some research work in this area for regular stable matchings.
+
+4. Define another notion of stability/optimality in the presesence of credits
+
+5. Automated detection of possible anomalies in input data.

@@ -1,0 +1,86 @@
+Date : 27 Feb, 2017
+(completed) 1. Input formats may have errors -- handle gracefully.
+
+(completed) 2. Currently we are only reporting slot clashes, prune preferences to take care of slot clashes : Input sanitization should make changes, not just report errors
+
+(completed) 3. As of now the code maintains a matrix for every slot. This can be moved to a config file which encodes slot times and then a small piece of code which converts this config file into a matrix for each slot : Granularity either at 15 mins or generate it
+
+(completed) 4. Rejection statistics enhance.
+    -- add rank-1 rejections.
+    -- add #Rejections / class size and # Rank-1 Rejections / class size.
+
+(completed) 5. For the slot-wise HR algorithm, the slot order should be a part of the output.
+
+(completed) 6. Increase comment coverage -- class fields particularly.
+
+(completed) 8. Add unit test cases.
+
+(completed) 9. Several class members are currently public. Need to make them private?
+
+(completed) 10. Invariants of the iterative HR (either write comments in code or in the documentation that needs to be created).
+
+(completed) 11. Change the implementation of generating the course preference list
+
+(completed) 12. Algorithm utitilies moved to a separate file
+
+(completed) 14. HS and MA courses to prefer certain year/department students over others
+
+(completed) 15. Mark a student's preference as inside department or outside department, and add only that copy on the student's preference list. Allow spillover
+
+(completed) 16. EP inside department as EE or PH. Similarly NA-OE. Similarly others. Keep a config file
+
+(completed) 17. Add config file to add custom maxCredits for some departments.
+
+(completed) 18. Add tests for Course Preferences. Add tests for new functions added (atleast a few added in the Student and Course classes)
+
+(completed) 19. Update the MakeFile or make it an ANT build to produce executable JAR
+
+(completed) 20. Update the output to show student wise and course wise statistics. Delete create statistics module
+
+(completed) 21. Add Backlog courses as core courses
+
+
+
+ALL COMPLETED ABOVE THIS POINT
+
+
+22. GUI for the application - Keep 1 file for taking in Terminal input, and 1 file for taking in GUI input. Then have 1 common file which calls all the functions and carries out the allotment
+
+23. Remove or modify the 'makeInputListsUnmodifiable()' functions
+
+(completed) 24. Change error reporting. Make it general enough so that errors can be reported through either the terminal or the GUI
+
+(completed) 25. print HS,MA,Free statistics directly?
+
+26. Allow the Ranking Criteria to be a string (SI,ST,CG) when reading the input. It can be converted to integer value (1,2,3) after reading.
+
+(completed) 27. Print reasons for each student not getting all the preferences that he did not get
+
+(completed) 28. Change courseId to courseNumber - it is confusing because courseId means something else on Workflow
+
+(completed) 29. Add check for Exchange stability
+
+30. Print the course preference list even if it is given as input
+
+31. Add an input file for 'Honours Student'. Also keep a separate maxCredit Limit for Honours students in the Constants file.
+
+
+(skip) 33. Create a new input file in which we read the constants that we have defined in the Constants.java file
+
+34. CoursePreference list when written out should be written to a default location, and not specifiable by the user (it doesn't work when you provide an absolute location, because we prepend the output folder location
+
+35. CheckInputFormat needs to be made more detailed - Instead of just keeping checks for strings, we should verify the format of the string (like it should be a valid student roll number,etc.) - optional - tell me what you think about this.
+
+36. Add Professor emails to main software
+
+37. Add output for Report generation (Ask Saranya what she wants exactly) - both for detailed report and short report to send to Dean/Director
+
+39. Add roll number information to failed search error message for CoursePreference.getByRollNo() in the FirstPReferenceAllotment algorithm
+
+40. Sanity check for total capacity >= outside capacity in input sanitization.
+
+41. Add input for specifyiing Round1 or Round2 - and change the emails (both student and faculty) accordingly. Deal with students who did not register for the round differently.
+
+42. Prepare vacancies file for Round2. Prepare courseList with new capacities for Round2.
+
+44. Refactor code as necessary.
