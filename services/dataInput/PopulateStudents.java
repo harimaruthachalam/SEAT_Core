@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.sql.*;
 
 import models.Student;
 
@@ -12,9 +13,9 @@ public class PopulateStudents{
 	/**
 	 * This function reads the data from the file and creates the student objects.
 	 * It takes the input file as an argument
-	 * @param deptSpecificMaxCreditLimitInfo 
+	 * @param deptSpecificMaxCreditLimitInfo
 	 */
-	public static ArrayList<Student> execute(String inputFile){		
+	public static ArrayList<Student> execute(String inputFile){
 		//Some declarations
 		String line;
 		String [] inputLine;
@@ -29,7 +30,7 @@ public class PopulateStudents{
 			//Skip the first line since it will be the header row
 			br.readLine();
 			//read input file line by line
-			while ((line = br.readLine()) != null) {	
+			while ((line = br.readLine()) != null) {
 				line.replaceAll("\\s+",""); //Remove all whitespace
 				inputLine = line.split(splitBy);
 				//create the new student object and add to student list
@@ -44,6 +45,13 @@ public class PopulateStudents{
 			e.printStackTrace();
 		}
 
-		return studentList; 				
+		return studentList;
+		// Class.forName("com.mysql.jdbc.Driver");
+		// Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/db_seat","userSEAT","password");
+		// Statement stmt=con.createStatement();
+		// ResultSet rs=stmt.executeQuery("SELECT * FROM `tbl_student_list` ");
+		// while(rs.next())
+		// System.out.println(rs.getString(0));
+		// con.close();
 	}
 }
