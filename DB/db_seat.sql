@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
--- https://www.phpmyadmin.net/
+-- version 4.5.4.1deb2ubuntu2
+-- http://www.phpmyadmin.net
 --
--- Host: localhost:3307
--- Generation Time: Apr 04, 2018 at 10:36 PM
--- Server version: 5.7.21
--- PHP Version: 7.1.14
+-- Host: localhost
+-- Generation Time: Apr 11, 2018 at 10:46 PM
+-- Server version: 5.7.21-0ubuntu0.16.04.1
+-- PHP Version: 7.0.28-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -21,6 +19,21 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_seat`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_aggregate_statistics`
+--
+
+CREATE TABLE `tbl_aggregate_statistics` (
+  `effective_rank_mean` double NOT NULL,
+  `effective_rank_sd` double NOT NULL,
+  `effective_rank_lowest10` double NOT NULL,
+  `credit_satisfaction_ratio_mean` double NOT NULL,
+  `credit_satisfaction_ratio_sd` double NOT NULL,
+  `credit_satisfaction_ratio_lowest10` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -60,6 +73,19 @@ CREATE TABLE `tbl_course_preference` (
   `inside_or_outside` varchar(10) NOT NULL,
   `preferences` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Todo: Foreign key mapping; preferences as other table';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_exchange_unstable_pairs`
+--
+
+CREATE TABLE `tbl_exchange_unstable_pairs` (
+  `student1_roll_no` varchar(15) NOT NULL,
+  `student1_alloted_course` varchar(20) NOT NULL,
+  `student2_roll_no` varchar(15) NOT NULL,
+  `student2_alloted_course` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -130,6 +156,56 @@ CREATE TABLE `tbl_per_student_allotted_courses` (
   `student_roll` varchar(10) NOT NULL,
   `elective_allotted` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_per_student_statistics`
+--
+
+CREATE TABLE `tbl_per_student_statistics` (
+  `student_roll_no` varchar(15) NOT NULL,
+  `effective_average_rank` double NOT NULL,
+  `credit_satisfaction_ratio` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_preferences_with_zero_capacity`
+--
+
+CREATE TABLE `tbl_preferences_with_zero_capacity` (
+  `student_roll_number` varchar(10) NOT NULL,
+  `preference_with_zero_capacity` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_reasons_not_alloting_preferences`
+--
+
+CREATE TABLE `tbl_reasons_not_alloting_preferences` (
+  `student_roll_no` varchar(15) NOT NULL,
+  `course_number` varchar(20) NOT NULL,
+  `reason` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_rejections`
+--
+
+CREATE TABLE `tbl_rejections` (
+  `course_id` varchar(15) NOT NULL,
+  `no_of_rejections` int(11) NOT NULL,
+  `no_of_first_preference_rejections` int(11) NOT NULL,
+  `course_capacity` int(11) NOT NULL,
+  `no_of_rejections_per_capacity` double NOT NULL,
+  `no_of_first_preference_rejections_per_capacity` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -247,38 +323,31 @@ ALTER TABLE `tbl_student_list`
 --
 ALTER TABLE `tbl_course_preference`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT for table `tbl_high_priority_students`
 --
 ALTER TABLE `tbl_high_priority_students`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT for table `tbl_inside_department_spec`
 --
 ALTER TABLE `tbl_inside_department_spec`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT for table `tbl_output`
 --
 ALTER TABLE `tbl_output`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT for table `tbl_per_course_alloted_students`
 --
 ALTER TABLE `tbl_per_course_alloted_students`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
-
 --
 -- AUTO_INCREMENT for table `tbl_per_student_allotted_courses`
 --
 ALTER TABLE `tbl_per_student_allotted_courses`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
-COMMIT;
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
