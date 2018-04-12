@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="600ba2ac-764e-47b0-85d2-38cc0dbda0bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change beforePath="$PROJECT_DIR$/SEAT.jar" afterPath="$PROJECT_DIR$/SEAT.jar" />
-      <change beforePath="$PROJECT_DIR$/services/dataInput/PopulateStudents.class" afterPath="$PROJECT_DIR$/services/dataInput/PopulateStudents.class" />
-      <change beforePath="$PROJECT_DIR$/services/dataInput/PopulateStudents.java" afterPath="$PROJECT_DIR$/services/dataInput/PopulateStudents.java" />
-    </list>
+    <list default="true" id="600ba2ac-764e-47b0-85d2-38cc0dbda0bd" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +67,8 @@
       <file leaf-file-name="MainWithoutGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/MainWithoutGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="180">
+              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -326,15 +321,15 @@
       <option name="presentableId" value="Default" />
       <updated>1523264804406</updated>
       <workItem from="1523264812919" duration="1462000" />
-      <workItem from="1523348146595" duration="1718000" />
+      <workItem from="1523348146595" duration="1723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3180000" />
+    <option name="totallyTimeSpent" value="3185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="24" width="1853" height="1092" extended-state="6" />
+    <frame x="68" y="-11" width="1853" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -495,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/MainWithoutGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
