@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Generation Time: Apr 04, 2018 at 10:36 PM
+-- Generation Time: Apr 24, 2018 at 11:12 PM
 -- Server version: 5.7.21
 -- PHP Version: 7.1.14
 
@@ -45,8 +45,22 @@ CREATE TABLE `tbl_courselist` (
 
 CREATE TABLE `tbl_coursepreferencelist` (
   `coursenumber` varchar(30) NOT NULL,
-  `onwards` varchar(200) NOT NULL
+  `onwards` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_coursepreferencelist`
+--
+
+INSERT INTO `tbl_coursepreferencelist` (`coursenumber`, `onwards`) VALUES
+('EE1000$inside', NULL),
+('EE1000$outside', 'CS13B004,CS13B002,CS13B001,CS13B003,CS13B000'),
+('EE1001$inside', NULL),
+('EE1001$outside', 'CS13B001,CS13B000'),
+('EE1002$inside', NULL),
+('EE1002$outside', 'CS13B004,CS13B000,CS13B003,CS13B002'),
+('EE1003$inside', NULL),
+('EE1003$outside', 'CS13B000,CS13B004,CS13B001,CS13B002,CS13B003');
 
 -- --------------------------------------------------------
 
@@ -153,6 +167,17 @@ CREATE TABLE `tbl_student_list` (
   `cgpa` float NOT NULL,
   `max_credits` int(11) NOT NULL DEFAULT '60'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_student_list`
+--
+
+INSERT INTO `tbl_student_list` (`roll_number`, `cgpa`, `max_credits`) VALUES
+('CS13B000', 8.31, 29),
+('CS13B001', 8.63, 34),
+('CS13B002', 5.12, 31),
+('CS13B003', 7.72, 33),
+('CS13B004', 9.63, 32);
 
 -- --------------------------------------------------------
 
