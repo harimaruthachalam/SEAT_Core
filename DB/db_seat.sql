@@ -1,13 +1,16 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.4.1deb2ubuntu2
--- http://www.phpmyadmin.net
+-- version 4.7.7
+-- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Apr 26, 2018 at 11:23 PM
--- Server version: 5.7.21-0ubuntu0.16.04.1
--- PHP Version: 7.0.28-0ubuntu0.16.04.1
+
+-- Host: localhost:3307
+-- Generation Time: Apr 25, 2018 at 03:13 AM
+-- Server version: 5.7.21
+-- PHP Version: 7.1.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -101,6 +104,7 @@ CREATE TABLE `tbl_exchange_unstable_pairs` (
   `course2_id` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
 -- --------------------------------------------------------
 
 --
@@ -115,9 +119,50 @@ CREATE TABLE `tbl_high_priority_students` (
   `version` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+-- Table structure for table `tbl_department`
+--
+
+CREATE TABLE `tbl_department` (
+  `dept_code` varchar(3) NOT NULL,
+  `dept_name` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_inside_department_spec`
+--
+
+CREATE TABLE `tbl_inside_department_spec` (
+  `course_id` varchar(10) CHARACTER SET utf8 NOT NULL,
+  `batch` varchar(4) CHARACTER SET utf8 NOT NULL,
+  `order_number` int(5) NOT NULL,
+  `year` int(5) NOT NULL DEFAULT '2018',
+-- Table structure for table `tbl_high_priority_students`
+--
+
+CREATE TABLE `tbl_high_priority_students` (
+  `course_id` varchar(10) CHARACTER SET utf8 NOT NULL,
+  `batch` varchar(4) CHARACTER SET utf8 NOT NULL,
+  `year` int(5) NOT NULL,
+  `semester` varchar(20) CHARACTER SET utf8 NOT NULL,
+  `version` int(5) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+
+-- Table structure for table `tbl_max_credit_limits`
+--
+
+CREATE TABLE `tbl_max_credit_limits` (
+  `batch` varchar(4) CHARACTER SET utf8 NOT NULL,
+  `credit_limit` int(5) NOT NULL,
+  `year` int(5) NOT NULL DEFAULT '2018',
+  `semester` varchar(20) CHARACTER SET utf8 NOT NULL,
+  `version` int(5) NOT NULL DEFAULT '1'
+
 -- Table structure for table `tbl_inside_department_spec`
 --
 
@@ -133,6 +178,14 @@ CREATE TABLE `tbl_inside_department_spec` (
 -- --------------------------------------------------------
 
 --
+
+-- Table structure for table `tbl_output`
+--
+
+CREATE TABLE `tbl_output` (
+  `student_roll_no` varchar(15) NOT NULL,
+  `course_id` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 -- Table structure for table `tbl_max_credit_limits`
 --
 
@@ -143,17 +196,6 @@ CREATE TABLE `tbl_max_credit_limits` (
   `semester` varchar(20) CHARACTER SET utf8 NOT NULL,
   `version` int(5) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_output`
---
-
-CREATE TABLE `tbl_output` (
-  `student_roll_no` varchar(15) NOT NULL,
-  `course_id` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -311,11 +353,50 @@ ALTER TABLE `tbl_course_list`
   ADD CONSTRAINT `tbl_course_list_ibfk_3` FOREIGN KEY (`slot_id`) REFERENCES `tbl_slot` (`slot_id`);
 
 --
+-- Indexes for table `tbl_ranking_criteria`
+--
+ALTER TABLE `tbl_ranking_criteria`
+  ADD PRIMARY KEY (`ranking_criteria_id`);
+
+--
+-- Indexes for table `tbl_slot`
+--
+ALTER TABLE `tbl_slot`
+  ADD PRIMARY KEY (`slot_id`);
+
+--
+-- Indexes for table `tbl_student_list`
+--
+ALTER TABLE `tbl_student_list`
+  ADD PRIMARY KEY (`roll_number`);
+
+--
+-- Indexes for table `tbl_student_preference_list`
+--
+ALTER TABLE `tbl_student_preference_list`
+  ADD PRIMARY KEY (`roll_number`,`course_id`),
+  ADD KEY `course_id` (`course_id`),
+  ADD KEY `course_type_id` (`course_type_id`);
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `tbl_course_list`
+--
+ALTER TABLE `tbl_course_list`
+  ADD CONSTRAINT `tbl_course_list_ibfk_1` FOREIGN KEY (`dept_code`) REFERENCES `tbl_department` (`dept_code`),
+  ADD CONSTRAINT `tbl_course_list_ibfk_2` FOREIGN KEY (`ranking_criteria_id`) REFERENCES `tbl_ranking_criteria` (`ranking_criteria_id`),
+  ADD CONSTRAINT `tbl_course_list_ibfk_3` FOREIGN KEY (`slot_id`) REFERENCES `tbl_slot` (`slot_id`);
+
+--
 -- Constraints for table `tbl_course_preference`
 --
 ALTER TABLE `tbl_course_preference`
   ADD CONSTRAINT `tbl_course_preference_ibfk_1` FOREIGN KEY (`roll_number`) REFERENCES `tbl_student_list` (`roll_number`),
   ADD CONSTRAINT `tbl_course_preference_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `tbl_course_list` (`course_id`);
+
 
 --
 -- Constraints for table `tbl_exchange_unstable_pairs`
@@ -338,6 +419,7 @@ ALTER TABLE `tbl_high_priority_students`
 ALTER TABLE `tbl_inside_department_spec`
   ADD CONSTRAINT `tbl_inside_department_spec_ibfk_1` FOREIGN KEY (`course_id`) REFERENCES `tbl_course_list` (`course_id`);
 
+
 --
 -- Constraints for table `tbl_output`
 --
@@ -352,6 +434,8 @@ ALTER TABLE `tbl_student_preference_list`
   ADD CONSTRAINT `tbl_student_preference_list_ibfk_1` FOREIGN KEY (`course_id`) REFERENCES `tbl_course_list` (`course_id`),
   ADD CONSTRAINT `tbl_student_preference_list_ibfk_2` FOREIGN KEY (`roll_number`) REFERENCES `tbl_student_list` (`roll_number`),
   ADD CONSTRAINT `tbl_student_preference_list_ibfk_3` FOREIGN KEY (`course_type_id`) REFERENCES `tbl_course_type` (`course_type_id`);
+
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

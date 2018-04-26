@@ -1,27 +1,17 @@
 package services.dataInput;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
+import java.sql.*;
 
 import models.Course;
 import models.CoursePreference;
 import models.Student;
 
 public class PopulateCoursePreferenceList{
-	/**
-	 * This method is used to load the course preference lists from an existing one
-	 * @param studentList - List of students objects
-	 * @param courseList - list of course objects
-	 * @param inpFile - file where the course preference lists are located
-	 * 
-	 *It also ensures that every student and course on the preference lists also exists in the student and course list respectively 
-	 */
-	public static String execute(ArrayList<Student> studentList, ArrayList<Course> courseList,String inpFile){
+
+	public static String execute(ArrayList<Student> studentList, ArrayList<Course> courseList,String tablename){
 		//Some declarations
-		String line;
+
 		String [] inputLine;
 		String splitBy = ",";
 		Student tempStudent;
@@ -29,33 +19,35 @@ public class PopulateCoursePreferenceList{
 
 		//reading input line by line and adding a new student for every line.
 		try{
-			BufferedReader br = new BufferedReader(new FileReader(inpFile));
-			//Skip the first line since it will be the header row
-			br.readLine();
+			Class.forName("com.mysql.jdbc.Driver");
 			//read line by line
-			while ((line = br.readLine()) != null) {  
-				line.replaceAll("\\s+",""); //Remove all whitespace
-				inputLine = line.split(splitBy);
-	            tempCourse = Course.getCourseBycourseNumber(inputLine[0],courseList);  //The first string has the course Id with which we can get the course object it corresponds to
+                        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql?autoReconnect=true&useSSL=false","root","password");
+                        Statement st=con.createStatement();
+                        ResultSet rs=st.executeQuery("select * from "+tablename);
+												if(rs == null){
+													System.out.println("Oops");
+												}
+			while (rs.next()) {
+System.out.println(rs.getString(1));
+				inputLine = rs.getString(1).split(splitBy);
+	            tempCourse = Course.getCourseBycourseNumber(rs.getString(0),courseList);  //The first string has the course Id with which we can get the course object it corresponds to
 	            if (tempCourse==null){ //The course does not exist in the course list : return error message
-					br.close();
-					return "Course : " + inputLine[0] + " does not exist, but it has an entry in the preference list";
+					con.close();
+					return "Course : " + rs.getString(0) + " does not exist, but it has an entry in the preference list";
 				}
-	            
-		        for(int i=1;i<inputLine.length;i++){  //loop through the students and add them to the course's preference list
-			        tempStudent = Student.getStudentByRollNo(inputLine[i],studentList);   
+
+		        for(int i=0;i<inputLine.length;i++){  //loop through the students and add them to the course's preference list
+			        tempStudent = Student.getStudentByRollNo(inputLine[i],studentList);
 			        if (tempStudent == null){ //The student does not exist in the student list : return error message
-			        	br.close();
+			        	con.close();
 			        	return "Student : " + inputLine[i] + " does not exist but was on the preference list of course " + inputLine[0];
 			        }
-			        tempCourse.coursePreferenceList.add(new CoursePreference(i,tempStudent));
-		        }    
+			        tempCourse.coursePreferenceList.add(new CoursePreference(i+1,tempStudent));
+		        }
             }
-			br.close();//closing file pointer
+			con.close();//closing file pointer
 		//just some exception handling
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return null;
