@@ -9,7 +9,7 @@ import models.Student;
 
 public class PopulateCoursePreferenceList{
 
-	public static String execute(ArrayList<Student> studentList, ArrayList<Course> courseList,String tablename){
+	public static String execute(ArrayList<Student> studentList, ArrayList<Course> courseList, String tablename){
 		//Some declarations
 
 		String [] inputLine;

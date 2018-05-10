@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Generation Time: Apr 25, 2018 at 03:13 AM
+-- Generation Time: May 09, 2018 at 04:40 AM
 -- Server version: 5.7.21
 -- PHP Version: 7.1.14
 
@@ -21,19 +21,18 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_seat`
 --
+CREATE DATABASE IF NOT EXISTS `db_seat` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `db_seat`;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_batch_specific_mandated_elective`
+-- Table structure for table `tbl_batch_specific_recommended_elective`
 --
 
-CREATE TABLE `tbl_batch_specific_mandated_elective` (
+CREATE TABLE `tbl_batch_specific_recommended_elective` (
   `batch` varchar(4) CHARACTER SET utf8 NOT NULL,
-  `mandated_elective_type` varchar(2) CHARACTER SET utf8 NOT NULL,
-  `year` int(5) NOT NULL DEFAULT '2018',
-  `semester` varchar(20) CHARACTER SET utf8 NOT NULL,
-  `version` int(5) NOT NULL DEFAULT '1'
+  `recommended_elective_type` varchar(2) CHARACTER SET utf8 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -49,7 +48,8 @@ CREATE TABLE `tbl_course_list` (
   `max_outside_dept` int(6) NOT NULL,
   `ranking_criteria_id` int(1) NOT NULL,
   `credits` int(2) NOT NULL,
-  `slot_id` varchar(2) CHARACTER SET utf8 NOT NULL
+  `slot_id` varchar(2) CHARACTER SET utf8 NOT NULL,
+  `additional_slot` varchar(200) COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -62,10 +62,7 @@ CREATE TABLE `tbl_course_preference` (
   `roll_number` varchar(15) NOT NULL,
   `course_id` varchar(10) NOT NULL,
   `inside_or_outside` varchar(10) NOT NULL,
-  `preference_number` int(10) NOT NULL,
-  `year` int(5) NOT NULL,
-  `semester` varchar(20) NOT NULL,
-  `version` int(5) NOT NULL
+  `preference_number` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -98,10 +95,7 @@ CREATE TABLE `tbl_department` (
 
 CREATE TABLE `tbl_high_priority_students` (
   `course_id` varchar(10) CHARACTER SET utf8 NOT NULL,
-  `batch` varchar(4) CHARACTER SET utf8 NOT NULL,
-  `year` int(5) NOT NULL,
-  `semester` varchar(20) CHARACTER SET utf8 NOT NULL,
-  `version` int(5) NOT NULL
+  `batch` varchar(4) CHARACTER SET utf8 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -113,10 +107,7 @@ CREATE TABLE `tbl_high_priority_students` (
 CREATE TABLE `tbl_inside_department_spec` (
   `course_id` varchar(10) CHARACTER SET utf8 NOT NULL,
   `batch` varchar(4) CHARACTER SET utf8 NOT NULL,
-  `order_number` int(5) NOT NULL,
-  `year` int(5) NOT NULL DEFAULT '2018',
-  `semester` varchar(20) CHARACTER SET utf8 NOT NULL,
-  `version` int(5) NOT NULL
+  `order_number` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -127,10 +118,7 @@ CREATE TABLE `tbl_inside_department_spec` (
 
 CREATE TABLE `tbl_max_credit_limits` (
   `batch` varchar(4) CHARACTER SET utf8 NOT NULL,
-  `credit_limit` int(5) NOT NULL,
-  `year` int(5) NOT NULL DEFAULT '2018',
-  `semester` varchar(20) CHARACTER SET utf8 NOT NULL,
-  `version` int(5) NOT NULL DEFAULT '1'
+  `credit_limit` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -155,8 +143,7 @@ CREATE TABLE `tbl_slot` (
   `lecture_1` varchar(50) CHARACTER SET utf8 NOT NULL,
   `lecture_2` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
   `lecture_3` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
-  `lecture_4` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
-  `lecture_5` varchar(50) CHARACTER SET utf8 DEFAULT NULL
+  `lecture_4` varchar(50) CHARACTER SET utf8 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -184,10 +171,7 @@ CREATE TABLE `tbl_student_preference_list` (
   `colour_code` int(5) NOT NULL,
   `preference` varchar(15) CHARACTER SET utf8 NOT NULL,
   `preference_number` int(3) DEFAULT NULL,
-  `course_type_id` varchar(1) CHARACTER SET utf8 DEFAULT NULL,
-  `year` int(5) DEFAULT '2018',
-  `semester` varchar(20) CHARACTER SET utf8 DEFAULT NULL,
-  `version` int(5) DEFAULT '1'
+  `course_type_id` varchar(1) CHARACTER SET utf8 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
