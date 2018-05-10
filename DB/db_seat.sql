@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Generation Time: May 09, 2018 at 04:40 AM
+-- Generation Time: May 10, 2018 at 01:43 AM
 -- Server version: 5.7.21
 -- PHP Version: 7.1.14
 
@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_seat`
 --
-CREATE DATABASE IF NOT EXISTS `db_seat` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE DATABASE IF NOT EXISTS `db_seat` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `db_seat`;
 
 -- --------------------------------------------------------
@@ -90,6 +90,19 @@ CREATE TABLE `tbl_department` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_exchange_unstable_pairs`
+--
+
+CREATE TABLE `tbl_exchange_unstable_pairs` (
+  `student1_roll_no` varchar(15) CHARACTER SET utf8 NOT NULL,
+  `course1_id` varchar(10) CHARACTER SET utf8 NOT NULL,
+  `student2_roll_no` varchar(15) CHARACTER SET utf8 NOT NULL,
+  `course2_id` varchar(10) CHARACTER SET utf8 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tbl_high_priority_students`
 --
 
@@ -119,6 +132,17 @@ CREATE TABLE `tbl_inside_department_spec` (
 CREATE TABLE `tbl_max_credit_limits` (
   `batch` varchar(4) CHARACTER SET utf8 NOT NULL,
   `credit_limit` int(5) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_output`
+--
+
+CREATE TABLE `tbl_output` (
+  `student_roll_no` varchar(15) CHARACTER SET utf8 NOT NULL,
+  `course_id` varchar(10) CHARACTER SET utf8 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -207,6 +231,15 @@ ALTER TABLE `tbl_department`
   ADD PRIMARY KEY (`dept_code`);
 
 --
+-- Indexes for table `tbl_exchange_unstable_pairs`
+--
+ALTER TABLE `tbl_exchange_unstable_pairs`
+  ADD KEY `student1_roll_no` (`student1_roll_no`),
+  ADD KEY `student2_roll_no` (`student2_roll_no`),
+  ADD KEY `course1_id` (`course1_id`),
+  ADD KEY `course2_id` (`course2_id`);
+
+--
 -- Indexes for table `tbl_high_priority_students`
 --
 ALTER TABLE `tbl_high_priority_students`
@@ -216,6 +249,13 @@ ALTER TABLE `tbl_high_priority_students`
 -- Indexes for table `tbl_inside_department_spec`
 --
 ALTER TABLE `tbl_inside_department_spec`
+  ADD KEY `course_id` (`course_id`);
+
+--
+-- Indexes for table `tbl_output`
+--
+ALTER TABLE `tbl_output`
+  ADD KEY `student_roll_no` (`student_roll_no`),
   ADD KEY `course_id` (`course_id`);
 
 --
@@ -264,6 +304,15 @@ ALTER TABLE `tbl_course_preference`
   ADD CONSTRAINT `tbl_course_preference_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `tbl_course_list` (`course_id`);
 
 --
+-- Constraints for table `tbl_exchange_unstable_pairs`
+--
+ALTER TABLE `tbl_exchange_unstable_pairs`
+  ADD CONSTRAINT `tbl_exchange_unstable_pairs_ibfk_1` FOREIGN KEY (`student1_roll_no`) REFERENCES `tbl_student_list` (`roll_number`),
+  ADD CONSTRAINT `tbl_exchange_unstable_pairs_ibfk_2` FOREIGN KEY (`student2_roll_no`) REFERENCES `tbl_student_list` (`roll_number`),
+  ADD CONSTRAINT `tbl_exchange_unstable_pairs_ibfk_3` FOREIGN KEY (`course1_id`) REFERENCES `tbl_course_list` (`course_id`),
+  ADD CONSTRAINT `tbl_exchange_unstable_pairs_ibfk_4` FOREIGN KEY (`course2_id`) REFERENCES `tbl_course_list` (`course_id`);
+
+--
 -- Constraints for table `tbl_high_priority_students`
 --
 ALTER TABLE `tbl_high_priority_students`
@@ -274,6 +323,13 @@ ALTER TABLE `tbl_high_priority_students`
 --
 ALTER TABLE `tbl_inside_department_spec`
   ADD CONSTRAINT `tbl_inside_department_spec_ibfk_1` FOREIGN KEY (`course_id`) REFERENCES `tbl_course_list` (`course_id`);
+
+--
+-- Constraints for table `tbl_output`
+--
+ALTER TABLE `tbl_output`
+  ADD CONSTRAINT `tbl_output_ibfk_1` FOREIGN KEY (`student_roll_no`) REFERENCES `tbl_student_list` (`roll_number`),
+  ADD CONSTRAINT `tbl_output_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `tbl_course_list` (`course_id`);
 
 --
 -- Constraints for table `tbl_student_preference_list`
