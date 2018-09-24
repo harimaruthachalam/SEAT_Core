@@ -1,0 +1,1062 @@
+Encountered student with roll number AE15B001 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number BE16B026 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number CE15B012 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number CE15B021 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number CH15B010 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number CH15B027 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number CS16B108 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number CS16B112 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ED15B003 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ED15B005 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ED15B056 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B011 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B012 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B014 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B016 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B021 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B024 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B026 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B028 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B029 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B030 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B031 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B033 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B035 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B037 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B039 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B040 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B042 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B043 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B045 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B051 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B052 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B053 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B060 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B070 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B078 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B079 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B082 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B083 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B086 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B095 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B096 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B101 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B105 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B119 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B125 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B126 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE15B128 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE16B050 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EE16B107 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EP15B002 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EP15B012 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number EP15B015 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME15B007 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME15B056 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME15B080 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME15B081 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME15B087 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME15B098 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME15B115 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME15B153 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME16B051 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number ME16B078 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number MM15B013 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number MM15B018 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number MM15B035 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number MM16B025 exceeding his max credits. Student's max credits were reduced
+Encountered student with roll number NA15B005 exceeding his max credits. Student's max credits were reduced
+Removing Preference since it exceeds credit limit. Student : AE15B002 - Course : CS3500$outside
+Removing Preference since it exceeds credit limit. Student : AE15B002 - Course : EE3002$outside
+Removing Preference since it exceeds credit limit. Student : AE15B007 - Course : MS5100$outside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : MA2020$inside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : MA2020$outside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : HS3002$inside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : HS3002$outside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : HS3002A$inside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : HS3002A$outside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : HS3002B$inside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : HS3002B$outside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : HS3002C$inside
+Removing Preference since it exceeds credit limit. Student : BE16B019 - Course : HS3002C$outside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS3002B$inside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS3002B$outside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS3002A$inside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS3002A$outside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS3002$inside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS3002$outside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS3002C$inside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS3002C$outside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS4006$inside
+Removing Preference since it exceeds credit limit. Student : BS16B026 - Course : HS4006$outside
+Removing Preference since it exceeds credit limit. Student : CS15B051 - Course : CS3700$inside
+Removing Preference since it exceeds credit limit. Student : CS15B051 - Course : CS3700$outside
+Removing Preference since it exceeds credit limit. Student : CS15B051 - Course : CS6014$inside
+Removing Preference since it exceeds credit limit. Student : CS15B051 - Course : CS6014$outside
+Removing Preference since it exceeds credit limit. Student : CS15B051 - Course : CS6111$inside
+Removing Preference since it exceeds credit limit. Student : CS15B051 - Course : CS6111$outside
+Removing Preference since it exceeds credit limit. Student : CS15B051 - Course : CS6440$inside
+Removing Preference since it exceeds credit limit. Student : CS15B051 - Course : CS6440$outside
+Removing Preference since it exceeds credit limit. Student : ED15B003 - Course : CH5011$outside
+Removing Preference since it exceeds credit limit. Student : ED15B003 - Course : AS5420$outside
+Removing Preference since it exceeds credit limit. Student : ED15B003 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B003 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B004 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B004 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B004 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B004 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B005 - Course : CH5120$outside
+Removing Preference since it exceeds credit limit. Student : ED15B005 - Course : AS5420$outside
+Removing Preference since it exceeds credit limit. Student : ED15B005 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B005 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B006 - Course : CS6251$outside
+Removing Preference since it exceeds credit limit. Student : ED15B006 - Course : CS6842$outside
+Removing Preference since it exceeds credit limit. Student : ED15B006 - Course : CS5820$outside
+Removing Preference since it exceeds credit limit. Student : ED15B010 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B010 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B010 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B010 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B011 - Course : AS5420$outside
+Removing Preference since it exceeds credit limit. Student : ED15B011 - Course : CH5120$outside
+Removing Preference since it exceeds credit limit. Student : ED15B011 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B011 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B013 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B013 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B013 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B013 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B014 - Course : ED2140$inside
+Removing Preference since it exceeds credit limit. Student : ED15B014 - Course : ED2140$outside
+Removing Preference since it exceeds credit limit. Student : ED15B015 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B015 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B015 - Course : CH5120$outside
+Removing Preference since it exceeds credit limit. Student : ED15B015 - Course : AS5420$outside
+Removing Preference since it exceeds credit limit. Student : ED15B015 - Course : ED5016$inside
+Removing Preference since it exceeds credit limit. Student : ED15B015 - Course : ED5016$outside
+Removing Preference since it exceeds credit limit. Student : ED15B016 - Course : ED5315$inside
+Removing Preference since it exceeds credit limit. Student : ED15B016 - Course : ED5315$outside
+Removing Preference since it exceeds credit limit. Student : ED15B016 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B016 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B017 - Course : ED5330$inside
+Removing Preference since it exceeds credit limit. Student : ED15B017 - Course : ED5330$outside
+Removing Preference since it exceeds credit limit. Student : ED15B017 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B017 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B021 - Course : CH5120$outside
+Removing Preference since it exceeds credit limit. Student : ED15B021 - Course : CH5350$outside
+Removing Preference since it exceeds credit limit. Student : ED15B027 - Course : ED5315$inside
+Removing Preference since it exceeds credit limit. Student : ED15B027 - Course : ED5315$outside
+Removing Preference since it exceeds credit limit. Student : ED15B027 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B027 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B027 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B027 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B027 - Course : ED5016$inside
+Removing Preference since it exceeds credit limit. Student : ED15B027 - Course : ED5016$outside
+Removing Preference since it exceeds credit limit. Student : ED15B028 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B028 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B028 - Course : ED5016$inside
+Removing Preference since it exceeds credit limit. Student : ED15B028 - Course : ED5016$outside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : ED5016$inside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : ED5016$outside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : HS3002$outside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : HS3002A$outside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : HS3002B$outside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : HS3002C$outside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : HS1090+$outside
+Removing Preference since it exceeds credit limit. Student : ED15B029 - Course : HS2030$outside
+Removing Preference since it exceeds credit limit. Student : ED15B030 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B030 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B030 - Course : ED5016$inside
+Removing Preference since it exceeds credit limit. Student : ED15B030 - Course : ED5016$outside
+Removing Preference since it exceeds credit limit. Student : ED15B033 - Course : ED5016$inside
+Removing Preference since it exceeds credit limit. Student : ED15B033 - Course : ED5016$outside
+Removing Preference since it exceeds credit limit. Student : ED15B035 - Course : ED5315$inside
+Removing Preference since it exceeds credit limit. Student : ED15B035 - Course : ED5315$outside
+Removing Preference since it exceeds credit limit. Student : ED15B035 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B035 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B035 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B035 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B035 - Course : ED5016$inside
+Removing Preference since it exceeds credit limit. Student : ED15B035 - Course : ED5016$outside
+Removing Preference since it exceeds credit limit. Student : ED15B037 - Course : ED5016$inside
+Removing Preference since it exceeds credit limit. Student : ED15B037 - Course : ED5016$outside
+Removing Preference since it exceeds credit limit. Student : ED15B037 - Course : ED5315$inside
+Removing Preference since it exceeds credit limit. Student : ED15B037 - Course : ED5315$outside
+Removing Preference since it exceeds credit limit. Student : ED15B039 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B039 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B039 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B039 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B043 - Course : ED5330$inside
+Removing Preference since it exceeds credit limit. Student : ED15B043 - Course : ED5330$outside
+Removing Preference since it exceeds credit limit. Student : ED15B044 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B044 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B044 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B044 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B048 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B048 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B048 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B048 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B050 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B050 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B053 - Course : ED5317$inside
+Removing Preference since it exceeds credit limit. Student : ED15B053 - Course : ED5317$outside
+Removing Preference since it exceeds credit limit. Student : ED15B053 - Course : AS5420$outside
+Removing Preference since it exceeds credit limit. Student : ED15B053 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B053 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED15B054 - Course : MA2020$outside
+Removing Preference since it exceeds credit limit. Student : ED15B056 - Course : ED5312$inside
+Removing Preference since it exceeds credit limit. Student : ED15B056 - Course : ED5312$outside
+Removing Preference since it exceeds credit limit. Student : ED16B041 - Course : ED2130$inside
+Removing Preference since it exceeds credit limit. Student : ED16B041 - Course : ED2130$outside
+Removing Preference since it exceeds credit limit. Student : ED16B042 - Course : ED2130$inside
+Removing Preference since it exceeds credit limit. Student : ED16B042 - Course : ED2130$outside
+Removing Preference since it exceeds credit limit. Student : ED16B055 - Course : ED2130$inside
+Removing Preference since it exceeds credit limit. Student : ED16B055 - Course : ED2130$outside
+Removing Preference since it exceeds credit limit. Student : EE15B118 - Course : MA2040$outside
+Removing Preference since it exceeds credit limit. Student : ME15B001 - Course : ED2140$outside
+Removing Preference since it exceeds credit limit. Student : ME15B001 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B002 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B002 - Course : ED2140$outside
+Removing Preference since it exceeds credit limit. Student : ME15B002 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B002 - Course : MS5100$outside
+Removing Preference since it exceeds credit limit. Student : ME15B004 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B006 - Course : ED2140$outside
+Removing Preference since it exceeds credit limit. Student : ME15B006 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B007 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B007 - Course : ED5040$outside
+Removing Preference since it exceeds credit limit. Student : ME15B008 - Course : MS3510#$outside
+Removing Preference since it exceeds credit limit. Student : ME15B013 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B014 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B015 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B016 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B018 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B019 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B020 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B022 - Course : CE2040$outside
+Removing Preference since it exceeds credit limit. Student : ME15B025 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B025 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B026 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B026 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B027 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B029 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B030 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B031 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B033 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B033 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B034 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B034 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B035 - Course : CE2040$outside
+Removing Preference since it exceeds credit limit. Student : ME15B036 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B038 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B040 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B042 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B042 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B042 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B044 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B045 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B046 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B046 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B050 - Course : MS3610$outside
+Removing Preference since it exceeds credit limit. Student : ME15B055 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B055 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B056 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B057 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B062 - Course : MS3510#$outside
+Removing Preference since it exceeds credit limit. Student : ME15B062 - Course : MS3510+$outside
+Removing Preference since it exceeds credit limit. Student : ME15B062 - Course : MS3610$outside
+Removing Preference since it exceeds credit limit. Student : ME15B070 - Course : EE3002$outside
+Removing Preference since it exceeds credit limit. Student : ME15B070 - Course : CS6600$outside
+Removing Preference since it exceeds credit limit. Student : ME15B070 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B071 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B072 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B073 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B073 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B074 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B074 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B079 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B080 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B081 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B082 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B083 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B084 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B085 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B085 - Course : MM2015$outside
+Removing Preference since it exceeds credit limit. Student : ME15B085 - Course : CS2700$outside
+Removing Preference since it exceeds credit limit. Student : ME15B085 - Course : EE2025$outside
+Removing Preference since it exceeds credit limit. Student : ME15B086 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B087 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B087 - Course : CS6100$outside
+Removing Preference since it exceeds credit limit. Student : ME15B092 - Course : EE2015$outside
+Removing Preference since it exceeds credit limit. Student : ME15B095 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B097 - Course : EE2015$outside
+Removing Preference since it exceeds credit limit. Student : ME15B097 - Course : EE3301$outside
+Removing Preference since it exceeds credit limit. Student : ME15B097 - Course : CE5450$outside
+Removing Preference since it exceeds credit limit. Student : ME15B097 - Course : MM5021$outside
+Removing Preference since it exceeds credit limit. Student : ME15B097 - Course : MM6020$outside
+Removing Preference since it exceeds credit limit. Student : ME15B098 - Course : EE2015$outside
+Removing Preference since it exceeds credit limit. Student : ME15B099 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B099 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B100 - Course : CE2040$outside
+Removing Preference since it exceeds credit limit. Student : ME15B101 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B102 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B104 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B105 - Course : ED5040$outside
+Removing Preference since it exceeds credit limit. Student : ME15B106 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B107 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B108 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B108 - Course : EE2015$outside
+Removing Preference since it exceeds credit limit. Student : ME15B112 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B113 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B114 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B115 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B118 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B118 - Course : CS6500$outside
+Removing Preference since it exceeds credit limit. Student : ME15B118 - Course : ED5040$outside
+Removing Preference since it exceeds credit limit. Student : ME15B119 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B120 - Course : AS3020$outside
+Removing Preference since it exceeds credit limit. Student : ME15B120 - Course : EE2015$outside
+Removing Preference since it exceeds credit limit. Student : ME15B122 - Course : MS3610$outside
+Removing Preference since it exceeds credit limit. Student : ME15B122 - Course : MS3510#$outside
+Removing Preference since it exceeds credit limit. Student : ME15B122 - Course : MS3510+$outside
+Removing Preference since it exceeds credit limit. Student : ME15B129 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B129 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B133 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B136 - Course : EE2015$outside
+Removing Preference since it exceeds credit limit. Student : ME15B137 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B137 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B139 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B140 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B140 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B141 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B144 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B144 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B145 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B146 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B147 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B147 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B149 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B149 - Course : BT3051$outside
+Removing Preference since it exceeds credit limit. Student : ME15B149 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B151 - Course : EE3004$outside
+Removing Preference since it exceeds credit limit. Student : ME15B153 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B155 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B157 - Course : AS5420$outside
+Removing Preference since it exceeds credit limit. Student : ME15B157 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B157 - Course : CS2700$outside
+Removing Preference since it exceeds credit limit. Student : ME15B157 - Course : MM5003$outside
+Removing Preference since it exceeds credit limit. Student : ME15B158 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B158 - Course : CS6100$outside
+Removing Preference since it exceeds credit limit. Student : ME15B159 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B159 - Course : EE2016$outside
+Removing Preference since it exceeds credit limit. Student : ME15B161 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B162 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B164 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME15B165 - Course : ED5160$outside
+Removing Preference since it exceeds credit limit. Student : ME15B166 - Course : CS4011$outside
+Removing Preference since it exceeds credit limit. Student : ME16B051 - Course : MS3610$outside
+Removing Preference since it exceeds credit limit. Student : ME16B051 - Course : MS3510#$outside
+Removing Preference since it exceeds credit limit. Student : ME16B051 - Course : MS3510+$outside
+Removing Preference since it exceeds credit limit. Student : ME16B078 - Course : HS3002$outside
+Removing Preference since it exceeds credit limit. Student : ME16B078 - Course : HS3002A$outside
+Removing Preference since it exceeds credit limit. Student : ME16B078 - Course : HS3002B$outside
+Removing Preference since it exceeds credit limit. Student : ME16B078 - Course : HS3002C$outside
+Removing Preference since it exceeds credit limit. Student : ME16B078 - Course : HS1090+$outside
+Removing Preference since it exceeds credit limit. Student : ME16B078 - Course : HS2030$outside
+Removing Preference since it exceeds credit limit. Student : ME16B078 - Course : HS4571$outside
+Removing Preference since it exceeds credit limit. Student : ME16B078 - Course : HS4006$outside
+Removing Preference since it exceeds credit limit. Student : ME16B173 - Course : HS1090+$outside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS2030$outside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS5920$inside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS5920$outside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS4002$outside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS3060$outside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS4005$outside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS4006$inside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS4006$outside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : HS4210$outside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : MM3012$inside
+Removing Preference since it exceeds credit limit. Student : MM15B001 - Course : MM3012$outside
+Removing Preference since it exceeds credit limit. Student : NA15B034 - Course : MS3610$outside
+Removing Preference since it exceeds credit limit. Student : NA15B034 - Course : CH3160$outside
+Removing Preference since it exceeds credit limit. Student : NA15B034 - Course : OE3190$inside
+Removing Preference since it exceeds credit limit. Student : NA15B034 - Course : OE3190$outside
+Removing Preference since it exceeds credit limit. Student : NA16B008 - Course : MA2020$inside
+Removing Preference since it exceeds credit limit. Student : NA16B008 - Course : MA2020$outside
+Removing Preference since it exceeds credit limit. Student : NA16B008 - Course : HS5920$inside
+Removing Preference since it exceeds credit limit. Student : NA16B008 - Course : HS5920$outside
+Removing Preference since it exceeds credit limit. Student : NA16B008 - Course : HS4006$inside
+Removing Preference since it exceeds credit limit. Student : NA16B008 - Course : HS4006$outside
+Removing Preference since it exceeds credit limit. Student : NA16B008 - Course : HS4210$outside
+Slot Clash of core course CE3410$inside and elective course CE5870$inside for student CE15B006. CE5870$inside removed 
+Slot Clash of core course CE3410$inside and elective course CE5870$outside for student CE15B006. CE5870$outside removed 
+Slot Clash of core course CE4030$inside and elective course CE5900$inside for student CE15B015. CE5900$inside removed 
+Slot Clash of core course CE4030$inside and elective course CE5900$outside for student CE15B015. CE5900$outside removed 
+Slot Clash of core course CE4030$inside and elective course CE5900$inside for student CE15B037. CE5900$inside removed 
+Slot Clash of core course CE4030$inside and elective course CE5900$outside for student CE15B037. CE5900$outside removed 
+Slot Clash of core course CE3410$inside and elective course CE5900$inside for student CE15B042. CE5900$inside removed 
+Slot Clash of core course CE3410$inside and elective course CE5900$outside for student CE15B042. CE5900$outside removed 
+Slot Clash of core course CE4030$inside and elective course CE5900$inside for student CE15B079. CE5900$inside removed 
+Slot Clash of core course CE4030$inside and elective course CE5900$outside for student CE15B079. CE5900$outside removed 
+Slot Clash of core course CE4030$inside and elective course CE4720$inside for student CE15B079. CE4720$inside removed 
+Slot Clash of core course CE4030$inside and elective course CE4720$outside for student CE15B079. CE4720$outside removed 
+Slot Clash of core course CE3410$inside and elective course CE4720$inside for student CE15B089. CE4720$inside removed 
+Slot Clash of core course CE3410$inside and elective course CE4720$outside for student CE15B089. CE4720$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B001. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B001. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B002. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B002. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B004. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B004. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5016$inside for student CH15B005. CH5016$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5016$outside for student CH15B005. CH5016$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B006. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5319$outside for student CH15B006. ED5319$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B006. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B006. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B007. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B007. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B010. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B010. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CE5870$outside for student CH15B010. CE5870$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B011. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B011. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B011. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B011. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B011. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5319$outside for student CH15B011. ED5319$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B012. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B012. CH5130$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B014. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B014. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B014. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5319$outside for student CH15B014. ED5319$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B016. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B016. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B016. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B016. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B016. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5319$outside for student CH15B016. ED5319$outside removed 
+Slot Clash of core course CH3510$inside and elective course BT5370$outside for student CH15B017. BT5370$outside removed 
+Slot Clash of core course CH3510$inside and elective course MM5023$outside for student CH15B017. MM5023$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B017. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B017. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B019. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B019. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B021. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B021. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B021. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B021. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5016$inside for student CH15B027. CH5016$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5016$outside for student CH15B027. CH5016$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B027. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B027. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B028. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B028. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B029. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B029. CH3160$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B030. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B031. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B031. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B037. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B037. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5016$inside for student CH15B038. CH5016$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5016$outside for student CH15B038. CH5016$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5016$inside for student CH15B039. CH5016$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5016$outside for student CH15B039. CH5016$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5040$outside for student CH15B039. ED5040$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B040. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B042. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B042. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5160$outside for student CH15B044. ED5160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B047. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B047. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B048. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B048. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B050. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B050. CH3160$outside removed 
+Slot Clash of core course CH3030$inside and elective course EE2015$outside for student CH15B050. EE2015$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B051. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B051. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B052. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B052. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B052. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B052. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B054. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B054. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B055. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B055. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B055. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B055. CH3160$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B058. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B059. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B059. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B063. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B063. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B065. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B065. CH5130$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B066. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5040$outside for student CH15B066. ED5040$outside removed 
+Slot Clash of core course CH3510$inside and elective course AS5420$outside for student CH15B067. AS5420$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5319$outside for student CH15B067. ED5319$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B067. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B067. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course ED5319$outside for student CH15B069. ED5319$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B069. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B069. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B070. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B070. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B074. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B074. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B075. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B075. CH3160$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B082. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B082. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$inside for student CH15B094. CH5130$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH5130$outside for student CH15B094. CH5130$outside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$inside for student CH15B094. CH3160$inside removed 
+Slot Clash of core course CH3520$inside and elective course CH3160$outside for student CH15B094. CH3160$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student CH16B002. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student CH16B002. MA2020$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2031$outside for student CH16B002. MA2031$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student CH16B031. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student CH16B031. MA2020$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2031$outside for student CH16B031. MA2031$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2040$outside for student CH16B031. MA2040$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student CH16B034. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student CH16B034. MA2020$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2040$outside for student CH16B034. MA2040$outside removed 
+Slot Clash of core course CS3100$inside and elective course ED1031$outside for student CS15B004. ED1031$outside removed 
+Slot Clash of core course CS2310$inside and elective course AS1020$outside for student CS16B001. AS1020$outside removed 
+Slot Clash of core course CS2310$inside and elective course AS1020$outside for student CS16B008. AS1020$outside removed 
+Slot Clash of core course CS2310$inside and elective course AS1020$outside for student CS16B009. AS1020$outside removed 
+Slot Clash of core course CS2310$inside and elective course AS1020$outside for student CS16B010. AS1020$outside removed 
+Slot Clash of core course CS2310$inside and elective course AS1020$outside for student CS16B017. AS1020$outside removed 
+Slot Clash of core course CS2310$inside and elective course AS1020$outside for student CS16B018. AS1020$outside removed 
+Slot Clash of core course CS2310$inside and elective course AS1020$outside for student CS16B019. AS1020$outside removed 
+Slot Clash of core course CS2310$inside and elective course AS1020$outside for student CS16B026. AS1020$outside removed 
+Slot Clash of core course PH1030$inside and elective course CS6842$inside for student CS16B044. CS6842$inside removed 
+Slot Clash of core course PH1030$inside and elective course CS6842$outside for student CS16B044. CS6842$outside removed 
+Slot Clash of core course ED3010$inside and elective course CH5016$outside for student ED15B022. CH5016$outside removed 
+Slot Clash of core course ED2011$inside and elective course ED5330$inside for student ED15B032. ED5330$inside removed 
+Slot Clash of core course ED2011$inside and elective course ED5330$outside for student ED15B032. ED5330$outside removed 
+Slot Clash of core course ED2011$inside and elective course ED3010$inside for student ED16B015. ED3010$inside removed 
+Slot Clash of core course ED2011$inside and elective course ED3010$outside for student ED16B015. ED3010$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS2710$outside for student EE15B014. CS2710$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6111$outside for student EE15B019. CS6111$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS2710$outside for student EE15B046. CS2710$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6600$outside for student EE15B052. CS6600$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6111$outside for student EE15B052. CS6111$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6842$outside for student EE15B052. CS6842$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6111$outside for student EE15B069. CS6111$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS2710$outside for student EE15B069. CS2710$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS2710$outside for student EE15B085. CS2710$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6440$outside for student EE15B092. CS6440$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6600$outside for student EE15B105. CS6600$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6111$outside for student EE15B105. CS6111$outside removed 
+Slot Clash of core course EE3006$inside and elective course CS6842$outside for student EE15B105. CS6842$outside removed 
+Slot Clash of core course EE3006$inside and elective course ED5321$outside for student EE15B117. ED5321$outside removed 
+Slot Clash of core course EE2015$inside and elective course BT3051$outside for student EE16B050. BT3051$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5319$outside for student ME15B001. ED5319$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B002. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5319$outside for student ME15B002. ED5319$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B003. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ME4003$inside for student ME15B004. ME4003$inside removed 
+Slot Clash of core course ME3481$inside and elective course ME4003$outside for student ME15B004. ME4003$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B005. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5319$outside for student ME15B006. ED5319$outside removed 
+Slot Clash of core course ME3481$inside and elective course BT5420$outside for student ME15B007. BT5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B009. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B011. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B013. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B019. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B020. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B021. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ME4003$inside for student ME15B029. ME4003$inside removed 
+Slot Clash of core course ME3481$inside and elective course ME4003$outside for student ME15B029. ME4003$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B030. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B033. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B037. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course MM6020$outside for student ME15B040. MM6020$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5321$outside for student ME15B040. ED5321$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B041. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B042. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5319$outside for student ME15B043. ED5319$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5330$outside for student ME15B043. ED5330$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B047. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B049. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B051. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B055. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5330$outside for student ME15B055. ED5330$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B056. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ID6090$outside for student ME15B056. ID6090$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B057. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B058. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B059. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B060. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B061. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B066. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5319$outside for student ME15B066. ED5319$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B070. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B072. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5321$outside for student ME15B075. ED5321$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B081. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B082. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B083. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B084. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B086. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5330$outside for student ME15B087. ED5330$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED6001$outside for student ME15B087. ED6001$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED3010$outside for student ME15B088. ED3010$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B089. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B095. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course BT2010$outside for student ME15B096. BT2010$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B099. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B104. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course BT2010$outside for student ME15B105. BT2010$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B106. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B107. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course ED5317$outside for student ME15B109. ED5317$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED3010$outside for student ME15B109. ED3010$outside removed 
+Slot Clash of core course ME3281$inside and elective course ED5317$outside for student ME15B110. ED5317$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED3010$outside for student ME15B110. ED3010$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B112. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B113. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B115. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B119. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B120. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B124. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B125. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B126. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B136. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B137. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course BT2010$outside for student ME15B137. BT2010$outside removed 
+Slot Clash of core course ME3281$inside and elective course ED5314$outside for student ME15B140. ED5314$outside removed 
+Slot Clash of core course ME3281$inside and elective course BT5370$outside for student ME15B142. BT5370$outside removed 
+Slot Clash of core course ME3481$inside and elective course CE2080$outside for student ME15B142. CE2080$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B144. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course MM6020$outside for student ME15B145. MM6020$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B147. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B151. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5321$outside for student ME15B151. ED5321$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B155. AS5420$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B158. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED3010$outside for student ME15B158. ED3010$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5321$outside for student ME15B158. ED5321$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5330$outside for student ME15B158. ED5330$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B163. AS5420$outside removed 
+Slot Clash of core course ME3481$inside and elective course ED5330$outside for student ME15B164. ED5330$outside removed 
+Slot Clash of core course ME3281$inside and elective course AS5420$outside for student ME15B165. AS5420$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student MM16B005. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student MM16B005. MA2020$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student MM16B006. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student MM16B006. MA2020$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student MM16B102. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student MM16B102. MA2020$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student NA16B004. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student NA16B004. MA2020$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student NA16B021. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student NA16B021. MA2020$outside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$inside for student NA16B109. MA2020$inside removed 
+Slot Clash of core course ME1100$inside and elective course MA2020$outside for student NA16B109. MA2020$outside removed 
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B004
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B017
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B018
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B024
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B027
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B028
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B034
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B041
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B047
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B048
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B049
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B052
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B054
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE15B057
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE16B025
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE16B027
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE16B033
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE16B046
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : AE98016
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE15B001
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE15B003
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE15B010
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE15B016
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE15B024
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE15B031
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE16B012
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE16B013
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE16B019
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE16B024
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE16B027
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE16B028
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BE16B032
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS15B003
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS15B004
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS15B009
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS15B016
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS15B018
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS15B019
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS15B030
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS15B032
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS16B004
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS16B010
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS16B021
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS16B025
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : BS16B026
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B009
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B010
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B014
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B016
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B020
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B024
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B025
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B034
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B038
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B039
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B041
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B045
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B046
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B051
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B058
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B061
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B077
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B083
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B087
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B088
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B090
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B097
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B099
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE15B102
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B015
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B017
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B018
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B024
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B031
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B032
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B047
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B059
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B061
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B122
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CE16B132
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B003
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B015
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B020
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B023
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B032
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B046
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B068
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B072
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B080
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B089
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B090
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B091
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B092
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH15B096
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH16B006
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH16B036
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH16B044
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH16B048
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH16B068
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH16B071
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH16B107
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CH16B108
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS15B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS15B017
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS15B019
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS15B026
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS15B028
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS15B030
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS15B045
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS15B051
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS16B014
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : CS16B047
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B004
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B014
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B021
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B027
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B028
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B029
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B033
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B034
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B035
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B038
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B040
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B043
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B045
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B050
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B053
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED15B054
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B022
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B027
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B041
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B042
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B043
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B048
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B051
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B055
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ED16B059
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE15B013
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE15B023
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE15B073
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE15B091
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE15B103
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE15B118
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE15B121
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE16B003
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE16B011
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE16B110
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE16B149
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE16B155
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EE99273
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EP15B022
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EP15B029
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EP16B015
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : EP16B019
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B010
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B023
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B027
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B028
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B029
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B030
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B031
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B042
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B049
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B050
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B062
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B069
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B075
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B085
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B091
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B093
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B097
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B102
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B103
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B105
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B114
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B116
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B117
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B121
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B122
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B127
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B130
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B131
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B132
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B135
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B138
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B139
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B143
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B146
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B148
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B152
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B153
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B157
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B159
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B160
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME15B162
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B001
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B002
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B003
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B004
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B005
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B006
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B007
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B009
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B010
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B011
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B012
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B013
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B014
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B015
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B016
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B017
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B018
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B019
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B020
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B021
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B022
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B023
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B024
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B025
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B026
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B027
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B028
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B029
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B030
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B031
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B032
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B033
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B034
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B035
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B036
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B037
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B038
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B039
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B040
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B041
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B042
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B043
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B044
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B045
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B046
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B047
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B048
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B049
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B050
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B051
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B052
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B053
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B054
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B055
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B056
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B057
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B058
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B059
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B060
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B061
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B062
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B063
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B064
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B065
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B066
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B067
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B068
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B069
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B070
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B071
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B072
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B073
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B074
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B075
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B076
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B078
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B101
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B102
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B103
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B104
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B105
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B106
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B107
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B108
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B109
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B110
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B111
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B112
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B113
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B114
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B115
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B116
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B117
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B118
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B119
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B120
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B121
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B122
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B123
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B124
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B125
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B126
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B127
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B128
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B129
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B130
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B131
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B132
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B133
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B134
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B135
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B136
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B137
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B138
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B139
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B140
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B141
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B143
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B144
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B145
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B146
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B147
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B148
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B149
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B150
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B151
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B152
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B153
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B154
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B155
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B156
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B157
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B158
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B159
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B160
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B161
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B162
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B163
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B164
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B165
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B166
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B167
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B168
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B169
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B170
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B171
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B172
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B173
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B174
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B175
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B176
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B177
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B178
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B179
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : ME16B180
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B001
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B003
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B005
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B017
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B027
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B028
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B033
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B037
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B038
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B042
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM15B049
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B003
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B010
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B015
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B032
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B036
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B101
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B106
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B107
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : MM16B114
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B009
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B015
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B026
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B034
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B035
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B037
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B038
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B040
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B042
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B044
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA15B048
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA16B001
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA16B006
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA16B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA16B028
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA16B035
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA16B040
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : NA16B105
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : PH15B001
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : PH15B004
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : PH15B005
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : PH15B006
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : PH15B007
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : PH15B008
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : PH15B009
+This student has an empty preference list or none of his courses are within his max credit limit. He is being removed : PH16B011

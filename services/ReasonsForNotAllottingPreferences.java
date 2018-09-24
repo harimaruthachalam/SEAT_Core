@@ -232,7 +232,7 @@ public class ReasonsForNotAllottingPreferences {
 	private static String checkColourClashWithLowerRankingCourse(StudentPreference validPreference, Student s) {
 		for (StudentPreference allottedElective : s.orderedListOfcoursesAllotted){
 			if (allottedElective.getColour()==validPreference.getColour() && allottedElective.getPreferenceNo()>validPreference.getPreferenceNo()){
-				return "Slot Clash with already allotted elective course " + allottedElective.getCourseObj().getcourseNumberToPrint();
+				return "Colour Code Clash with already allotted elective course " + allottedElective.getCourseObj().getcourseNumberToPrint();
 			}
 		}
 		//If this is not the reason for the allotment not happening, return null
@@ -332,7 +332,7 @@ public class ReasonsForNotAllottingPreferences {
 	private static String checkColourClashWithHigherRankingCourse(StudentPreference validPreference, Student s) {
 		for (StudentPreference allottedElective : s.orderedListOfcoursesAllotted){
 			if (allottedElective.getColour()==validPreference.getColour() && allottedElective.getPreferenceNo()<validPreference.getPreferenceNo()){
-				return "Slot Clash with already allotted elective course " + allottedElective.getCourseObj().getcourseNumberToPrint();
+				return "Colour Code Clash with already allotted elective course " + allottedElective.getCourseObj().getcourseNumberToPrint();
 			}
 		}
 		//If this is not the reason for the allotment not happening, return null

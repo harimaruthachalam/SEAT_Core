@@ -1,0 +1,1311 @@
+Student Roll No,Course Number,Reason for Not allotting Preference
+AE15B001,CS4011$outside,(invalid preference) For this student max credits in semester is 60 and Core courses registered are AS2040(12 credits)+AS2520(3 credits)+AS3020(11 credits)+AS3270(10 credits)+AS3510(5 credits)+MA2130(9 credits)+ and CS4011 takes 12 credits which is greater than the 10 remaining elective credits.
+AE15B001,CS6100$outside,(invalid preference) For this student max credits in semester is 60 and Core courses registered are AS2040(12 credits)+AS2520(3 credits)+AS3020(11 credits)+AS3270(10 credits)+AS3510(5 credits)+MA2130(9 credits)+ and CS6100 takes 12 credits which is greater than the 10 remaining elective credits.
+AE15B001,CS6570$outside,(invalid preference) For this student max credits in semester is 60 and Core courses registered are AS2040(12 credits)+AS2520(3 credits)+AS3020(11 credits)+AS3270(10 credits)+AS3510(5 credits)+MA2130(9 credits)+ and CS6570 takes 12 credits which is greater than the 10 remaining elective credits.
+AE15B001,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+AE15B008,AS5420$outside,Slot Clash with already allotted elective course AS5420
+AE15B020,HS2030$outside,Course capacity is full.
+AE15B020,AS5420$inside,Course capacity is full.
+AE15B025,HS2030$outside,Course capacity is full.
+AE15B025,HS4571$outside,For this student max credits in semester is 60 and Core courses registered are AS2040(12 credits)+AS2520(3 credits)+AS3020(11 credits)+AS3270(10 credits)+AS3510(5 credits)+MA2010(9 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and HS4571 takes 9 credits which is greater than the remaining 1 elective credits.
+AE15B025,HS4002$outside,For this student max credits in semester is 60 and Core courses registered are AS2040(12 credits)+AS2520(3 credits)+AS3020(11 credits)+AS3270(10 credits)+AS3510(5 credits)+MA2010(9 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and HS4002 takes 9 credits which is greater than the remaining 1 elective credits.
+AE15B025,HS5920$outside,For this student max credits in semester is 60 and Core courses registered are AS2040(12 credits)+AS2520(3 credits)+AS3020(11 credits)+AS3270(10 credits)+AS3510(5 credits)+MA2010(9 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and HS5920 takes 9 credits which is greater than the remaining 1 elective credits.
+AE15B033,AS5420$inside,Course capacity is full.
+AE15B037,AS5420$outside,Slot Clash with already allotted elective course AS5420
+AE15B039,AS5420$inside,Course capacity is full.
+AE15B042,HS4005$outside,Slot Clash with already allotted elective course HS4210
+AE15B042,HS2030$outside,Slot Clash with already allotted elective course HS4210
+AE15B044,HS2030$outside,For this student max credits in semester is 60 and Core courses registered are AS2040(12 credits)+AS2520(3 credits)+AS3020(11 credits)+AS3270(10 credits)+AS3510(5 credits)+MA2010(9 credits)+ and the following electives which have a higher preference got allotted : PH3500(9 credits)+ and HS2030 takes 9 credits which is greater than the remaining 1 elective credits.
+AE16B017,HS2030$outside,Course capacity is full.
+AE16B017,HS4210$outside,Slot Clash with already allotted elective course HS3060
+AE16B017,HS4350$outside,Slot Clash with already allotted elective course HS3060
+AE16B017,HS5920$outside,Slot Clash with already allotted elective course HS3060
+AE16B017,HS4005$outside,Slot Clash with already allotted elective course HS3060
+AE16B025,HS4350$outside,Slot Clash with already allotted elective course HS4571
+AE16B025,HS4210$outside,Slot Clash with already allotted elective course HS4571
+AE16B025,HS4005$outside,Slot Clash with already allotted elective course HS4571
+AE16B025,HS4002$outside,Slot Clash with already allotted elective course HS4571
+AE16B034,HS2030$outside,Course capacity is full.
+AE16B034,HS4210$outside,Slot Clash with already allotted elective course HS3060
+AE16B112,HS2030$outside,Slot Clash with already allotted elective course HS4571
+AE16B112,HS4350$outside,Slot Clash with already allotted elective course HS4571
+BE15B004,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BE15B005,BT3072$outside,Slot Clash with already allotted elective course BT3072
+BE15B005,BT3051$outside,Slot Clash with already allotted elective course BT3051
+BE15B008,BT3032$inside,Slot Clash with already allotted elective course GN5001
+BE15B008,BT3032$outside,Slot Clash with already allotted elective course GN5001
+BE15B012,BT3032$inside,Slot Clash with already allotted elective course GN5001
+BE15B012,BT3032$outside,Slot Clash with already allotted elective course GN5001
+BE15B013,BT3071$outside,Slot Clash with already allotted elective course BT3071
+BE15B015,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BE15B015,BT3230$outside,Slot Clash with already allotted elective course BT3230
+BE15B017,BT3072$outside,Slot Clash with already allotted elective course BT3072
+BE15B017,BT3051$outside,Slot Clash with already allotted elective course BT3051
+BE15B017,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BE15B021,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BE16B003,HS2030$outside,Slot Clash with already allotted elective course HS4350
+BE16B003,HS3060$outside,Slot Clash with already allotted elective course HS4350
+BE16B003,HS4005$outside,Slot Clash with already allotted elective course HS4350
+BE16B003,HS4002$outside,Slot Clash with already allotted elective course HS4350
+BE16B003,HS4210$outside,Slot Clash with already allotted elective course HS4350
+BE16B003,HS4571$outside,Slot Clash with already allotted elective course HS4350
+BE16B007,BT3072$inside,Slot Clash with already allotted elective course HS3060
+BE16B007,BT3072$outside,Slot Clash with already allotted elective course HS3060
+BE16B007,EE2015$outside,For this student max credits in semester is 60 and Core courses registered are AM1100(10 credits)+BT2010(9 credits)+BT2030(12 credits)+BT2111(5 credits)+MA2020(9 credits)+ and the following electives which have a higher preference got allotted : HS3060(9 credits)+ and EE2015 takes 11 credits which is greater than the remaining 6 elective credits.
+BE16B007,HS4571$outside,Slot Clash with already allotted elective course HS3060
+BE16B007,HS2030$outside,Slot Clash with already allotted elective course HS3060
+BE16B007,HS4350$outside,Slot Clash with already allotted elective course HS3060
+BE16B007,HS4210$outside,Slot Clash with already allotted elective course HS3060
+BE16B007,HS4005$outside,Slot Clash with already allotted elective course HS3060
+BE16B007,HS4002$outside,Slot Clash with already allotted elective course HS3060
+BE16B008,BT3072$inside,Slot Clash with already allotted elective course HS3060
+BE16B008,BT3072$outside,Slot Clash with already allotted elective course HS3060
+BE16B008,EE2015$outside,For this student max credits in semester is 60 and Core courses registered are AM1100(10 credits)+BT2010(9 credits)+BT2030(12 credits)+BT2111(5 credits)+MA2020(9 credits)+ and the following electives which have a higher preference got allotted : HS3060(9 credits)+ and EE2015 takes 11 credits which is greater than the remaining 6 elective credits.
+BE16B008,HS4571$outside,Slot Clash with already allotted elective course HS3060
+BE16B008,HS2030$outside,Slot Clash with already allotted elective course HS3060
+BE16B008,HS4350$outside,Slot Clash with already allotted elective course HS3060
+BE16B008,HS4210$outside,Slot Clash with already allotted elective course HS3060
+BE16B008,HS4005$outside,Slot Clash with already allotted elective course HS3060
+BE16B008,HS4002$outside,Slot Clash with already allotted elective course HS3060
+BE16B014,HS2030$outside,Course capacity is full.
+BE16B014,HS3060$outside,Slot Clash with already allotted elective course HS4350
+BE16B014,HS4002$outside,Slot Clash with already allotted elective course HS4350
+BE16B014,HS4005$outside,Slot Clash with already allotted elective course HS4350
+BE16B016,HS2030$outside,Course capacity is full.
+BE16B016,HS4350$outside,Course capacity is full.
+BE16B016,HS4002$outside,Slot Clash with already allotted elective course HS3060
+BE16B016,HS4005$outside,Slot Clash with already allotted elective course HS3060
+BE16B017,HS2030$outside,Slot Clash with already allotted elective course HS5920
+BE16B017,HS4571$outside,Slot Clash with already allotted elective course HS5920
+BE16B020,BT1022$outside,Slot Clash with already allotted elective course BT1022
+BE16B020,BT2012$inside,For this student max credits in semester is 60 and Core courses registered are AM1100(10 credits)+BT2010(9 credits)+BT2030(12 credits)+BT2111(5 credits)+MA2020(9 credits)+ and the following electives which have a higher preference got allotted : BT1022(12 credits)+ and BT2012 takes 10 credits which is greater than the remaining 3 elective credits.
+BE16B020,BT2012$outside,For this student max credits in semester is 60 and Core courses registered are AM1100(10 credits)+BT2010(9 credits)+BT2030(12 credits)+BT2111(5 credits)+MA2020(9 credits)+ and the following electives which have a higher preference got allotted : BT1022(12 credits)+ and BT2012 takes 10 credits which is greater than the remaining 3 elective credits.
+BE16B020,HS2030$outside,For this student max credits in semester is 60 and Core courses registered are AM1100(10 credits)+BT2010(9 credits)+BT2030(12 credits)+BT2111(5 credits)+MA2020(9 credits)+ and the following electives which have a higher preference got allotted : BT1022(12 credits)+ and HS2030 takes 9 credits which is greater than the remaining 3 elective credits.
+BE16B022,BT1022$outside,Slot Clash with already allotted elective course BT1022
+BE16B022,BT2012$inside,Slot Clash with already allotted elective course BT1022
+BE16B022,BT2012$outside,Slot Clash with already allotted elective course BT1022
+BE16B022,HS2030$outside,Slot Clash with already allotted elective course BT1022
+BE16B029,HS2030$outside,Course capacity is full.
+BE16B029,HS3060$outside,Slot Clash with already allotted elective course HS4350
+BE16B029,HS4002$outside,Slot Clash with already allotted elective course HS4350
+BE16B029,HS4005$outside,Slot Clash with already allotted elective course HS4350
+BE16B029,HS4210$outside,Slot Clash with already allotted elective course HS4350
+BE16B029,HS4571$outside,Slot Clash with already allotted elective course HS4350
+BE16B035,HS2030$outside,Course capacity is full.
+BE16B035,HS3060$outside,Slot Clash with already allotted elective course HS4350
+BE16B035,HS4002$outside,Slot Clash with already allotted elective course HS4350
+BE16B035,HS4005$outside,Slot Clash with already allotted elective course HS4350
+BE16B035,HS4210$outside,Slot Clash with already allotted elective course HS4350
+BE16B035,HS4571$outside,Slot Clash with already allotted elective course HS4350
+BS15B001,CS2700$outside,Course capacity is full.
+BS15B001,BT3230$outside,Slot Clash with already allotted elective course BT3230
+BS15B003,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BS15B003,BT3230$outside,Slot Clash with already allotted elective course BT3230
+BS15B004,BT3051$outside,Slot Clash with already allotted elective course BT3051
+BS15B004,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BS15B005,BT3051$outside,Slot Clash with already allotted elective course BT3051
+BS15B005,BT3230$outside,Slot Clash with already allotted elective course BT3230
+BS15B007,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BS15B007,BT3230$outside,Slot Clash with already allotted elective course BT3230
+BS15B008,CS2700$outside,Course capacity is full.
+BS15B010,BT3051$outside,Slot Clash with already allotted elective course BT3051
+BS15B010,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BS15B010,BT5012$inside,For this student max credits in semester is 60 and Core courses registered are BT2062(10 credits)+BT3012(10 credits)+BT3072(9 credits)+BT3230(9 credits)+ and the following electives which have a higher preference got allotted : BT3051(11 credits)+BT3032(9 credits)+ and BT5012 takes 9 credits which is greater than the remaining 2 elective credits.
+BS15B010,BT5012$outside,For this student max credits in semester is 60 and Core courses registered are BT2062(10 credits)+BT3012(10 credits)+BT3072(9 credits)+BT3230(9 credits)+ and the following electives which have a higher preference got allotted : BT3051(11 credits)+BT3032(9 credits)+ and BT5012 takes 9 credits which is greater than the remaining 2 elective credits.
+BS15B010,BT5370$inside,Slot Clash with already allotted elective course BT3051
+BS15B010,BT5370$outside,Slot Clash with already allotted elective course BT3051
+BS15B011,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BS15B012,BT3051$outside,Slot Clash with already allotted elective course BT3051
+BS15B021,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BS15B023,BT3032$outside,Slot Clash with already allotted elective course BT3032
+BS15B023,BT3230$outside,Slot Clash with already allotted elective course BT3230
+BS16B004,HS2030$outside,Course capacity is full.
+BS16B004,HS5920$outside,Course capacity is full.
+BS16B004,HS4005$outside,Slot Clash with already allotted elective course HS4002
+BS16B010,HS2030$outside,Course capacity is full.
+BS16B010,HS4002$outside,Slot Clash with already allotted elective course HS4350
+BS16B010,HS4005$outside,Slot Clash with already allotted elective course HS4350
+BS16B010,HS4210$outside,Slot Clash with already allotted elective course HS4350
+BS16B010,HS3060$outside,Slot Clash with already allotted elective course HS4350
+BS16B010,HS4571$outside,Slot Clash with already allotted elective course HS4350
+BS16B019,HS4005$outside,Slot Clash with already allotted elective course HS4002
+BS16B019,HS4210$outside,Slot Clash with already allotted elective course HS4002
+BS16B019,HS4350$outside,Slot Clash with already allotted elective course HS4002
+BS16B019,HS2030$outside,Slot Clash with already allotted elective course HS4002
+BS16B019,HS4571$outside,Slot Clash with already allotted elective course HS4002
+CE15B013,CE6010$inside,Slot Clash with already allotted elective course CH5350
+CE15B013,CE6010$outside,Slot Clash with already allotted elective course CH5350
+CE15B013,CE3310$inside,Slot Clash with already allotted elective course CH5350
+CE15B013,CE3310$outside,Slot Clash with already allotted elective course CH5350
+CE15B013,MA2020$outside,Slot Clash with already allotted elective course CH5350
+CE15B013,CE6016$inside,Slot Clash with already allotted elective course CH5350
+CE15B013,CE6016$outside,Slot Clash with already allotted elective course CH5350
+CE15B024,CE3310$outside,Slot Clash with already allotted elective course CE3310
+CE15B024,CH5350$outside,Slot Clash with already allotted elective course CE3310
+CE15B024,HS4210$outside,Slot Clash with already allotted elective course CE3310
+CE15B024,HS4002$outside,Slot Clash with already allotted elective course CE3310
+CE15B030,MA2020$outside,Course capacity is full.
+CE15B030,MA2031$outside,Course capacity is full.
+CE15B032,MA2020$outside,Course capacity is full.
+CE15B032,MA2031$outside,Course capacity is full.
+CE15B034,CE6010$outside,Slot Clash with already allotted elective course CE6010
+CE15B034,CE3310$inside,Slot Clash with already allotted elective course CE6010
+CE15B034,CE3310$outside,Slot Clash with already allotted elective course CE6010
+CE15B034,CE6016$inside,Slot Clash with already allotted elective course CE6010
+CE15B034,CE6016$outside,Slot Clash with already allotted elective course CE6010
+CE15B041,CE3310$outside,Slot Clash with already allotted elective course CE3310
+CE15B051,CE5900$inside,(invalid preference) Slot Clash with core course CE3410
+CE15B051,CE5900$outside,(invalid preference) Slot Clash with core course CE3410
+CE15B051,CE3310$outside,Slot Clash with already allotted elective course CE3310
+CE15B051,CE6840$inside,Slot Clash with already allotted elective course CE3310
+CE15B051,CE6840$outside,Slot Clash with already allotted elective course CE3310
+CE15B064,HS4350$outside,Course capacity is full.
+CE15B064,HS2030$outside,Course capacity is full.
+CE15B064,MA2130$outside,Slot Clash with already allotted elective course HS4005
+CE15B064,HS4571$outside,Slot Clash with already allotted elective course HS4005
+CE15B094,CE3310$outside,Slot Clash with already allotted elective course CE3310
+CE15B096,CE3310$outside,Slot Clash with already allotted elective course CE3310
+CE15B099,CE3310$outside,Slot Clash with already allotted elective course CE3310
+CE15B099,CS3700$outside,Slot Clash with already allotted elective course CE3310
+CE15B099,CE5830$inside,Slot Clash with already allotted elective course CE3310
+CE15B099,CE5830$outside,Slot Clash with already allotted elective course CE3310
+CE15B102,CE3310$outside,Slot Clash with already allotted elective course CE3310
+CE15B102,CH5350$outside,Slot Clash with already allotted elective course CE3310
+CE15B102,HS4210$outside,Slot Clash with already allotted elective course CE3310
+CE16B015,MA2040$outside,Slot Clash with already allotted elective course MA2020
+CE16B015,MA2031$outside,Slot Clash with already allotted elective course MA2020
+CE16B015,MA2010$outside,Slot Clash with already allotted elective course MA2020
+CE16B017,MA2031$outside,Slot Clash with already allotted elective course MA2020
+CE16B017,MA2010$outside,Slot Clash with already allotted elective course MA2020
+CE16B018,MA2020$outside,Course capacity is full.
+CE16B018,MA2010$outside,Slot Clash with already allotted elective course MA2031
+CE16B024,MA2020$outside,Slot Clash with already allotted elective course MA2040
+CE16B024,MA2031$outside,Slot Clash with already allotted elective course MA2040
+CE16B024,MA2010$outside,Slot Clash with already allotted elective course MA2040
+CE16B024,MA2130$outside,Slot Clash with already allotted elective course MA2040
+CE16B031,MA2040$outside,Slot Clash with already allotted elective course MA2020
+CE16B031,MA2031$outside,Slot Clash with already allotted elective course MA2020
+CE16B031,MA2010$outside,Slot Clash with already allotted elective course MA2020
+CE16B032,MA2020$outside,Slot Clash with already allotted elective course MA2040
+CE16B032,MA2031$outside,Slot Clash with already allotted elective course MA2040
+CE16B032,MA2010$outside,Slot Clash with already allotted elective course MA2040
+CE16B047,MA2020$outside,Course capacity is full.
+CE16B047,MA2031$outside,Slot Clash with already allotted elective course MA2040
+CE16B047,MA2010$outside,Slot Clash with already allotted elective course MA2040
+CE16B059,MA2040$outside,Slot Clash with already allotted elective course MA2020
+CE16B059,MA2031$outside,Slot Clash with already allotted elective course MA2020
+CE16B061,MA2020$outside,Slot Clash with already allotted elective course MA2040
+CE16B061,MA2031$outside,Slot Clash with already allotted elective course MA2040
+CE16B061,MA2010$outside,Slot Clash with already allotted elective course MA2040
+CH15B003,CH5016$inside,(invalid preference) Slot Clash with core course CH3520
+CH15B003,CH5016$outside,(invalid preference) Slot Clash with core course CH3520
+CH15B003,CH3150$inside,Course capacity is full.
+CH15B003,CH3150$outside,Course capacity is full.
+CH15B003,CH5014$outside,Slot Clash with already allotted elective course CH5014
+CH15B003,CH5011$inside,Slot Clash with already allotted elective course CH5014
+CH15B003,CH5011$outside,Slot Clash with already allotted elective course CH5014
+CH15B003,CH3170$outside,Slot Clash with already allotted elective course CH3170
+CH15B003,CH5017$inside,Slot Clash with already allotted elective course CH3170
+CH15B003,CH5017$outside,Slot Clash with already allotted elective course CH3170
+CH15B003,CH5370$inside,Slot Clash with already allotted elective course CH3170
+CH15B003,CH5370$outside,Slot Clash with already allotted elective course CH3170
+CH15B004,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B004,CH3170$inside,For this student max credits in semester is 60 and Core courses registered are CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+CH5011(9 credits)+MS3610(9 credits)+ and the following electives which have a higher preference got allotted : CH5370(9 credits)+ and CH3170 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B004,CH3170$outside,For this student max credits in semester is 60 and Core courses registered are CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+CH5011(9 credits)+MS3610(9 credits)+ and the following electives which have a higher preference got allotted : CH5370(9 credits)+ and CH3170 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B004,BT3051$outside,Slot Clash with already allotted elective course CH5370
+CH15B004,CH5017$inside,For this student max credits in semester is 60 and Core courses registered are CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+CH5011(9 credits)+MS3610(9 credits)+ and the following electives which have a higher preference got allotted : CH5370(9 credits)+ and CH5017 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B004,CH5017$outside,For this student max credits in semester is 60 and Core courses registered are CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+CH5011(9 credits)+MS3610(9 credits)+ and the following electives which have a higher preference got allotted : CH5370(9 credits)+ and CH5017 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B006,CH5017$inside,Course capacity is full.
+CH15B006,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B006,CH5014$inside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+ and the following electives which have a higher preference got allotted : CH5017(9 credits)+CH5370(9 credits)+ and CH5014 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B006,CH5014$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+ and the following electives which have a higher preference got allotted : CH5017(9 credits)+CH5370(9 credits)+ and CH5014 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B009,CH5350$inside,Course capacity is full.
+CH15B009,CH5350$outside,Course capacity is full.
+CH15B009,CH5011$inside,Course capacity is full.
+CH15B009,CH3150$inside,Slot Clash with already allotted elective course CH5011
+CH15B009,CH3150$outside,Slot Clash with already allotted elective course CH5011
+CH15B009,CH5014$inside,Slot Clash with already allotted elective course CH5011
+CH15B009,CH5014$outside,Slot Clash with already allotted elective course CH5011
+CH15B009,CH5017$inside,Course capacity is full.
+CH15B009,CH5017$outside,Course capacity is full.
+CH15B009,CH3170$inside,Course capacity is full.
+CH15B009,CH5370$inside,Slot Clash with already allotted elective course CH3170
+CH15B009,CH5370$outside,Slot Clash with already allotted elective course CH3170
+CH15B011,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B011,CH5017$inside,Slot Clash with already allotted elective course CH5370
+CH15B011,CH5017$outside,Slot Clash with already allotted elective course CH5370
+CH15B011,CH3170$inside,Slot Clash with already allotted elective course CH5370
+CH15B011,CH3170$outside,Slot Clash with already allotted elective course CH5370
+CH15B011,BT2030$outside,Slot Clash with already allotted elective course CH5370
+CH15B012,CH3150$inside,Course capacity is full.
+CH15B012,CH3150$outside,Course capacity is full.
+CH15B012,CH5011$inside,Course capacity is full.
+CH15B012,CH5011$outside,Course capacity is full.
+CH15B012,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B014,CH5011$inside,Course capacity is full.
+CH15B014,CH3150$inside,Slot Clash with already allotted elective course CH5011
+CH15B014,CH3150$outside,Slot Clash with already allotted elective course CH5011
+CH15B014,CH5370$inside,Slot Clash with already allotted elective course CH5011
+CH15B014,CH5370$outside,Slot Clash with already allotted elective course CH5011
+CH15B016,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B016,CH3170$inside,Slot Clash with already allotted elective course CH5370
+CH15B016,CH3170$outside,Slot Clash with already allotted elective course CH5370
+CH15B016,CH5017$inside,Slot Clash with already allotted elective course CH5370
+CH15B016,CH5017$outside,Slot Clash with already allotted elective course CH5370
+CH15B016,BT2030$outside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH3150$inside,Course capacity is full.
+CH15B021,CH3150$outside,Course capacity is full.
+CH15B021,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH3170$inside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH3170$outside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH5011$inside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH5011$outside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH5014$inside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH5014$outside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH5350$inside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH5350$outside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH5017$inside,Slot Clash with already allotted elective course CH5370
+CH15B021,CH5017$outside,Slot Clash with already allotted elective course CH5370
+CH15B026,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B026,CH3150$inside,Slot Clash with already allotted elective course CH5370
+CH15B026,CH3150$outside,Slot Clash with already allotted elective course CH5370
+CH15B026,CH5011$inside,Slot Clash with already allotted elective course CH5370
+CH15B026,CH5011$outside,Slot Clash with already allotted elective course CH5370
+CH15B028,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B029,BT3051$outside,Slot Clash with already allotted elective course CS2700
+CH15B029,CH5017$inside,Slot Clash with already allotted elective course CS2700
+CH15B029,CH5017$outside,Slot Clash with already allotted elective course CS2700
+CH15B029,CH5120$inside,Slot Clash with already allotted elective course CS2700
+CH15B029,CH5120$outside,Slot Clash with already allotted elective course CS2700
+CH15B029,CE5450$outside,Slot Clash with already allotted elective course CS2700
+CH15B030,CH5017$inside,Course capacity is full.
+CH15B030,CH5017$outside,Course capacity is full.
+CH15B030,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B030,CH3150$inside,Course capacity is full.
+CH15B030,CH3150$outside,Course capacity is full.
+CH15B030,CH5014$outside,Slot Clash with already allotted elective course CH5014
+CH15B031,CH3150$inside,Course capacity is full.
+CH15B031,CH5370$inside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5370$outside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5014$inside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5014$outside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH3170$inside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH3170$outside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5350$inside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5350$outside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5017$inside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5017$outside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5120$inside,Slot Clash with already allotted elective course CH3150
+CH15B031,CH5120$outside,Slot Clash with already allotted elective course CH3150
+CH15B033,BT3051$outside,Slot Clash with already allotted elective course CS2700
+CH15B033,CH5017$inside,Slot Clash with already allotted elective course CS2700
+CH15B033,CH5017$outside,Slot Clash with already allotted elective course CS2700
+CH15B033,CH5120$inside,Slot Clash with already allotted elective course CS2700
+CH15B033,CH5120$outside,Slot Clash with already allotted elective course CS2700
+CH15B033,CE5450$outside,Slot Clash with already allotted elective course CS2700
+CH15B037,CH3170$outside,Slot Clash with already allotted elective course CH3170
+CH15B037,CH5370$inside,Slot Clash with already allotted elective course CH3170
+CH15B037,CH5370$outside,Slot Clash with already allotted elective course CH3170
+CH15B039,ED5040$outside,(invalid preference) Slot Clash with core course CH3520
+CH15B039,CH5011$inside,Course capacity is full.
+CH15B039,CH5017$inside,Slot Clash with already allotted elective course CH5011
+CH15B039,CH5017$outside,Slot Clash with already allotted elective course CH5011
+CH15B040,CH5370$inside,(invalid preference) Slot Clash with core course CH5120
+CH15B040,CH5370$outside,(invalid preference) Slot Clash with core course CH5120
+CH15B040,CH5017$inside,Course capacity is full.
+CH15B040,CH3150$inside,Slot Clash with already allotted elective course CH5017
+CH15B040,CH3150$outside,Slot Clash with already allotted elective course CH5017
+CH15B040,CH5014$inside,Slot Clash with already allotted elective course CH5017
+CH15B040,CH5014$outside,Slot Clash with already allotted elective course CH5017
+CH15B042,CH5350$inside,Course capacity is full.
+CH15B042,CH5350$outside,Course capacity is full.
+CH15B042,CS2300$outside,Slot Clash with already allotted elective course BT3051
+CH15B042,CH3150$inside,Slot Clash with already allotted elective course BT3051
+CH15B042,CH3150$outside,Slot Clash with already allotted elective course BT3051
+CH15B042,CH5011$inside,Slot Clash with already allotted elective course BT3051
+CH15B042,CH5011$outside,Slot Clash with already allotted elective course BT3051
+CH15B042,CH5014$inside,Slot Clash with already allotted elective course BT3051
+CH15B042,CH5014$outside,Slot Clash with already allotted elective course BT3051
+CH15B044,CH5370$inside,Slot Clash with already allotted elective course AS6020
+CH15B044,CH5370$outside,Slot Clash with already allotted elective course AS6020
+CH15B050,BT3051$outside,Slot Clash with already allotted elective course CS2700
+CH15B050,AS6020$outside,Slot Clash with already allotted elective course CS2700
+CH15B051,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B051,BT2030$outside,Slot Clash with already allotted elective course CH5370
+CH15B051,CH3170$inside,Slot Clash with already allotted elective course CH5370
+CH15B051,CH3170$outside,Slot Clash with already allotted elective course CH5370
+CH15B051,BT3230$outside,Slot Clash with already allotted elective course CH5370
+CH15B054,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B054,CH3150$inside,Slot Clash with already allotted elective course CH5370
+CH15B054,CH3150$outside,Slot Clash with already allotted elective course CH5370
+CH15B054,CH5350$inside,Slot Clash with already allotted elective course CH5370
+CH15B054,CH5350$outside,Slot Clash with already allotted elective course CH5370
+CH15B054,HS4571$outside,Slot Clash with already allotted elective course CH5370
+CH15B056,CH5017$inside,Course capacity is full.
+CH15B056,CS2700$outside,Slot Clash with already allotted elective course CH5017
+CH15B057,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B057,CH3170$inside,Slot Clash with already allotted elective course CH5370
+CH15B057,CH3170$outside,Slot Clash with already allotted elective course CH5370
+CH15B057,HS2030$outside,Course capacity is full.
+CH15B058,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B058,CH5017$inside,Course capacity is full.
+CH15B058,CH5017$outside,Course capacity is full.
+CH15B058,CH3170$outside,Slot Clash with already allotted elective course CH3170
+CH15B058,CH5011$inside,Slot Clash with already allotted elective course CH3170
+CH15B058,CH5011$outside,Slot Clash with already allotted elective course CH3170
+CH15B058,CH5014$inside,Slot Clash with already allotted elective course CH3170
+CH15B058,CH5014$outside,Slot Clash with already allotted elective course CH3170
+CH15B059,CS2700$outside,Slot Clash with already allotted elective course BT3051
+CH15B062,CH3170$outside,Slot Clash with already allotted elective course CH3170
+CH15B062,CH5370$inside,Slot Clash with already allotted elective course CH3170
+CH15B062,CH5370$outside,Slot Clash with already allotted elective course CH3170
+CH15B062,CE5810$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+HS2030(9 credits)+ and the following electives which have a higher preference got allotted : CH3170(9 credits)+ and CE5810 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B062,CE6016$outside,Slot Clash with already allotted elective course CH3170
+CH15B063,CH3150$inside,Course capacity is full.
+CH15B063,CH3150$outside,Course capacity is full.
+CH15B063,CH5017$inside,Course capacity is full.
+CH15B063,CH5017$outside,Course capacity is full.
+CH15B063,CH5011$inside,Course capacity is full.
+CH15B064,CH5011$inside,Course capacity is full.
+CH15B064,CH5011$outside,Course capacity is full.
+CH15B064,CH3150$inside,Course capacity is full.
+CH15B064,CH3150$outside,Course capacity is full.
+CH15B065,CH3150$inside,Course capacity is full.
+CH15B065,CH3150$outside,Course capacity is full.
+CH15B066,ED5040$outside,(invalid preference) Slot Clash with core course CH3520
+CH15B066,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B066,CH5017$inside,Course capacity is full.
+CH15B066,CH5017$outside,Course capacity is full.
+CH15B066,CH3170$outside,Slot Clash with already allotted elective course CH3170
+CH15B067,CH5017$outside,Slot Clash with already allotted elective course CH5017
+CH15B067,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B067,CH5014$inside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+ and the following electives which have a higher preference got allotted : CH5017(9 credits)+CH5370(9 credits)+ and CH5014 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B067,CH5014$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+ and the following electives which have a higher preference got allotted : CH5017(9 credits)+CH5370(9 credits)+ and CH5014 takes 9 credits which is greater than the remaining 5 elective credits.
+CH15B069,CH5017$inside,Course capacity is full.
+CH15B069,CH5370$inside,Slot Clash with already allotted elective course CH5017
+CH15B069,CH5370$outside,Slot Clash with already allotted elective course CH5017
+CH15B073,CH5017$inside,Course capacity is full.
+CH15B073,CH5017$outside,Course capacity is full.
+CH15B073,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B075,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B075,BT2030$outside,Slot Clash with already allotted elective course CH5370
+CH15B075,CH3170$inside,Slot Clash with already allotted elective course CH5370
+CH15B075,CH3170$outside,Slot Clash with already allotted elective course CH5370
+CH15B075,BT3230$outside,Slot Clash with already allotted elective course CH5370
+CH15B078,CH3170$outside,Slot Clash with already allotted elective course CH3170
+CH15B078,CH5370$inside,Slot Clash with already allotted elective course CH3170
+CH15B078,CH5370$outside,Slot Clash with already allotted elective course CH3170
+CH15B082,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B082,CH5011$inside,Course capacity is full.
+CH15B082,CH5011$outside,Course capacity is full.
+CH15B082,CH3150$inside,Course capacity is full.
+CH15B082,CH3150$outside,Course capacity is full.
+CH15B082,CH3170$inside,Course capacity is full.
+CH15B083,CH3170$outside,Slot Clash with already allotted elective course CH3170
+CH15B084,CH5370$outside,Slot Clash with already allotted elective course CH5370
+CH15B084,BT2030$outside,Slot Clash with already allotted elective course CH5370
+CH15B084,CH3170$inside,Slot Clash with already allotted elective course CH5370
+CH15B084,CH3170$outside,Slot Clash with already allotted elective course CH5370
+CH15B084,BT3230$outside,Slot Clash with already allotted elective course CH5370
+CH15B087,CH3170$inside,Slot Clash with already allotted elective course BT2030
+CH15B087,CH3170$outside,Slot Clash with already allotted elective course BT2030
+CH15B093,CH3150$inside,Course capacity is full.
+CH15B093,CH3150$outside,Course capacity is full.
+CH15B093,CH5190$outside,Slot Clash with already allotted elective course CH5190
+CH15B093,CH5014$outside,Slot Clash with already allotted elective course CH5014
+CH15B093,CH5370$inside,For this student max credits in semester is 60 and Core courses registered are AS1020*(11 credits)+CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+ and the following electives which have a higher preference got allotted : CH5190(9 credits)+CH5014(9 credits)+ and CH5370 takes 9 credits which is greater than the remaining 3 elective credits.
+CH15B093,CH5370$outside,For this student max credits in semester is 60 and Core courses registered are AS1020*(11 credits)+CH3010(9 credits)+CH3030(10 credits)+CH3510(5 credits)+CH3520(4 credits)+ and the following electives which have a higher preference got allotted : CH5190(9 credits)+CH5014(9 credits)+ and CH5370 takes 9 credits which is greater than the remaining 3 elective credits.
+CH15B097,CH5350$inside,Course capacity is full.
+CH15B097,CH5350$outside,Course capacity is full.
+CH15B097,CH5017$inside,Course capacity is full.
+CH15B097,CH5017$outside,Course capacity is full.
+CH16B001,HS4350$outside,Slot Clash with already allotted elective course HS4571
+CH16B001,HS2030$outside,Slot Clash with already allotted elective course HS4571
+CH16B006,HS2030$outside,Course capacity is full.
+CH16B006,HS5920$outside,Course capacity is full.
+CH16B006,HS4350$outside,Course capacity is full.
+CH16B010,MA2020$outside,Course capacity is full.
+CH16B010,MA2040$outside,Slot Clash with already allotted elective course MA2010
+CH16B010,MA2130$outside,Slot Clash with already allotted elective course MA2010
+CH16B011,HS2030$outside,Course capacity is full.
+CH16B011,HS4350$outside,Course capacity is full.
+CH16B013,MA2040$outside,Slot Clash with already allotted elective course MA2020
+CH16B013,MA2031$outside,Slot Clash with already allotted elective course MA2020
+CH16B013,MA2010$outside,Slot Clash with already allotted elective course MA2020
+CH16B013,MA2130$outside,Slot Clash with already allotted elective course MA2020
+CH16B021,MA2031$outside,Slot Clash with already allotted elective course MA2040
+CH16B021,MA2010$outside,Slot Clash with already allotted elective course MA2040
+CH16B021,MA2020$outside,Slot Clash with already allotted elective course MA2040
+CH16B023,MA2020$outside,Slot Clash with already allotted elective course MA2040
+CH16B023,MA2010$outside,Slot Clash with already allotted elective course MA2040
+CH16B023,MA2031$outside,Slot Clash with already allotted elective course MA2040
+CH16B029,HS2030$outside,Slot Clash with already allotted elective course HS4571
+CH16B029,HS4210$outside,Slot Clash with already allotted elective course HS4571
+CH16B029,HS4350$outside,Slot Clash with already allotted elective course HS4571
+CH16B029,HS3060$outside,Slot Clash with already allotted elective course HS4571
+CH16B029,HS4005$outside,Slot Clash with already allotted elective course HS4571
+CH16B029,HS4002$outside,Slot Clash with already allotted elective course HS4571
+CH16B030,HS4350$outside,Course capacity is full.
+CH16B030,HS2030$outside,Course capacity is full.
+CH16B030,HS4005$outside,Slot Clash with already allotted elective course HS3060
+CH16B030,HS4210$outside,Slot Clash with already allotted elective course HS3060
+CH16B030,HS5920$outside,Slot Clash with already allotted elective course HS3060
+CH16B030,HS4002$outside,Slot Clash with already allotted elective course HS3060
+CH16B030,HS4571$outside,Slot Clash with already allotted elective course HS3060
+CH16B033,MA2040$outside,Slot Clash with already allotted elective course MA2020
+CH16B033,MA2031$outside,Slot Clash with already allotted elective course MA2020
+CH16B033,MA2010$outside,Slot Clash with already allotted elective course MA2020
+CH16B033,MA2130$outside,Slot Clash with already allotted elective course MA2020
+CH16B033,HS3060$outside,Slot Clash with already allotted elective course HS4571
+CH16B033,HS4350$outside,Slot Clash with already allotted elective course HS4571
+CH16B033,HS2030$outside,Slot Clash with already allotted elective course HS4571
+CH16B033,HS4002$outside,Slot Clash with already allotted elective course HS4571
+CH16B033,HS4210$outside,Slot Clash with already allotted elective course HS4571
+CH16B033,HS4005$outside,Slot Clash with already allotted elective course HS4571
+CH16B036,HS5920$outside,Course capacity is full.
+CH16B036,HS4350$outside,Course capacity is full.
+CH16B037,MA2020$outside,Slot Clash with already allotted elective course MA2130
+CH16B037,MA2040$outside,Slot Clash with already allotted elective course MA2130
+CH16B037,MA2031$outside,Slot Clash with already allotted elective course MA2130
+CH16B037,MA2010$outside,Slot Clash with already allotted elective course MA2130
+CH16B037,HS2030$outside,Course capacity is full.
+CH16B037,HS4350$outside,Course capacity is full.
+CH16B037,HS5920$outside,Course capacity is full.
+CH16B037,HS4005$outside,Slot Clash with already allotted elective course HS4002
+CH16B037,HS4210$outside,Slot Clash with already allotted elective course HS4002
+CH16B037,HS3060$outside,Slot Clash with already allotted elective course HS4002
+CH16B038,HS2030$outside,Course capacity is full.
+CH16B038,HS4002$outside,Slot Clash with already allotted elective course HS4350
+CH16B038,HS4571$outside,Slot Clash with already allotted elective course HS4350
+CH16B038,HS4005$outside,Slot Clash with already allotted elective course HS4350
+CH16B038,HS4210$outside,Slot Clash with already allotted elective course HS4350
+CH16B038,HS3060$outside,Slot Clash with already allotted elective course HS4350
+CH16B042,HS2030$outside,Course capacity is full.
+CH16B042,HS4210$outside,Slot Clash with already allotted elective course HS4571
+CH16B042,HS4005$outside,Slot Clash with already allotted elective course HS4571
+CH16B042,HS4350$outside,Slot Clash with already allotted elective course HS4571
+CH16B042,HS4002$outside,Slot Clash with already allotted elective course HS4571
+CH16B042,HS3060$outside,Slot Clash with already allotted elective course HS4571
+CH16B044,MA2031$outside,Slot Clash with already allotted elective course HS4350
+CH16B044,MA2020$outside,Slot Clash with already allotted elective course HS4350
+CH16B044,MA2040$outside,Slot Clash with already allotted elective course HS4350
+CH16B044,HS4210$outside,Slot Clash with already allotted elective course HS4350
+CH16B044,HS4002$outside,Slot Clash with already allotted elective course HS4350
+CH16B045,MA2040$outside,Slot Clash with already allotted elective course MA2020
+CH16B045,MA2031$outside,Slot Clash with already allotted elective course MA2020
+CH16B045,MA2130$outside,Slot Clash with already allotted elective course MA2020
+CH16B045,MA2010$outside,Slot Clash with already allotted elective course MA2020
+CH16B047,HS2030$outside,Slot Clash with already allotted elective course HS3060
+CH16B047,HS4571$outside,Slot Clash with already allotted elective course HS3060
+CH16B047,HS4350$outside,Slot Clash with already allotted elective course HS3060
+CH16B048,HS2030$outside,Course capacity is full.
+CH16B048,HS4005$outside,Slot Clash with already allotted elective course HS4210
+CH16B048,HS4350$outside,Slot Clash with already allotted elective course HS4210
+CH16B048,HS4571$outside,Slot Clash with already allotted elective course HS4210
+CH16B048,HS4002$outside,Slot Clash with already allotted elective course HS4210
+CH16B048,HS3060$outside,Slot Clash with already allotted elective course HS4210
+CH16B048,MA2020$outside,Slot Clash with already allotted elective course MA2040
+CH16B048,MA2010$outside,Slot Clash with already allotted elective course MA2040
+CH16B048,MA2031$outside,Slot Clash with already allotted elective course MA2040
+CH16B048,MA2130$outside,Slot Clash with already allotted elective course MA2040
+CH16B052,MA2040$outside,Slot Clash with already allotted elective course MA2020
+CH16B053,HS5920$outside,Slot Clash with already allotted elective course HS4571
+CH16B053,HS3060$outside,Slot Clash with already allotted elective course HS4571
+CH16B053,HS4002$outside,Slot Clash with already allotted elective course HS4571
+CH16B053,HS2030$outside,Slot Clash with already allotted elective course HS4571
+CH16B058,HS2030$outside,Course capacity is full.
+CH16B058,HS4571$outside,Slot Clash with already allotted elective course HS4350
+CH16B059,HS2030$outside,Course capacity is full.
+CH16B059,HS4571$outside,Slot Clash with already allotted elective course HS4350
+CH16B060,HS4350$outside,Slot Clash with already allotted elective course HS4571
+CH16B060,HS2030$outside,Slot Clash with already allotted elective course HS4571
+CH16B062,MA2020$outside,Slot Clash with already allotted elective course MA2040
+CH16B062,MA2010$outside,Slot Clash with already allotted elective course MA2040
+CH16B062,MA2031$outside,Slot Clash with already allotted elective course MA2040
+CH16B062,MA2130$outside,Slot Clash with already allotted elective course MA2040
+CH16B064,HS2030$outside,Slot Clash with already allotted elective course HS4350
+CH16B064,HS4210$outside,Slot Clash with already allotted elective course HS4350
+CH16B068,HS2030$outside,Course capacity is full.
+CH16B068,HS5920$outside,Course capacity is full.
+CH16B068,HS4350$outside,Course capacity is full.
+CH16B069,HS2030$outside,Course capacity is full.
+CH16B069,HS4002$outside,Slot Clash with already allotted elective course HS4571
+CH16B069,HS3060$outside,Slot Clash with already allotted elective course HS4571
+CH16B069,HS4210$outside,Slot Clash with already allotted elective course HS4571
+CH16B101,HS2030$outside,Course capacity is full.
+CH16B101,HS4350$outside,Slot Clash with already allotted elective course HS4005
+CH16B101,HS4571$outside,Slot Clash with already allotted elective course HS4005
+CH16B103,HS2030$outside,Course capacity is full.
+CH16B103,HS4350$outside,Course capacity is full.
+CH16B110,HS2030$outside,Course capacity is full.
+CH16B110,HS4002$outside,Slot Clash with already allotted elective course HS4350
+CH16B113,HS5920$outside,Course capacity is full.
+CH16B113,HS2030$outside,Slot Clash with already allotted elective course HS4350
+CH16B113,HS4210$outside,Slot Clash with already allotted elective course HS4350
+CH16B114,HS4350$outside,Slot Clash with already allotted elective course HS4571
+CH16B114,HS4002$outside,Slot Clash with already allotted elective course HS4571
+CH16B114,HS4005$outside,Slot Clash with already allotted elective course HS4571
+CH16B115,HS4002$outside,Slot Clash with already allotted elective course HS4350
+CH16B115,HS4005$outside,Slot Clash with already allotted elective course HS4350
+CH16B115,HS5920$outside,Slot Clash with already allotted elective course HS4350
+CH16B115,HS4210$outside,Slot Clash with already allotted elective course HS4350
+CH16B117,HS4210$outside,Slot Clash with already allotted elective course HS4350
+CH16B117,HS4005$outside,Slot Clash with already allotted elective course HS4350
+CH16B117,HS4002$outside,Slot Clash with already allotted elective course HS4350
+CS15B008,CS4011$outside,Slot Clash with already allotted elective course CS4011
+CS15B008,CS3700$outside,Slot Clash with already allotted elective course CS3700
+CS15B008,CS6111$inside,Slot Clash with already allotted elective course CS4011
+CS15B008,CS6111$outside,Slot Clash with already allotted elective course CS4011
+CS15B008,CS5820$inside,Slot Clash with already allotted elective course CS3700
+CS15B008,CS5820$outside,Slot Clash with already allotted elective course CS3700
+CS15B008,CS6842$inside,Slot Clash with already allotted elective course CS4011
+CS15B008,CS6842$outside,Slot Clash with already allotted elective course CS4011
+CS15B008,CS6600$inside,Slot Clash with already allotted elective course CS4011
+CS15B008,CS6600$outside,Slot Clash with already allotted elective course CS4011
+CS15B008,CS6023$inside,Slot Clash with already allotted elective course CS3700
+CS15B008,CS6023$outside,Slot Clash with already allotted elective course CS3700
+CS15B008,CS6440$inside,Slot Clash with already allotted elective course CS3700
+CS15B008,CS6440$outside,Slot Clash with already allotted elective course CS3700
+CS15B016,CS3700$outside,Slot Clash with already allotted elective course CS3700
+CS15B016,CS6842$inside,Slot Clash with already allotted elective course CS3700
+CS15B016,CS6842$outside,Slot Clash with already allotted elective course CS3700
+CS15B016,CS4011$inside,Slot Clash with already allotted elective course CS3700
+CS15B016,CS4011$outside,Slot Clash with already allotted elective course CS3700
+CS15B023,CS6111$outside,Slot Clash with already allotted elective course CS6111
+CS15B028,CS4011$outside,Slot Clash with already allotted elective course CS4011
+CS15B028,CS6842$inside,Slot Clash with already allotted elective course CS4011
+CS15B028,CS6842$outside,Slot Clash with already allotted elective course CS4011
+CS15B028,CS6600$inside,Slot Clash with already allotted elective course CS4011
+CS15B028,CS6600$outside,Slot Clash with already allotted elective course CS4011
+CS15B028,CS3700$outside,Slot Clash with already allotted elective course CS3700
+CS15B028,CS5820$inside,Slot Clash with already allotted elective course CS3700
+CS15B028,CS5820$outside,Slot Clash with already allotted elective course CS3700
+CS15B028,CS6023$inside,Slot Clash with already allotted elective course CS3700
+CS15B028,CS6023$outside,Slot Clash with already allotted elective course CS3700
+CS15B028,CS6440$inside,Slot Clash with already allotted elective course CS3700
+CS15B028,CS6440$outside,Slot Clash with already allotted elective course CS3700
+CS15B028,CS6111$inside,Slot Clash with already allotted elective course CS4011
+CS15B028,CS6111$outside,Slot Clash with already allotted elective course CS4011
+CS15B028,CS6777$inside,Slot Clash with already allotted elective course CS3700
+CS15B028,CS6777$outside,Slot Clash with already allotted elective course CS3700
+CS15B030,CS4011$outside,Slot Clash with already allotted elective course CS4011
+CS15B030,CS6111$inside,Slot Clash with already allotted elective course CS4011
+CS15B030,CS6111$outside,Slot Clash with already allotted elective course CS4011
+CS15B030,CS3700$outside,Slot Clash with already allotted elective course CS3700
+CS15B030,CS5820$inside,Slot Clash with already allotted elective course CS3700
+CS15B030,CS5820$outside,Slot Clash with already allotted elective course CS3700
+CS15B030,CS6842$inside,Slot Clash with already allotted elective course CS4011
+CS15B030,CS6842$outside,Slot Clash with already allotted elective course CS4011
+CS15B030,CS6600$inside,Slot Clash with already allotted elective course CS4011
+CS15B030,CS6600$outside,Slot Clash with already allotted elective course CS4011
+CS15B030,CS6023$inside,Slot Clash with already allotted elective course CS3700
+CS15B030,CS6023$outside,Slot Clash with already allotted elective course CS3700
+CS15B030,CS6440$inside,Slot Clash with already allotted elective course CS3700
+CS15B030,CS6440$outside,Slot Clash with already allotted elective course CS3700
+CS15B044,CS3700$outside,Slot Clash with already allotted elective course CS3700
+CS15B044,CS6111$inside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+CS4011(12 credits)+ and the following electives which have a higher preference got allotted : CS3700(12 credits)+ and CS6111 takes 12 credits which is greater than the remaining 0 elective credits.
+CS15B044,CS6111$outside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+CS4011(12 credits)+ and the following electives which have a higher preference got allotted : CS3700(12 credits)+ and CS6111 takes 12 credits which is greater than the remaining 0 elective credits.
+CS15B044,MA2031$outside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+CS4011(12 credits)+ and the following electives which have a higher preference got allotted : CS3700(12 credits)+ and MA2031 takes 9 credits which is greater than the remaining 0 elective credits.
+CS15B044,MA2020$outside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+CS4011(12 credits)+ and the following electives which have a higher preference got allotted : CS3700(12 credits)+ and MA2020 takes 9 credits which is greater than the remaining 0 elective credits.
+CS15B051,CS3700$outside,Slot Clash with already allotted elective course CS3700
+CS15B061,CS4011$outside,Slot Clash with already allotted elective course CS4011
+CS15B061,CS6111$inside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+MA2031(9 credits)+ and the following electives which have a higher preference got allotted : CS4011(12 credits)+ and CS6111 takes 12 credits which is greater than the remaining 3 elective credits.
+CS15B061,CS6111$outside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+MA2031(9 credits)+ and the following electives which have a higher preference got allotted : CS4011(12 credits)+ and CS6111 takes 12 credits which is greater than the remaining 3 elective credits.
+CS15B061,CS5820$inside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+MA2031(9 credits)+ and the following electives which have a higher preference got allotted : CS4011(12 credits)+ and CS5820 takes 12 credits which is greater than the remaining 3 elective credits.
+CS15B061,CS5820$outside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+MA2031(9 credits)+ and the following electives which have a higher preference got allotted : CS4011(12 credits)+ and CS5820 takes 12 credits which is greater than the remaining 3 elective credits.
+CS15B061,CS3700$inside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+MA2031(9 credits)+ and the following electives which have a higher preference got allotted : CS4011(12 credits)+ and CS3700 takes 12 credits which is greater than the remaining 3 elective credits.
+CS15B061,CS3700$outside,For this student max credits in semester is 63 and Core courses registered are CS3100(9 credits)+CS3300(15 credits)+CS3500(15 credits)+MA2031(9 credits)+ and the following electives which have a higher preference got allotted : CS4011(12 credits)+ and CS3700 takes 12 credits which is greater than the remaining 3 elective credits.
+CS16B006,HS4210$outside,Slot Clash with already allotted elective course HS4350
+CS16B006,HS3060$outside,Slot Clash with already allotted elective course HS4350
+CS16B006,EE3301$outside,Slot Clash with already allotted elective course BT2012
+CS16B008,HS4350$outside,Slot Clash with already allotted elective course HS4210
+CS16B008,HS4571$outside,Slot Clash with already allotted elective course HS4210
+CS16B008,HS4005$outside,Slot Clash with already allotted elective course HS4210
+CS16B008,HS3060$outside,Slot Clash with already allotted elective course HS4210
+CS16B008,HS2030$outside,Slot Clash with already allotted elective course HS4210
+CS16B008,HS4002$outside,Slot Clash with already allotted elective course HS4210
+CS16B008,HS5920$outside,Slot Clash with already allotted elective course HS4210
+CS16B009,BT1022$outside,Slot Clash with already allotted elective course BT2010
+CS16B010,HS5920$outside,Slot Clash with already allotted elective course HS4210
+CS16B010,HS4350$outside,Slot Clash with already allotted elective course HS4210
+CS16B010,HS4571$outside,Slot Clash with already allotted elective course HS4210
+CS16B010,HS4005$outside,Slot Clash with already allotted elective course HS4210
+CS16B010,HS3060$outside,Slot Clash with already allotted elective course HS4210
+CS16B010,HS2030$outside,Slot Clash with already allotted elective course HS4210
+CS16B010,HS4002$outside,Slot Clash with already allotted elective course HS4210
+CS16B013,AS2010$outside,(invalid preference) Slot Clash with core course CS2310
+CS16B026,HS4350$outside,Slot Clash with already allotted elective course HS4210
+CS16B026,HS4571$outside,Slot Clash with already allotted elective course HS4210
+CS16B026,HS4005$outside,Slot Clash with already allotted elective course HS4210
+CS16B026,HS3060$outside,Slot Clash with already allotted elective course HS4210
+CS16B026,HS2030$outside,Slot Clash with already allotted elective course HS4210
+CS16B026,HS4002$outside,Slot Clash with already allotted elective course HS4210
+CS16B026,HS5920$outside,Slot Clash with already allotted elective course HS4210
+CS16B039,HS4005$outside,Slot Clash with already allotted elective course HS4210
+CS16B039,HS4571$outside,Slot Clash with already allotted elective course HS4210
+CS16B039,HS3060$outside,Slot Clash with already allotted elective course HS4210
+CS16B039,HS4350$outside,Slot Clash with already allotted elective course HS4210
+CS16B039,HS4002$outside,Slot Clash with already allotted elective course HS4210
+CS16B047,HS2030$outside,Course capacity is full.
+CS16B047,HS5920$outside,Course capacity is full.
+CS16B047,HS4002$outside,Slot Clash with already allotted elective course HS4210
+CS16B047,HS4005$outside,Slot Clash with already allotted elective course HS4210
+CS16B047,HS4350$outside,Slot Clash with already allotted elective course HS4210
+CS16B047,HS3060$outside,Slot Clash with already allotted elective course HS4210
+CS16B109,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+CS16B109,MS3610$outside,Slot Clash with already allotted elective course MS3510#
+CS16B111,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+CS16B111,BT2012$outside,Slot Clash with already allotted elective course MS3510#
+CS16B111,BT1022$outside,Slot Clash with already allotted elective course MS3510#
+CS16B111,HS5920$outside,Course capacity is full.
+CS16B111,HS2030$outside,Slot Clash with already allotted elective course HS4002
+CS16B111,HS4350$outside,Slot Clash with already allotted elective course HS4002
+CS16B111,HS3060$outside,Slot Clash with already allotted elective course HS4002
+CS16B111,HS4210$outside,Slot Clash with already allotted elective course HS4002
+CS16B111,HS4005$outside,Slot Clash with already allotted elective course HS4002
+ED15B004,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED15B008,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED15B009,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED15B021,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED15B025,ED2012$outside,Slot Clash with already allotted elective course ED2012
+ED15B026,ED5016$outside,Slot Clash with already allotted elective course ED5016
+ED15B027,AS2101$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CY1050(9 credits)+ED3010(9 credits)+ED5052(10 credits)+ED5160(15 credits)+ and the following electives which have a higher preference got allotted : ME4290(6 credits)+ and AS2101 takes 5 credits which is greater than the remaining 2 elective credits.
+ED15B027,AS2100$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CY1050(9 credits)+ED3010(9 credits)+ED5052(10 credits)+ED5160(15 credits)+ and the following electives which have a higher preference got allotted : ME4290(6 credits)+ and AS2100 takes 5 credits which is greater than the remaining 2 elective credits.
+ED15B028,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED15B029,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED15B032,ED5016$outside,Slot Clash with already allotted elective course ED5016
+ED15B033,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED15B035,AS2101$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CY1050(9 credits)+ED3010(9 credits)+ED5052(10 credits)+ED5160(15 credits)+ and the following electives which have a higher preference got allotted : ME4290(6 credits)+ and AS2101 takes 5 credits which is greater than the remaining 2 elective credits.
+ED15B035,AS2100$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+CY1050(9 credits)+ED3010(9 credits)+ED5052(10 credits)+ED5160(15 credits)+ and the following electives which have a higher preference got allotted : ME4290(6 credits)+ and AS2100 takes 5 credits which is greater than the remaining 2 elective credits.
+ED15B043,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED15B047,ED5016$outside,Slot Clash with already allotted elective course ED5016
+ED15B050,ED3153$outside,Slot Clash with already allotted elective course ED3153
+ED16B008,ED2130$outside,Slot Clash with already allotted elective course ED2130
+ED16B043,ED2130$outside,Slot Clash with already allotted elective course ED2130
+ED16B048,ED2130$outside,Slot Clash with already allotted elective course ED2130
+ED16B051,ED2130$outside,Slot Clash with already allotted elective course ED2130
+ED16B059,ED2130$outside,Slot Clash with already allotted elective course ED2130
+EE15B001,MA2031$outside,Course capacity is full.
+EE15B002,EE3002$inside,Slot Clash with already allotted elective course MA2040
+EE15B002,EE3002$outside,Slot Clash with already allotted elective course MA2040
+EE15B003,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B005,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B006,EE3002$outside,Slot Clash with already allotted elective course EE3002
+EE15B008,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B008,MA2040$outside,Slot Clash with already allotted elective course EE3005
+EE15B008,EE3313$inside,Slot Clash with already allotted elective course EE3005
+EE15B008,EE3313$outside,Slot Clash with already allotted elective course EE3005
+EE15B009,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B010,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B011,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B012,EE3313$outside,Slot Clash with already allotted elective course EE3313
+EE15B014,MA2010$outside,Slot Clash with already allotted elective course MA2040
+EE15B016,MA2010$outside,Slot Clash with already allotted elective course MA2040
+EE15B017,CS2710$outside,(invalid preference) Slot Clash with core course EE3006
+EE15B017,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B017,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B017,EE3002$inside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3004(11 credits)+EE3006(8 credits)+ and the following electives which have a higher preference got allotted : EE3005(10 credits)+EE2003(12 credits)+MA2040(9 credits)+ and EE3002 takes 10 credits which is greater than the remaining 1 elective credits.
+EE15B017,EE3002$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3004(11 credits)+EE3006(8 credits)+ and the following electives which have a higher preference got allotted : EE3005(10 credits)+EE2003(12 credits)+MA2040(9 credits)+ and EE3002 takes 10 credits which is greater than the remaining 1 elective credits.
+EE15B020,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B020,MA2010$outside,Slot Clash with already allotted elective course MA2040
+EE15B021,MA2010$outside,Slot Clash with already allotted elective course MA2040
+EE15B021,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B022,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B024,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B027,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B027,EE3002$inside,Slot Clash with already allotted elective course EE2003
+EE15B027,EE3002$outside,Slot Clash with already allotted elective course EE2003
+EE15B028,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B029,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B029,MA2020$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3002(10 credits)+EE3004(11 credits)+EE3005(10 credits)+EE3006(8 credits)+ and the following electives which have a higher preference got allotted : EE2003(12 credits)+ and MA2020 takes 9 credits which is greater than the remaining 0 elective credits.
+EE15B029,MA2010$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3002(10 credits)+EE3004(11 credits)+EE3005(10 credits)+EE3006(8 credits)+ and the following electives which have a higher preference got allotted : EE2003(12 credits)+ and MA2010 takes 9 credits which is greater than the remaining 0 elective credits.
+EE15B032,MA2031$outside,Course capacity is full.
+EE15B034,MA2031$outside,Course capacity is full.
+EE15B034,MA2020$outside,Course capacity is full.
+EE15B035,EE2003$inside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3002(10 credits)+EE3004(11 credits)+EE3005(10 credits)+EE3006(8 credits)+ and the following electives which have a higher preference got allotted : MA2040(9 credits)+ and EE2003 takes 12 credits which is greater than the remaining 3 elective credits.
+EE15B035,EE2003$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3002(10 credits)+EE3004(11 credits)+EE3005(10 credits)+EE3006(8 credits)+ and the following electives which have a higher preference got allotted : MA2040(9 credits)+ and EE2003 takes 12 credits which is greater than the remaining 3 elective credits.
+EE15B035,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B035,EE3313$inside,Slot Clash with already allotted elective course MA2040
+EE15B035,EE3313$outside,Slot Clash with already allotted elective course MA2040
+EE15B036,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B037,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B038,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B039,EE3313$outside,Slot Clash with already allotted elective course EE3313
+EE15B044,EE3002$outside,Slot Clash with already allotted elective course EE3002
+EE15B045,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B046,CS2710$outside,(invalid preference) Slot Clash with core course EE3006
+EE15B046,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B047,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B049,EE3002$outside,Slot Clash with already allotted elective course EE3002
+EE15B049,EE2003$inside,Slot Clash with already allotted elective course EE3002
+EE15B049,EE2003$outside,Slot Clash with already allotted elective course EE3002
+EE15B049,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B049,MA2010$outside,Slot Clash with already allotted elective course MA2040
+EE15B050,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B050,MA2010$outside,Slot Clash with already allotted elective course MA2040
+EE15B051,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B053,EE3002$outside,Slot Clash with already allotted elective course EE3002
+EE15B053,MA2040$outside,Slot Clash with already allotted elective course EE3002
+EE15B054,EE2003$inside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3002(10 credits)+EE3004(11 credits)+EE3005(10 credits)+EE3006(8 credits)+ and the following electives which have a higher preference got allotted : MA2040(9 credits)+ and EE2003 takes 12 credits which is greater than the remaining 3 elective credits.
+EE15B054,EE2003$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3002(10 credits)+EE3004(11 credits)+EE3005(10 credits)+EE3006(8 credits)+ and the following electives which have a higher preference got allotted : MA2040(9 credits)+ and EE2003 takes 12 credits which is greater than the remaining 3 elective credits.
+EE15B054,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B054,EE3313$inside,Slot Clash with already allotted elective course MA2040
+EE15B054,EE3313$outside,Slot Clash with already allotted elective course MA2040
+EE15B055,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B057,EE3313$outside,Slot Clash with already allotted elective course EE3313
+EE15B058,EE3002$inside,Slot Clash with already allotted elective course BT6270
+EE15B058,EE3002$outside,Slot Clash with already allotted elective course BT6270
+EE15B062,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B063,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B065,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B066,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B067,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B068,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B070,EE3313$outside,Slot Clash with already allotted elective course EE3313
+EE15B073,EE3002$outside,Slot Clash with already allotted elective course EE3002
+EE15B073,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B073,EE3313$outside,Slot Clash with already allotted elective course EE3313
+EE15B074,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B078,MA2130$outside,Slot Clash with already allotted elective course MA2040
+EE15B079,MA2010$outside,Slot Clash with already allotted elective course MA2040
+EE15B079,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B079,EE3313$inside,Slot Clash with already allotted elective course MA2040
+EE15B079,EE3313$outside,Slot Clash with already allotted elective course MA2040
+EE15B080,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B081,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B083,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B085,CS2710$outside,(invalid preference) Slot Clash with core course EE3006
+EE15B085,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B087,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B089,MA2020$outside,Course capacity is full.
+EE15B089,MA2031$outside,Course capacity is full.
+EE15B090,MA2020$outside,Course capacity is full.
+EE15B090,MA2031$outside,Course capacity is full.
+EE15B092,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B092,EE3002$inside,Slot Clash with already allotted elective course EE2003
+EE15B092,EE3002$outside,Slot Clash with already allotted elective course EE2003
+EE15B093,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B094,EE3002$outside,Slot Clash with already allotted elective course EE3002
+EE15B094,MA2040$outside,Slot Clash with already allotted elective course EE3002
+EE15B096,CS6023$outside,Slot Clash with already allotted elective course MA2040
+EE15B098,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B098,EE3003$inside,Slot Clash with already allotted elective course EE3005
+EE15B098,EE3003$outside,Slot Clash with already allotted elective course EE3005
+EE15B100,MA2020$outside,Course capacity is full.
+EE15B100,MA2031$outside,Course capacity is full.
+EE15B101,MA2031$outside,Course capacity is full.
+EE15B101,EE3313$outside,Slot Clash with already allotted elective course EE3313
+EE15B102,MA2020$outside,Course capacity is full.
+EE15B102,MA2031$outside,Course capacity is full.
+EE15B103,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B103,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B103,MA2020$outside,Course capacity is full.
+EE15B103,MA2031$outside,Course capacity is full.
+EE15B104,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B104,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+EE15B104,MS3610$outside,Slot Clash with already allotted elective course MS3510#
+EE15B104,MS5100$outside,Slot Clash with already allotted elective course MS3510#
+EE15B107,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B108,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B110,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B113,MA2031$outside,Course capacity is full.
+EE15B113,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B114,MA2031$outside,Course capacity is full.
+EE15B115,MA2020$outside,Course capacity is full.
+EE15B115,MA2031$outside,Course capacity is full.
+EE15B116,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B116,MA2040$outside,Slot Clash with already allotted elective course EE3005
+EE15B117,ED5321$outside,(invalid preference) Slot Clash with core course EE3006
+EE15B117,MA2031$outside,Slot Clash with already allotted elective course MA2040
+EE15B117,MS3510#$outside,Slot Clash with already allotted elective course CS4011
+EE15B117,MS3510+$outside,Slot Clash with already allotted elective course CS4011
+EE15B118,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B119,MA2040$outside,(invalid preference) Slot Clash with core course EE3313
+EE15B119,EE2003$inside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3004(11 credits)+EE3006(8 credits)+EE3313(10 credits)+ and the following electives which have a higher preference got allotted : BT3051(11 credits)+ and EE2003 takes 12 credits which is greater than the remaining 11 elective credits.
+EE15B119,EE2003$outside,For this student max credits in semester is 60 and Core courses registered are BT1010(9 credits)+EE3004(11 credits)+EE3006(8 credits)+EE3313(10 credits)+ and the following electives which have a higher preference got allotted : BT3051(11 credits)+ and EE2003 takes 12 credits which is greater than the remaining 11 elective credits.
+EE15B122,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B122,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE15B122,EE3002$inside,Slot Clash with already allotted elective course EE2003
+EE15B122,EE3002$outside,Slot Clash with already allotted elective course EE2003
+EE15B122,EE3313$inside,Slot Clash with already allotted elective course MA2040
+EE15B122,EE3313$outside,Slot Clash with already allotted elective course MA2040
+EE15B126,EE2003$inside,Slot Clash with already allotted elective course MA2040
+EE15B126,EE2003$outside,Slot Clash with already allotted elective course MA2040
+EE15B127,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B130,EE2003$outside,Slot Clash with already allotted elective course EE2003
+EE15B132,EE3005$outside,Slot Clash with already allotted elective course EE3005
+EE15B134,EE2003$inside,Slot Clash with already allotted elective course MA2040
+EE15B134,EE2003$outside,Slot Clash with already allotted elective course MA2040
+EE16B002,HS4350$outside,Slot Clash with already allotted elective course HS4002
+EE16B002,HS2030$outside,Slot Clash with already allotted elective course HS4002
+EE16B002,HS4005$outside,Slot Clash with already allotted elective course HS4002
+EE16B002,HS4210$outside,Slot Clash with already allotted elective course HS4002
+EE16B002,HS4571$outside,Slot Clash with already allotted elective course HS4002
+EE16B002,HS3060$outside,Slot Clash with already allotted elective course HS4002
+EE16B010,MA2031$outside,Course capacity is full.
+EE16B010,MA2020$outside,Course capacity is full.
+EE16B010,MA2040$outside,Slot Clash with already allotted elective course MA2010
+EE16B014,MA2020$outside,Slot Clash with already allotted elective course MA2130
+EE16B014,MA2031$outside,Slot Clash with already allotted elective course MA2130
+EE16B014,MA2010$outside,Slot Clash with already allotted elective course MA2130
+EE16B020,HS4350$outside,Slot Clash with already allotted elective course HS4210
+EE16B034,HS4350$outside,Course capacity is full.
+EE16B034,HS2030$outside,Course capacity is full.
+EE16B036,HS2030$outside,Slot Clash with already allotted elective course HS4350
+EE16B036,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EE16B036,HS4210$outside,Slot Clash with already allotted elective course HS4350
+EE16B036,HS4571$outside,Slot Clash with already allotted elective course HS4350
+EE16B036,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EE16B040,HS2030$outside,Slot Clash with already allotted elective course HS4350
+EE16B040,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EE16B040,HS4210$outside,Slot Clash with already allotted elective course HS4350
+EE16B040,HS4571$outside,Slot Clash with already allotted elective course HS4350
+EE16B040,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EE16B042,HS4002$outside,Slot Clash with already allotted elective course HS4350
+EE16B042,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EE16B063,HS4350$outside,Slot Clash with already allotted elective course HS4571
+EE16B063,HS2030$outside,Slot Clash with already allotted elective course HS4571
+EE16B063,HS4005$outside,Slot Clash with already allotted elective course HS4571
+EE16B063,HS3060$outside,Slot Clash with already allotted elective course HS4571
+EE16B063,HS4210$outside,Slot Clash with already allotted elective course HS4571
+EE16B070,EE1103$outside,Slot Clash with already allotted elective course EE1103
+EE16B070,HS4002$outside,Slot Clash with already allotted elective course EE1103
+EE16B070,HS4005$outside,Slot Clash with already allotted elective course EE1103
+EE16B070,HS4210$outside,Slot Clash with already allotted elective course EE1103
+EE16B073,HS3060$outside,Slot Clash with already allotted elective course HS4002
+EE16B073,HS4005$outside,Slot Clash with already allotted elective course HS4002
+EE16B073,HS4571$outside,Slot Clash with already allotted elective course HS4002
+EE16B073,CS4011$outside,For this student max credits in semester is 60 and Core courses registered are CY1002a(3 credits)+EE2015(11 credits)+EE2016(12 credits)+EE2025(10 credits)+MA2031(9 credits)+ and the following electives which have a higher preference got allotted : HS4002(9 credits)+ and CS4011 takes 12 credits which is greater than the remaining 6 elective credits.
+EE16B101,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EE16B101,HS2030$outside,Slot Clash with already allotted elective course HS4350
+EE16B101,HS4571$outside,Slot Clash with already allotted elective course HS4350
+EE16B101,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EE16B102,HS2030$outside,Slot Clash with already allotted elective course HS4350
+EE16B103,MA2031$outside,Course capacity is full.
+EE16B103,MA2020$outside,Course capacity is full.
+EE16B103,MA2130$outside,Slot Clash with already allotted elective course MA2040
+EE16B105,HS5920$outside,Course capacity is full.
+EE16B105,HS4350$outside,Course capacity is full.
+EE16B105,HS4002$outside,Slot Clash with already allotted elective course HS3060
+EE16B107,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EE16B107,HS4210$outside,Slot Clash with already allotted elective course HS4350
+EE16B107,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EE16B108,HS3060$outside,Slot Clash with already allotted elective course HS4210
+EE16B108,HS4571$outside,Slot Clash with already allotted elective course HS4210
+EE16B108,HS5920$outside,Slot Clash with already allotted elective course HS4210
+EE16B109,HS4005$outside,Slot Clash with already allotted elective course HS3060
+EE16B109,HS4571$outside,Slot Clash with already allotted elective course HS3060
+EE16B109,HS4350$outside,Slot Clash with already allotted elective course HS3060
+EE16B111,HS5920$outside,Course capacity is full.
+EE16B121,HS4350$outside,Course capacity is full.
+EE16B121,HS4002$outside,Slot Clash with already allotted elective course HS3060
+EE16B125,HS2030$outside,Course capacity is full.
+EE16B125,HS4210$outside,Slot Clash with already allotted elective course HS4571
+EE16B125,HS4350$outside,Slot Clash with already allotted elective course HS4571
+EE16B131,HS5920$outside,Course capacity is full.
+EE16B131,HS2030$outside,Course capacity is full.
+EE16B131,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EE16B137,MA2031$outside,Course capacity is full.
+EE16B137,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE16B144,HS5920$outside,Slot Clash with already allotted elective course HS4350
+EE16B144,HS2030$outside,Slot Clash with already allotted elective course HS4350
+EE16B144,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EE16B144,HS4210$outside,Slot Clash with already allotted elective course HS4350
+EE16B145,MA2031$outside,Course capacity is full.
+EE16B145,MA2020$outside,Slot Clash with already allotted elective course MA2040
+EE16B145,MA2130$outside,Slot Clash with already allotted elective course MA2040
+EE16B149,MA2031$outside,Course capacity is full.
+EE16B149,MA2020$outside,Course capacity is full.
+EE16B149,MA2010$outside,Slot Clash with already allotted elective course MA2130
+EE16B153,MA2031$outside,Course capacity is full.
+EE16B153,MA2020$outside,Course capacity is full.
+EP15B001,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B004,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B004,CS2700$outside,Slot Clash with already allotted elective course EP2100
+EP15B005,PH6022$outside,Slot Clash with already allotted elective course PH6022
+EP15B005,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B005,GN5001$outside,Slot Clash with already allotted elective course MS3610
+EP15B005,CE5900$outside,Slot Clash with already allotted elective course MS3610
+EP15B007,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B009,ID6030$inside,Course capacity is full.
+EP15B009,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B010,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B011,CS2700$outside,(invalid preference) Slot Clash with core course PH2170
+EP15B011,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EP15B011,HS4002$outside,Slot Clash with already allotted elective course HS4350
+EP15B011,GN5001$outside,For this student max credits in semester is 60 and Core courses registered are CS6100(12 credits)+EP2102(9 credits)+EP2210(9 credits)+EP3290(6 credits)+PH2170(9 credits)+ and the following electives which have a higher preference got allotted : HS4350(9 credits)+ and GN5001 takes 9 credits which is greater than the remaining 6 elective credits.
+EP15B014,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B016,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B020,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B023,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B024,EP2100$outside,Slot Clash with already allotted elective course EP2100
+EP15B027,EE2003$outside,For this student max credits in semester is 60 and Core courses registered are EP2102(9 credits)+EP2210(9 credits)+EP3290(6 credits)+HS3002A(9 credits)+ and the following electives which have a higher preference got allotted : CS2700(10 credits)+CS2710(6 credits)+ and EE2003 takes 12 credits which is greater than the remaining 11 elective credits.
+EP15B028,BT3051$outside,Slot Clash with already allotted elective course CS2700
+EP15B028,EP2100$inside,Slot Clash with already allotted elective course CS2700
+EP15B028,EP2100$outside,Slot Clash with already allotted elective course CS2700
+EP15B028,GN5001$outside,Slot Clash with already allotted elective course CS2710
+EP16B005,HS2030$outside,Course capacity is full.
+EP16B005,HS4571$outside,Slot Clash with already allotted elective course HS3060
+EP16B009,HS4350$outside,Course capacity is full.
+EP16B009,HS2030$outside,Slot Clash with already allotted elective course HS3060
+EP16B009,HS4210$outside,Slot Clash with already allotted elective course HS3060
+EP16B009,HS4005$outside,Slot Clash with already allotted elective course HS3060
+EP16B009,HS4002$outside,Slot Clash with already allotted elective course HS3060
+EP16B009,HS4571$outside,Slot Clash with already allotted elective course HS3060
+EP16B011,HS3060$outside,Slot Clash with already allotted elective course HS4571
+EP16B011,HS4350$outside,Slot Clash with already allotted elective course HS4571
+EP16B011,HS2030$outside,Slot Clash with already allotted elective course HS4571
+EP16B011,HS4002$outside,Slot Clash with already allotted elective course HS4571
+EP16B011,HS4005$outside,Slot Clash with already allotted elective course HS4571
+EP16B011,HS4210$outside,Slot Clash with already allotted elective course HS4571
+EP16B012,HS4002$outside,Slot Clash with already allotted elective course HS4571
+EP16B012,HS3060$outside,Slot Clash with already allotted elective course HS4571
+EP16B012,HS4350$outside,Slot Clash with already allotted elective course HS4571
+EP16B012,HS2030$outside,Slot Clash with already allotted elective course HS4571
+EP16B014,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EP16B014,HS2030$outside,Slot Clash with already allotted elective course HS4350
+EP16B014,HS4210$outside,Slot Clash with already allotted elective course HS4350
+EP16B014,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EP16B014,HS4002$outside,Slot Clash with already allotted elective course HS4350
+EP16B014,HS4571$outside,Slot Clash with already allotted elective course HS4350
+EP16B023,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EP16B023,HS2030$outside,Slot Clash with already allotted elective course HS4350
+EP16B023,HS4210$outside,Slot Clash with already allotted elective course HS4350
+EP16B023,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EP16B023,HS4002$outside,Slot Clash with already allotted elective course HS4350
+EP16B023,HS4571$outside,Slot Clash with already allotted elective course HS4350
+EP16B024,HS3060$outside,Slot Clash with already allotted elective course HS4571
+EP16B024,HS4350$outside,Slot Clash with already allotted elective course HS4571
+EP16B024,HS2030$outside,Slot Clash with already allotted elective course HS4571
+EP16B024,HS4002$outside,Slot Clash with already allotted elective course HS4571
+EP16B024,HS4210$outside,Slot Clash with already allotted elective course HS4571
+EP16B024,HS4005$outside,Slot Clash with already allotted elective course HS4571
+EP16B025,HS2030$outside,Slot Clash with already allotted elective course HS4350
+EP16B025,HS3060$outside,Slot Clash with already allotted elective course HS4350
+EP16B025,HS4210$outside,Slot Clash with already allotted elective course HS4350
+EP16B025,HS4002$outside,Slot Clash with already allotted elective course HS4350
+EP16B025,HS4005$outside,Slot Clash with already allotted elective course HS4350
+EP16B025,HS5920$outside,Slot Clash with already allotted elective course HS4350
+EP16B025,HS4571$outside,Slot Clash with already allotted elective course HS4350
+EP16B026,HS4350$outside,Slot Clash with already allotted elective course HS4571
+EP16B026,HS3060$outside,Slot Clash with already allotted elective course HS4571
+EP16B026,HS4002$outside,Slot Clash with already allotted elective course HS4571
+EP16B026,HS4005$outside,Slot Clash with already allotted elective course HS4571
+EP16B026,HS4210$outside,Slot Clash with already allotted elective course HS4571
+ME15B010,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+ME15B010,MS3610$outside,Slot Clash with already allotted elective course MS3510#
+ME15B027,CH5170$outside,Slot Clash with already allotted elective course PH2170
+ME15B029,CH5170$outside,Course capacity is full.
+ME15B029,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+ME15B029,MS3610$outside,Slot Clash with already allotted elective course MS3510#
+ME15B031,MM3012$outside,(invalid preference) Slot Clash with core course ME3481
+ME15B031,MM5021$outside,Slot Clash with already allotted elective course CH5170
+ME15B031,CH5120$outside,Slot Clash with already allotted elective course CH5170
+ME15B031,ED5053$outside,Slot Clash with already allotted elective course CH5170
+ME15B031,MM5010$outside,Slot Clash with already allotted elective course CH5170
+ME15B037,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+ME15B037,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+ME15B049,PH2170$outside,Slot Clash with already allotted elective course CS2700
+ME15B049,EE3301$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : CS2700(10 credits)+ and EE3301 takes 9 credits which is greater than the remaining 0 elective credits.
+ME15B049,EE2025$outside,Slot Clash with already allotted elective course CS2700
+ME15B051,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+ME15B051,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+ME15B056,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+ME15B056,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+ME15B056,PH2170$outside,Slot Clash with already allotted elective course MS3610
+ME15B057,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+ME15B057,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+ME15B069,MS3610$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : BT3031(9 credits)+ and MS3610 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B069,MS3510#$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : BT3031(9 credits)+ and MS3510# takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B069,BT2012$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : BT3031(9 credits)+ and BT2012 takes 10 credits which is greater than the remaining 1 elective credits.
+ME15B069,CH3170$outside,Slot Clash with already allotted elective course BT3031
+ME15B069,CH4960$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : BT3031(9 credits)+ and CH4960 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B069,EE3301$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : BT3031(9 credits)+ and EE3301 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B088,ED3153$outside,Slot Clash with already allotted elective course MS3510#
+ME15B091,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+ME15B091,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+ME15B091,PH6022$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and PH6022 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B091,PH2170$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and PH2170 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B091,GN5001$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and GN5001 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B091,PH5110$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and PH5110 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B100,ED1021$outside,(invalid preference) Slot Clash with core course ME3103
+ME15B102,MS3510+$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MM2015(10 credits)+ and MS3510+ takes 9 credits which is greater than the remaining 0 elective credits.
+ME15B102,MS3510#$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MM2015(10 credits)+ and MS3510# takes 9 credits which is greater than the remaining 0 elective credits.
+ME15B102,PH3500$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MM2015(10 credits)+ and PH3500 takes 9 credits which is greater than the remaining 0 elective credits.
+ME15B102,PH2170$outside,Slot Clash with already allotted elective course MM2015
+ME15B102,CH5170$outside,Slot Clash with already allotted elective course MM2015
+ME15B105,BT2010$outside,(invalid preference) Slot Clash with core course ME3281
+ME15B113,CS2700$outside,Slot Clash with already allotted elective course PH6022
+ME15B114,ED5330$outside,(invalid preference) Slot Clash with core course ME3481
+ME15B114,CS2700$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : ED3153(6 credits)+ and CS2700 takes 10 credits which is greater than the remaining 4 elective credits.
+ME15B114,MS3610$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : ED3153(6 credits)+ and MS3610 takes 9 credits which is greater than the remaining 4 elective credits.
+ME15B114,MS3510#$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : ED3153(6 credits)+ and MS3510# takes 9 credits which is greater than the remaining 4 elective credits.
+ME15B119,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+ME15B119,CE5450$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MS3510#(9 credits)+ and CE5450 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B119,BT3031$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MS3510#(9 credits)+ and BT3031 takes 9 credits which is greater than the remaining 1 elective credits.
+ME15B130,EE3301$outside,Slot Clash with already allotted elective course CS2700
+ME15B130,ID6030$outside,Slot Clash with already allotted elective course CS2700
+ME15B130,MS3510+$outside,Slot Clash with already allotted elective course CS2700
+ME15B130,MS3610$outside,Slot Clash with already allotted elective course CS2700
+ME15B130,PH2170$outside,Slot Clash with already allotted elective course CS2700
+ME15B137,BT2010$outside,(invalid preference) Slot Clash with core course ME3281
+ME15B137,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,MS3610$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,CS2700$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,PH2170$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,EE3301$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,ID6030$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,CH4960$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,BT2012$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,BT3031$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,EE2025$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,CH5170$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,CH3170$outside,Slot Clash with already allotted elective course MS3510#
+ME15B137,BT3230$outside,Slot Clash with already allotted elective course MS3510#
+ME15B139,EP2100$outside,(invalid preference) Slot Clash with core course ME3281
+ME15B139,MS3510#$outside,Slot Clash with already allotted elective course CS2700
+ME15B139,MS3510+$outside,Slot Clash with already allotted elective course CS2700
+ME15B146,MM5040$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MM2015(10 credits)+ and MM5040 takes 9 credits which is greater than the remaining 0 elective credits.
+ME15B153,MS3610$outside,Slot Clash with already allotted elective course MS3510#
+ME15B153,CH5170$outside,Slot Clash with already allotted elective course MS3510#
+ME15B153,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+ME15B155,MS3510+$outside,Slot Clash with already allotted elective course CH5170
+ME15B155,MS3610$outside,Slot Clash with already allotted elective course CH5170
+ME15B155,MS3510#$outside,Slot Clash with already allotted elective course CH5170
+ME15B160,MM2015$outside,Slot Clash with already allotted elective course PH2170
+ME15B160,ME3310$inside,Slot Clash with already allotted elective course PH2170
+ME15B160,ME3310$outside,Slot Clash with already allotted elective course PH2170
+ME15B160,CS2700$outside,Slot Clash with already allotted elective course PH2170
+ME15B160,PH3500$outside,Slot Clash with already allotted elective course PH2170
+ME15B162,MM2015$outside,Slot Clash with already allotted elective course MM5010
+ME15B162,MM5040$outside,For this student max credits in semester is 60 and Core courses registered are ME3103(10 credits)+ME3170(10 credits)+ME3201(10 credits)+ME3281(7 credits)+ME3301(10 credits)+ME3481(3 credits)+ and the following electives which have a higher preference got allotted : MM5010(9 credits)+ and MM5040 takes 9 credits which is greater than the remaining 1 elective credits.
+ME16B077,HS2030$outside,Course capacity is full.
+ME16B077,HS4350$outside,Course capacity is full.
+ME16B077,HS4002$outside,Slot Clash with already allotted elective course HS4571
+MM15B001,HS4350$outside,Slot Clash with already allotted elective course HS2030
+MM15B001,HS4002$outside,Slot Clash with already allotted elective course HS2030
+MM15B001,HS3060$outside,Slot Clash with already allotted elective course HS2030
+MM15B001,HS4210$outside,Slot Clash with already allotted elective course HS2030
+MM15B001,HS4005$outside,Slot Clash with already allotted elective course HS2030
+MM15B001,MM5210$outside,Slot Clash with already allotted elective course MM5210
+MM15B001,MS3610$outside,Slot Clash with already allotted elective course MM5210
+MM15B001,MS3510+$outside,Slot Clash with already allotted elective course MM5210
+MM15B001,MS3510#$outside,Slot Clash with already allotted elective course MM5210
+MM15B001,MM3012$inside,Slot Clash with already allotted elective course MM5210
+MM15B001,MM3012$outside,Slot Clash with already allotted elective course MM5210
+MM15B002,MM5040$inside,Course capacity is full.
+MM15B008,HS4350$outside,Slot Clash with already allotted elective course HS2030
+MM15B014,MM5210$outside,Slot Clash with already allotted elective course MM5210
+MM15B014,MM3012$inside,Slot Clash with already allotted elective course MM5210
+MM15B014,MM3012$outside,Slot Clash with already allotted elective course MM5210
+MM15B015,MS3510#$outside,Slot Clash with already allotted elective course CS4011
+MM15B015,MS3510+$outside,Slot Clash with already allotted elective course CS4011
+MM15B015,HS4210$outside,Slot Clash with already allotted elective course CS4011
+MM15B015,HS4005$outside,Slot Clash with already allotted elective course CS4011
+MM15B015,HS4571$outside,Slot Clash with already allotted elective course CS4011
+MM15B015,HS5920$outside,Slot Clash with already allotted elective course CS4011
+MM15B015,HS2030$outside,Slot Clash with already allotted elective course CS4011
+MM15B015,HS3060$outside,Slot Clash with already allotted elective course CS4011
+MM15B017,HS2030$outside,Course capacity is full.
+MM15B018,CH5170$outside,Course capacity is full.
+MM15B018,PH2170$outside,For this student max credits in semester is 60 and Core courses registered are MM2080(9 credits)+MM3010(9 credits)+MM3012(5 credits)+MM3030(9 credits)+MM3090(12 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and PH2170 takes 9 credits which is greater than the remaining 7 elective credits.
+MM15B018,MS5100$outside,Slot Clash with already allotted elective course MS3610
+MM15B018,HS4571$outside,For this student max credits in semester is 60 and Core courses registered are MM2080(9 credits)+MM3010(9 credits)+MM3012(5 credits)+MM3030(9 credits)+MM3090(12 credits)+ and the following electives which have a higher preference got allotted : MS3610(9 credits)+ and HS4571 takes 9 credits which is greater than the remaining 7 elective credits.
+MM15B026,MM5210$outside,Slot Clash with already allotted elective course MM5210
+MM15B026,MM3012$inside,Slot Clash with already allotted elective course MM5210
+MM15B026,MM3012$outside,Slot Clash with already allotted elective course MM5210
+MM15B026,MS3510+$outside,Slot Clash with already allotted elective course MM5210
+MM15B032,MS3510+$outside,Slot Clash with already allotted elective course MS3510#
+MM15B032,MS3610$outside,Slot Clash with already allotted elective course MS3510#
+MM15B032,GN5001$outside,Slot Clash with already allotted elective course MS3510#
+MM15B032,MS5100$outside,Slot Clash with already allotted elective course MS3510#
+MM15B032,MM5210$inside,Slot Clash with already allotted elective course MS3510#
+MM15B032,MM5210$outside,Slot Clash with already allotted elective course MS3510#
+MM15B032,HS2030$outside,Slot Clash with already allotted elective course MS3510#
+MM15B039,MM3012$inside,Course capacity is full.
+MM15B040,MM3012$inside,Course capacity is full.
+MM15B048,MM5210$inside,Slot Clash with already allotted elective course PH2170
+MM15B048,MM5210$outside,Slot Clash with already allotted elective course PH2170
+MM15B048,AS5420$outside,Slot Clash with already allotted elective course PH2170
+MM15B048,MM3012$inside,Course capacity is full.
+MM16B008,HS2030$outside,Slot Clash with already allotted elective course HS4350
+MM16B008,HS4002$outside,Slot Clash with already allotted elective course HS4350
+MM16B008,HS4210$outside,Slot Clash with already allotted elective course HS4350
+MM16B008,HS4005$outside,Slot Clash with already allotted elective course HS4350
+MM16B008,HS5920$outside,Slot Clash with already allotted elective course HS4350
+MM16B008,HS3060$outside,Slot Clash with already allotted elective course HS4350
+MM16B008,HS4571$outside,Slot Clash with already allotted elective course HS4350
+MM16B009,HS2030$outside,Slot Clash with already allotted elective course HS4350
+MM16B009,HS4210$outside,Slot Clash with already allotted elective course HS4350
+MM16B009,HS3060$outside,Slot Clash with already allotted elective course HS4350
+MM16B009,HS4005$outside,Slot Clash with already allotted elective course HS4350
+MM16B009,HS4002$outside,Slot Clash with already allotted elective course HS4350
+MM16B009,HS4571$outside,Slot Clash with already allotted elective course HS4350
+MM16B009,MS3610$outside,For this student max credits in semester is 60 and Core courses registered are CY1002c(3 credits)+MA2020(9 credits)+MM2010(12 credits)+MM2013(9 credits)+MM2015(10 credits)+ and the following electives which have a higher preference got allotted : HS4350(9 credits)+ and MS3610 takes 9 credits which is greater than the remaining 8 elective credits.
+MM16B013,HS5920$outside,Course capacity is full.
+MM16B013,HS4350$outside,Slot Clash with already allotted elective course HS3060
+MM16B013,HS2030$outside,Slot Clash with already allotted elective course HS3060
+MM16B013,HS4005$outside,Slot Clash with already allotted elective course HS3060
+MM16B013,HS4002$outside,Slot Clash with already allotted elective course HS3060
+MM16B013,HS4210$outside,Slot Clash with already allotted elective course HS3060
+MM16B013,MS3610$outside,For this student max credits in semester is 60 and Core courses registered are CY1002c(3 credits)+MA2020(9 credits)+MM2010(12 credits)+MM2013(9 credits)+MM2015(10 credits)+ and the following electives which have a higher preference got allotted : HS3060(9 credits)+ and MS3610 takes 9 credits which is greater than the remaining 8 elective credits.
+MM16B017,HS2030$outside,Slot Clash with already allotted elective course HS4350
+MM16B017,HS4210$outside,Slot Clash with already allotted elective course HS4350
+MM16B017,HS3060$outside,Slot Clash with already allotted elective course HS4350
+MM16B017,HS4005$outside,Slot Clash with already allotted elective course HS4350
+MM16B017,HS4002$outside,Slot Clash with already allotted elective course HS4350
+MM16B017,HS4571$outside,Slot Clash with already allotted elective course HS4350
+MM16B020,HS2030$outside,Course capacity is full.
+MM16B020,HS4571$outside,Slot Clash with already allotted elective course HS4350
+MM16B020,HS4005$outside,Slot Clash with already allotted elective course HS4350
+MM16B020,HS5920$outside,Slot Clash with already allotted elective course HS4350
+MM16B020,HS4210$outside,Slot Clash with already allotted elective course HS4350
+MM16B020,HS4002$outside,Slot Clash with already allotted elective course HS4350
+MM16B025,HS2030$outside,Course capacity is full.
+MM16B025,HS4005$outside,Slot Clash with already allotted elective course HS4002
+MM16B025,HS4210$outside,Slot Clash with already allotted elective course HS4002
+MM16B025,HS4571$outside,Slot Clash with already allotted elective course HS4002
+MM16B025,HS3060$outside,Slot Clash with already allotted elective course HS4002
+MM16B025,HS4350$outside,Slot Clash with already allotted elective course HS4002
+MM16B025,MS3610$outside,For this student max credits in semester is 60 and Core courses registered are CY1002c(3 credits)+MA2020(9 credits)+MM2010(12 credits)+MM2013(9 credits)+MM2015(10 credits)+ and the following electives which have a higher preference got allotted : HS4002(9 credits)+ and MS3610 takes 9 credits which is greater than the remaining 8 elective credits.
+MM16B025,BT3051$outside,For this student max credits in semester is 60 and Core courses registered are CY1002c(3 credits)+MA2020(9 credits)+MM2010(12 credits)+MM2013(9 credits)+MM2015(10 credits)+ and the following electives which have a higher preference got allotted : HS4002(9 credits)+ and BT3051 takes 11 credits which is greater than the remaining 8 elective credits.
+MM16B028,HS2030$outside,Course capacity is full.
+MM16B028,HS3060$outside,Slot Clash with already allotted elective course HS4350
+MM16B028,HS4002$outside,Slot Clash with already allotted elective course HS4350
+MM16B028,HS4005$outside,Slot Clash with already allotted elective course HS4350
+MM16B028,HS4210$outside,Slot Clash with already allotted elective course HS4350
+MM16B028,HS4571$outside,Slot Clash with already allotted elective course HS4350
+MM16B029,HS2030$outside,Course capacity is full.
+MM16B029,HS4350$outside,Course capacity is full.
+MM16B029,HS4002$outside,Slot Clash with already allotted elective course HS4005
+MM16B029,HS4210$outside,Slot Clash with already allotted elective course HS4005
+MM16B029,HS4571$outside,Slot Clash with already allotted elective course HS4005
+MM16B029,HS3060$outside,Slot Clash with already allotted elective course HS4005
+MM16B031,MA2020$outside,Course capacity is full.
+MM16B107,HS2030$outside,Course capacity is full.
+MM16B107,HS4350$outside,Course capacity is full.
+MM16B107,HS4002$outside,Slot Clash with already allotted elective course HS4571
+MM16B111,HS4350$outside,Slot Clash with already allotted elective course HS4210
+MM16B112,HS2030$outside,Course capacity is full.
+MM16B112,HS3060$outside,Slot Clash with already allotted elective course HS4350
+MM16B112,HS4002$outside,Slot Clash with already allotted elective course HS4350
+MM16B112,HS4005$outside,Slot Clash with already allotted elective course HS4350
+MM16B112,HS4210$outside,Slot Clash with already allotted elective course HS4350
+MM16B112,HS4571$outside,Slot Clash with already allotted elective course HS4350
+NA15B001,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B001,CH5350$outside,Course capacity is full.
+NA15B001,CS5820$outside,For this student max credits in semester is 60 and Core courses registered are OE3015(10 credits)+OE3025(10 credits)+OE3035(11 credits)+OE3045(10 credits)+ and the following electives which have a higher preference got allotted : OE3190(9 credits)+ and CS5820 takes 12 credits which is greater than the remaining 10 elective credits.
+NA15B001,CS4011$outside,Slot Clash with already allotted elective course OE3190
+NA15B001,CS6100$outside,Slot Clash with already allotted elective course OE3190
+NA15B002,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B002,CH5350$outside,Course capacity is full.
+NA15B002,MS3610$outside,Slot Clash with already allotted elective course OE3190
+NA15B002,CH3150$outside,Slot Clash with already allotted elective course CE3310
+NA15B003,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B003,HS2030$outside,Slot Clash with already allotted elective course CE3310
+NA15B005,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B006,CE3310$outside,Slot Clash with already allotted elective course HS4571
+NA15B006,HS4350$outside,Slot Clash with already allotted elective course HS4571
+NA15B007,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+NA15B007,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+NA15B007,OE3190$inside,Slot Clash with already allotted elective course MS3610
+NA15B007,OE3190$outside,Slot Clash with already allotted elective course MS3610
+NA15B008,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+NA15B008,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+NA15B010,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+NA15B010,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+NA15B010,OE3190$inside,Slot Clash with already allotted elective course MS3610
+NA15B010,OE3190$outside,Slot Clash with already allotted elective course MS3610
+NA15B011,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B012,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B013,MS3510#$outside,Slot Clash with already allotted elective course MS3610
+NA15B013,MS3510+$outside,Slot Clash with already allotted elective course MS3610
+NA15B013,OE3190$inside,Slot Clash with already allotted elective course MS3610
+NA15B013,OE3190$outside,Slot Clash with already allotted elective course MS3610
+NA15B014,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B017,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B017,EE3301$outside,Slot Clash with already allotted elective course OE3190
+NA15B018,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B019,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B019,MS3610$outside,Slot Clash with already allotted elective course OE3190
+NA15B019,MS3510#$outside,Slot Clash with already allotted elective course OE3190
+NA15B019,MS3510+$outside,Slot Clash with already allotted elective course OE3190
+NA15B021,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B021,EE3301$outside,Slot Clash with already allotted elective course OE3190
+NA15B023,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B028,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B029,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B031,HS5920$outside,Course capacity is full.
+NA15B033,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B036,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B039,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B039,MS3510#$outside,Slot Clash with already allotted elective course OE3190
+NA15B039,MS3510+$outside,Slot Clash with already allotted elective course OE3190
+NA15B039,MS3610$outside,Slot Clash with already allotted elective course OE3190
+NA15B041,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B041,MS3510#$outside,Slot Clash with already allotted elective course OE3190
+NA15B041,MS3510+$outside,Slot Clash with already allotted elective course OE3190
+NA15B041,MS3610$outside,Slot Clash with already allotted elective course OE3190
+NA15B042,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B042,AS5420$outside,Course capacity is full.
+NA15B044,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA15B046,OE3190$outside,Slot Clash with already allotted elective course OE3190
+NA16B014,HS4571$outside,Slot Clash with already allotted elective course HS2030
+NA16B017,MA2040$outside,Slot Clash with already allotted elective course MA2020
+NA16B017,MA2130$outside,Slot Clash with already allotted elective course MA2020
+NA16B017,MA2031$outside,Slot Clash with already allotted elective course MA2020
+NA16B018,MA2020$outside,Course capacity is full.
+NA16B018,MA2130$outside,Slot Clash with already allotted elective course MA2040
+NA16B025,MA2010$outside,Slot Clash with already allotted elective course MA2020
+NA16B027,HS2030$outside,Course capacity is full.
+NA16B027,HS4350$outside,Slot Clash with already allotted elective course HS4002
+NA16B028,MA2130$outside,Slot Clash with already allotted elective course MA2020
+NA16B028,HS5920$outside,Course capacity is full.
+NA16B028,HS2030$outside,Course capacity is full.
+NA16B031,MA2010$outside,Slot Clash with already allotted elective course MA2020
+NA16B031,HS4571$outside,Slot Clash with already allotted elective course HS3060
+NA16B031,HS4002$outside,Slot Clash with already allotted elective course HS3060
+NA16B031,HS4005$outside,Slot Clash with already allotted elective course HS3060
+NA16B037,HS2030$outside,Slot Clash with already allotted elective course HS3060
+NA16B037,HS4350$outside,Slot Clash with already allotted elective course HS3060
+NA16B102,MA2020$outside,Course capacity is full.
+NA16B102,HS2030$outside,Slot Clash with already allotted elective course HS3060
+NA16B102,HS4002$outside,Slot Clash with already allotted elective course HS3060
+NA16B102,HS4350$outside,Slot Clash with already allotted elective course HS3060
+NA16B104,HS2030$outside,Course capacity is full.
+NA16B104,HS4571$outside,Slot Clash with already allotted elective course HS4002
+NA16B108,HS4350$outside,Slot Clash with already allotted elective course HS2030
+NA16B108,HS3060$outside,Slot Clash with already allotted elective course HS2030
+NA16B108,HS4002$outside,Slot Clash with already allotted elective course HS2030
+NA16B108,HS4005$outside,Slot Clash with already allotted elective course HS2030
+NA16B108,HS4210$outside,Slot Clash with already allotted elective course HS2030
+NA16B108,HS4571$outside,Slot Clash with already allotted elective course HS2030
+NA16B110,HS4350$outside,Slot Clash with already allotted elective course HS2030
+NA16B110,HS3060$outside,Slot Clash with already allotted elective course HS2030
+NA16B110,HS4002$outside,Slot Clash with already allotted elective course HS2030
+NA16B110,HS4005$outside,Slot Clash with already allotted elective course HS2030
+NA16B110,HS4210$outside,Slot Clash with already allotted elective course HS2030
+NA16B111,MA2020$outside,Course capacity is full.
+NA16B112,MA2130$outside,Slot Clash with already allotted elective course MA2020
+NA16B112,MA2010$outside,Slot Clash with already allotted elective course MA2020
+NA16B115,HS2030$outside,Slot Clash with already allotted elective course HS4002
+NA16B115,HS4571$outside,Slot Clash with already allotted elective course HS4002
+NA16B115,HS3060$outside,Slot Clash with already allotted elective course HS4002
+NA16B117,HS2030$outside,Slot Clash with already allotted elective course HS4350
+NA16B117,HS3060$outside,Slot Clash with already allotted elective course HS4350
+NA16B117,HS4002$outside,Slot Clash with already allotted elective course HS4350
+NA16B117,HS4005$outside,Slot Clash with already allotted elective course HS4350
+NA16B117,HS4210$outside,Slot Clash with already allotted elective course HS4350
+NA16B117,HS5920$outside,Slot Clash with already allotted elective course HS4350
+NA16B117,HS4571$outside,Slot Clash with already allotted elective course HS4350
+PH16B004,HS4350$outside,Slot Clash with already allotted elective course HS4571
+PH16B004,HS3060$outside,Slot Clash with already allotted elective course HS4571
+PH16B004,HS2030$outside,Slot Clash with already allotted elective course HS4571
+PH16B004,HS4210$outside,Slot Clash with already allotted elective course HS4571
+PH16B004,HS4005$outside,Slot Clash with already allotted elective course HS4571
+PH16B004,HS4002$outside,Slot Clash with already allotted elective course HS4571
+PH16B010,HS4350$outside,Slot Clash with already allotted elective course HS4210
+PH16B010,HS2030$outside,Slot Clash with already allotted elective course HS4210
+PH16B011,HS2030$outside,Course capacity is full.
+PH16B011,MA2020$outside,Course capacity is full.
+PH16B011,MA2010$outside,Slot Clash with already allotted elective course MA2040

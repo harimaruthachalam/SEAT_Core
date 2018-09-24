@@ -221,10 +221,15 @@ public class CheckInputFormats {
 				lineNo += 1; //Increment the line number
 				inputLine = line.split(splitBy);
 				//There should be exactly 3 columns
-				if (inputLine.length<2){
-					error = "Error in file : " + inputFile + " at line number " + lineNo + ". File should have atleast 2 columns";
-					break;
-				}
+
+
+				/* Commented this to add the functionality of allowing slots which do not clash with anything, even itself*/
+				// if (inputLine.length<2){
+				// 	error = "Error in file : " + inputFile + " at line number " + lineNo + ". File should have atleast 2 columns";
+				// 	break;
+				// }
+
+				
 				//Looping through all the columns and checking if the format is correct
 				for(int i=1;i<inputLine.length;i++){
 			        //Each column (apart from the first) should have a "="
