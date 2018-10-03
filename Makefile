@@ -5,7 +5,8 @@ VPATH = entity:main:service
 seat: MainWithoutGUI.java
 	$(JCC) $(JFLAGS) */*.java
 	$(JCC) $(JFLAGS) */*/*.java
-	jar cfm SEAT.jar Manifest.mf */*.class */*/*.class
+	$(JCC) $(JFLAGS) */*/*/*.java
+	jar cfm SEAT.jar Manifest.mf */*.class */*/*.class */*/*/*.class
 
 #used to clean all class files
 clean: 

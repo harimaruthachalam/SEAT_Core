@@ -1,13 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+package services.dataInput.dataTransformFromCSV;
 
-/**
- *
- * @author User
- */
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,12 +11,12 @@ import java.nio.file.Paths;
 import java.util.Properties;
 import java.sql.*;
 public class ImportCoursePreferenceList {
-    
+
     public static void execute(String inputFile) {
         Path pathToFile = Paths.get(inputFile);
         Properties configFile = new java.util.Properties();
         try {
-            FileInputStream stream = new FileInputStream(new File("../../../config/config.cfg"));
+            FileInputStream stream = new FileInputStream(new File("config/config.cfg"));
             configFile.load(stream);
         } catch (Exception eta) {
             eta.printStackTrace();
@@ -44,14 +36,14 @@ public class ImportCoursePreferenceList {
                             configFile.getProperty("dbname") +
                             "?autoReconnect=true&useSSL=false",
                     configFile.getProperty("username"), configFile.getProperty("password"));
-            
-            
+
+
             while (line != null) {
                 String[] attributes = line.split(",");
                 String onwards="";
                 // We will have 7 or 8 attributes
                 // Course Number,Department,TotalCapacity,OutsideDepartmentCapacity,RankingCriteria,Credits,Slots[,AdditionalSlots]
-               
+
                     insertQuery = "Insert into tbl_coursepreferencelist values (?,?)";
                     preparedStatement = connection.prepareStatement(insertQuery);
                     preparedStatement.setString(1, attributes[0]);
@@ -59,7 +51,7 @@ public class ImportCoursePreferenceList {
                         onwards=onwards+attributes[i];
                     preparedStatement.setString(2, onwards);
                     preparedStatement.executeUpdate();
-               
+
                 line = br.readLine();
             }
         }
