@@ -44,7 +44,7 @@ public class ImportstudentList {
         // We will have 7 or 8 attributes
         // Course Number,Department,TotalCapacity,OutsideDepartmentCapacity,RankingCriteria,Credits,Slots[,AdditionalSlots]
 
-        insertQuery = "Insert into tbl_student_list values (?,?,?)";
+        insertQuery = "Insert into tbl_student_list values (?,?,?,?)";
         preparedStatement = connection.prepareStatement(insertQuery);
         preparedStatement.setString(1, attributes[0]);
         preparedStatement.setString(2, attributes[1]);

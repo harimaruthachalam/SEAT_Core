@@ -1,4 +1,4 @@
-//package services.dataTransformFromCSV;
+package services.dataInput.dataTransformFromCSV;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,7 +17,7 @@ public class ImportDepartment {
         Path pathToFile = Paths.get(inputFile);
         Properties configFile = new java.util.Properties();
         try {
-            FileInputStream stream = new FileInputStream(new File("../../../config/config.cfg"));
+            FileInputStream stream = new FileInputStream(new File("config/config.cfg"));
             configFile.load(stream);
         } catch (Exception eta) {
             eta.printStackTrace();
@@ -58,5 +58,3 @@ public class ImportDepartment {
         ImportCourses.execute("");
     }
 }
-
-

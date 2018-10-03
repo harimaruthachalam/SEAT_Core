@@ -296,7 +296,9 @@ public class ExecuteStepsForAllotment {
         PrintBatchWiseAllottmentStatistics.execute(listOfBatches,outputFolder+"/batchwiseAllotmentStatistics.csv");
 
 				//Write to Database
-				ImportCourses.execute(slotsFile);
+				ImportSlots.execute(slotsFile);
+				ImportCourses.execute(courseListFile);
+				ImportstudentList.execute(studentListFile);
 				ImportOutput.execute(outputFolder + "/output.csv");
 	}
 

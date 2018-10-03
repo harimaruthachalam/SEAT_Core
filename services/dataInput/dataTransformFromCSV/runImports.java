@@ -1,10 +1,10 @@
 
 public class runImports{
     public static void main(String [] args){
-        ImportSlots.execute("slot_config.csv");
-        ImportRankingCriteria.execute("ranking.csv");
-        ImportDepartment.execute("dept.csv");
-        ImportCourses.execute("courses.csv");
+        // ImportSlots.execute("slot_config.csv");
+        // ImportRankingCriteria.execute("ranking.csv");
+        // ImportDepartment.execute("dept.csv");
+        // ImportCourses.execute("courses.csv");
     }
 }
 
