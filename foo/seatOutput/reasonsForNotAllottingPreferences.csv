@@ -1,0 +1,10 @@
+Student Roll No,Course Number,Reason for Not allotting Preference
+CS13B001,CS1000$outside,Already allotted to inside department version of the course
+CS13B001,CS2000$inside,Slot Clash with already allotted elective course CS1000
+CS13B001,CS2000$outside,Slot Clash with already allotted elective course CS1000
+CS13B001,CS3000$outside,Already allotted to inside department version of the course
+CS13B002,CS2000$outside,Already allotted to inside department version of the course
+CS13B002,CS3000$inside,For this student max credits in semester is 18 and Core courses registered are  and the following electives which have a higher preference got allotted : CS2000(12 credits)+ and CS3000 takes 12 credits which is greater than the remaining 6 elective credits.
+CS13B002,CS3000$outside,For this student max credits in semester is 18 and Core courses registered are  and the following electives which have a higher preference got allotted : CS2000(12 credits)+ and CS3000 takes 12 credits which is greater than the remaining 6 elective credits.
+CS13B002,CS1000$inside,Slot Clash with already allotted elective course CS2000
+CS13B002,CS1000$outside,Slot Clash with already allotted elective course CS2000

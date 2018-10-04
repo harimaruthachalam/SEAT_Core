@@ -298,7 +298,7 @@ public class ExecuteStepsForAllotment {
 				//Write to Database
 				ImportSlots.execute(slotsFile);
 				ImportCourses.execute(courseListFile);
-				ImportstudentList.execute(studentListFile);
+				ImportStudentList.execute(studentListFile);
 				ImportOutput.execute(outputFolder + "/output.csv");
 	}
 
