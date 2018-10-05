@@ -40,6 +40,16 @@ public class ImportSlots {
             while (line != null) {
                 String[] attributes = line.split(",");
                     // String[] attributes = line.split(",", -1);
+                    String[] tempAttributes = new String[ 5 ];
+                    for (int i=0; i < attributes.length; i++)
+{
+    tempAttributes[i] = attributes[i];
+}
+                    for (int i=attributes.length; i < 5; i++)
+{
+    tempAttributes[i] = "NULL";
+}
+attributes = tempAttributes;
                 insertQuery = "Insert into tbl_slot (slot_id, lecture_1, lecture_2, lecture_3, lecture_4) values (?,?,?,?,?)";
                 preparedStatement = connection.prepareStatement(insertQuery);
                 preparedStatement.setString(1, attributes[0]);

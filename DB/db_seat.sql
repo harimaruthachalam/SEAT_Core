@@ -244,7 +244,7 @@ CREATE TABLE IF NOT EXISTS `tbl_student_preference_list` (
   `course_id` varchar(15) NOT NULL,
   `colour_code` int(5) DEFAULT NULL,
   `preference_number` int(3) DEFAULT NULL,
-  `course_type` varchar(5) DEFAULT NULL,
+  `course_type` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`roll_number`,`course_id`),
   KEY `course_id` (`course_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

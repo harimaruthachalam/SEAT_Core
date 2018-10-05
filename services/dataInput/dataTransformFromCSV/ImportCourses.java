@@ -55,16 +55,20 @@ public class ImportCourses {
 
 
                     for(int i=7;i<attributes.length;i++)
-                        onwards=onwards+attributes[i];
+                        onwards=onwards+attributes[i]+",";
 
                     preparedStatement.setString(8, onwards);
+                    try{
                     preparedStatement.executeUpdate();
-                }
+                  } catch(Exception e)
+                  {
+                    System.out.println("Error: Duplicate entry "+ attributes[0] +" In courses");
+                  }
+
                 line = br.readLine();
+              }
             }
-        } catch (IOException ioe) {
-            ioe.printStackTrace();
-        } catch (Exception e) {
+         catch (Exception e) {
             e.printStackTrace();
         }
     }
