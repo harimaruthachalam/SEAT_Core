@@ -39,9 +39,6 @@ public class ImportCourses {
                     configFile.getProperty("username"), configFile.getProperty("password"));
             while (line != null) {
                 String[] attributes = line.split(",");
-                // We will have 7 or 8 attributes
-                // Course Number,Department,TotalCapacity,OutsideDepartmentCapacity,RankingCriteria,Credits,Slots[,AdditionalSlots]
-                if (attributes.length == 8) {
                     insertQuery = "Insert into tbl_course_list (course_id, dept_code, max_students, max_outside_dept, " +
                             "ranking_criteria_id, credits, slot_id, additional_slot) values (?,?,?,?,?,?,?,?)";
                     preparedStatement = connection.prepareStatement(insertQuery);
@@ -52,19 +49,15 @@ public class ImportCourses {
                     preparedStatement.setInt(5, Integer.valueOf(attributes[4]));
                     preparedStatement.setInt(6, Integer.valueOf(attributes[5]));
                     preparedStatement.setString(7, attributes[6]);
-                    preparedStatement.setString(8, attributes[7]);
-                    preparedStatement.executeUpdate();
-                } else if (attributes.length == 7) {
-                    insertQuery = "Insert into tbl_course_list (course_id, dept_code, max_students, max_outside_dept, " +
-                            "ranking_criteria_id, credits, slot_id) values (?,?,?,?,?,?,?)";
-                    preparedStatement = connection.prepareStatement(insertQuery);
-                    preparedStatement.setString(1, attributes[0]);
-                    preparedStatement.setString(2, attributes[1]);
-                    preparedStatement.setInt(3, Integer.valueOf(attributes[2]));
-                    preparedStatement.setInt(4, Integer.valueOf(attributes[3]));
-                    preparedStatement.setInt(5, Integer.valueOf(attributes[4]));
-                    preparedStatement.setInt(6, Integer.valueOf(attributes[5]));
-                    preparedStatement.setString(7, attributes[6]);
+
+
+                    String onwards="";
+
+
+                    for(int i=7;i<attributes.length;i++)
+                        onwards=onwards+attributes[i];
+
+                    preparedStatement.setString(8, onwards);
                     preparedStatement.executeUpdate();
                 }
                 line = br.readLine();

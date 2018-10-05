@@ -296,10 +296,16 @@ public class ExecuteStepsForAllotment {
         PrintBatchWiseAllottmentStatistics.execute(listOfBatches,outputFolder+"/batchwiseAllotmentStatistics.csv");
 
 				//Write to Database
+				ImportBatchSpecificMandatedElectives.execute(batchSpecificMandatedElectivesFile);
 				ImportSlots.execute(slotsFile);
 				ImportCourses.execute(courseListFile);
+				ImportHighPriority.execute(highPriorityCoursePreferencesConfigFile);
+								ImportInsideDepartmentSpec.execute(insideDepartmentConfigFile);
+								ImportMaxCrediLimit.execute(departmentWiseMaxCreditLimitFile);
 				ImportStudentList.execute(studentListFile);
+				ImportStudentPreferenceList.execute(studentPreferenceListFile);
 				ImportOutput.execute(outputFolder + "/output.csv");
+
 	}
 
 	//Just a function which sends the message to be printed to the correct output

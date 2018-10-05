@@ -1,13 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+package services.dataInput.dataTransformFromCSV;
 
-/**
- *
- * @author User
- */
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,7 +11,7 @@ import java.nio.file.Paths;
 import java.util.Properties;
 import java.sql.*;
 public class ImportMaxCrediLimit {
-    
+
     public static void execute(String inputFile) {
         Path pathToFile = Paths.get(inputFile);
         Properties configFile = new java.util.Properties();
@@ -44,20 +36,16 @@ public class ImportMaxCrediLimit {
                             configFile.getProperty("dbname") +
                             "?autoReconnect=true&useSSL=false",
                     configFile.getProperty("username"), configFile.getProperty("password"));
-            
-            
+
+
             while (line != null) {
                 String[] attributes = line.split(",");
-            
-                // We will have 7 or 8 attributes
-                // Course Number,Department,TotalCapacity,OutsideDepartmentCapacity,RankingCriteria,Credits,Slots[,AdditionalSlots]
-               
                     insertQuery = "Insert into tbl_max_credit_limit values (?,?)";
                     preparedStatement = connection.prepareStatement(insertQuery);
                     preparedStatement.setString(1, attributes[0]);
-                    preparedStatement.setString(2, attributes[1]);
+                    preparedStatement.setInt(2, Integer.valueOf(attributes[1]));
                     preparedStatement.executeUpdate();
-               
+
                 line = br.readLine();
             }
         }

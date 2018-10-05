@@ -38,7 +38,8 @@ public class ImportSlots {
                             "?autoReconnect=true&useSSL=false",
                     configFile.getProperty("username"), configFile.getProperty("password"));
             while (line != null) {
-                String[] attributes = line.split(",", -1);
+                String[] attributes = line.split(",");
+                    // String[] attributes = line.split(",", -1);
                 insertQuery = "Insert into tbl_slot (slot_id, lecture_1, lecture_2, lecture_3, lecture_4) values (?,?,?,?,?)";
                 preparedStatement = connection.prepareStatement(insertQuery);
                 preparedStatement.setString(1, attributes[0]);
