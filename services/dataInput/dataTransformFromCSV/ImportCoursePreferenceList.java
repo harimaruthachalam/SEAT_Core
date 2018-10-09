@@ -12,52 +12,53 @@ import java.util.Properties;
 import java.sql.*;
 public class ImportCoursePreferenceList {
 
-    public static void execute(String inputFile) {
-        Path pathToFile = Paths.get(inputFile);
-        Properties configFile = new java.util.Properties();
-        try {
-            FileInputStream stream = new FileInputStream(new File("config/config.cfg"));
-            configFile.load(stream);
-        } catch (Exception eta) {
-            eta.printStackTrace();
-        }
-        try {
-            BufferedReader br = Files.newBufferedReader(pathToFile, StandardCharsets.US_ASCII);
-            String line = br.readLine(); // Skipping first row as it have column name
-            line = br.readLine();
-            String insertQuery;
-            PreparedStatement preparedStatement;
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection connection = DriverManager.getConnection("jdbc:mysql://" +
-                            configFile.getProperty("hostname") +
-                            ":" +
-                            configFile.getProperty("port") +
-                            "/" +
-                            configFile.getProperty("dbname") +
-                            "?autoReconnect=true&useSSL=false",
-                    configFile.getProperty("username"), configFile.getProperty("password"));
-
-
-            while (line != null) {
-                String[] attributes = line.split(",");
-                String onwards="";
-                // We will have 7 or 8 attributes
-                // Course Number,Department,TotalCapacity,OutsideDepartmentCapacity,RankingCriteria,Credits,Slots[,AdditionalSlots]
-
-                    insertQuery = "Insert into tbl_coursepreferencelist values (?,?)";
-                    preparedStatement = connection.prepareStatement(insertQuery);
-                    preparedStatement.setString(1, attributes[0]);
-                    for(int i=1;i<attributes.length;i++)
-                        onwards=onwards+attributes[i];
-                    preparedStatement.setString(2, onwards);
-                    preparedStatement.executeUpdate();
-
-                line = br.readLine();
-            }
-        }
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
+  public static void execute(String inputFile) {
+    Path pathToFile = Paths.get(inputFile);
+    Properties configFile = new java.util.Properties();
+    try {
+      FileInputStream stream = new FileInputStream(new File("config/config.cfg"));
+      configFile.load(stream);
+    } catch (Exception eta) {
+      eta.printStackTrace();
     }
+    try {
+      BufferedReader br = Files.newBufferedReader(pathToFile, StandardCharsets.US_ASCII);
+      String line = br.readLine(); // Skipping first row as it have column name
+      line = br.readLine();
+      String insertQuery;
+      PreparedStatement preparedStatement;
+      Class.forName("com.mysql.jdbc.Driver");
+      Connection connection = DriverManager.getConnection("jdbc:mysql://" +
+      configFile.getProperty("hostname") +
+      ":" +
+      configFile.getProperty("port") +
+      "/" +
+      configFile.getProperty("dbname") +
+      "?autoReconnect=true&useSSL=false",
+      configFile.getProperty("username"), configFile.getProperty("password"));
+
+
+      while (line != null) {
+        String[] attributes = line.split(",");
+        if (attributes.length > 1){
+          String[] courses = attributes.split("$");
+
+          for(int i=1;i<attributes.length;i++){
+          insertQuery = "Insert into tbl_course_preference values (?,?,?,?)";
+          preparedStatement = connection.prepareStatement(insertQuery);
+          preparedStatement.setString(1, attributes[i]);
+          preparedStatement.setString(2, courses[0]);
+          preparedStatement.setString(3, courses[1]);
+          preparedStatement.setInt(4, i);
+          preparedStatement.executeUpdate();
+        }
+        }
+        line = br.readLine();
+      }
+    }
+    catch(Exception e)
+    {
+      e.printStackTrace();
+    }
+  }
 }

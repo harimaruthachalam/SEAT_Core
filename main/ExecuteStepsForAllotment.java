@@ -296,6 +296,7 @@ public class ExecuteStepsForAllotment {
         PrintBatchWiseAllottmentStatistics.execute(listOfBatches,outputFolder+"/batchwiseAllotmentStatistics.csv");
 
 				//Write to Database
+        printProgressNotification("Writing Output to DB....");
 				ImportBatchSpecificMandatedElectives.execute(batchSpecificMandatedElectivesFile);
 				ImportSlots.execute(slotsFile);
 				ImportCourses.execute(courseListFile);
@@ -303,6 +304,7 @@ public class ExecuteStepsForAllotment {
 								ImportInsideDepartmentSpec.execute(insideDepartmentConfigFile);
 								ImportMaxCrediLimit.execute(departmentWiseMaxCreditLimitFile);
 				ImportStudentList.execute(studentListFile);
+				ImportCoursePreferenceList.execute(coursePreferenceListFile);
 				ImportStudentPreferenceList.execute(studentPreferenceListFile);
 				ImportOutput.execute(outputFolder + "/output.csv");
 
