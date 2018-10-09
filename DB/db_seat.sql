@@ -1,22 +1,20 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.2
--- https://www.phpmyadmin.net/
+-- version 4.0.10deb1ubuntu0.1
+-- http://www.phpmyadmin.net
 --
--- Host: 127.0.0.1:3306
--- Generation Time: Oct 05, 2018 at 04:41 AM
--- Server version: 5.7.23-0ubuntu0.18.04.1
--- PHP Version: 7.1.21
+-- Host: localhost
+-- Generation Time: Oct 09, 2018 at 02:09 PM
+-- Server version: 5.5.61-0ubuntu0.14.04.1
+-- PHP Version: 5.5.9-1ubuntu4.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
 -- Database: `db_seat`
@@ -119,8 +117,10 @@ DROP TABLE IF EXISTS `tbl_exchange_unstable_pairs`;
 CREATE TABLE IF NOT EXISTS `tbl_exchange_unstable_pairs` (
   `student1_roll_no` varchar(15) NOT NULL,
   `course1_id` varchar(15) NOT NULL,
+  `inside_or_outside_course1` varchar(10) NOT NULL,
   `student2_roll_no` varchar(15) NOT NULL,
   `course2_id` varchar(15) NOT NULL,
+  `inside_or_outside_course2` varchar(10) NOT NULL,
   KEY `student1_roll_no` (`student1_roll_no`),
   KEY `student2_roll_no` (`student2_roll_no`),
   KEY `course1_id` (`course1_id`),
@@ -302,7 +302,6 @@ ALTER TABLE `tbl_output`
 ALTER TABLE `tbl_student_preference_list`
   ADD CONSTRAINT `tbl_student_preference_list_ibfk_1` FOREIGN KEY (`course_id`) REFERENCES `tbl_course_list` (`course_id`),
   ADD CONSTRAINT `tbl_student_preference_list_ibfk_2` FOREIGN KEY (`roll_number`) REFERENCES `tbl_student_list` (`roll_number`);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -41,7 +41,7 @@ public class ImportCoursePreferenceList {
       while (line != null) {
         String[] attributes = line.split(",");
         if (attributes.length > 1){
-          String[] courses = attributes.split("$");
+          String[] courses = attributes[0].split("\\$");
 
           for(int i=1;i<attributes.length;i++){
           insertQuery = "Insert into tbl_course_preference values (?,?,?,?)";
@@ -50,8 +50,14 @@ public class ImportCoursePreferenceList {
           preparedStatement.setString(2, courses[0]);
           preparedStatement.setString(3, courses[1]);
           preparedStatement.setInt(4, i);
+          try{
           preparedStatement.executeUpdate();
         }
+        catch(Exception e)
+        {
+          System.out.println("Error: Duplicate entries in "+ attributes[0] +" In courses preference list");
+        }
+      }
         }
         line = br.readLine();
       }

@@ -306,6 +306,7 @@ public class ExecuteStepsForAllotment {
 				ImportStudentList.execute(studentListFile);
 				ImportCoursePreferenceList.execute(coursePreferenceListFile);
 				ImportStudentPreferenceList.execute(studentPreferenceListFile);
+				ImportExchangeUnstablePairs.execute(outputFolder + "/exchangeUnstablePairs.csv");
 				ImportOutput.execute(outputFolder + "/output.csv");
 
 	}
