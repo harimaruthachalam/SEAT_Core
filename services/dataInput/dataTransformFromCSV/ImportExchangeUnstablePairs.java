@@ -37,25 +37,22 @@ public class ImportExchangeUnstablePairs {
       "?autoReconnect=true&useSSL=false",
       configFile.getProperty("username"), configFile.getProperty("password"));
 
-
       while (line != null) {
         String[] attributes = line.split(",");
 
         String[] coursesOne = attributes[1].split("\\$");
         String[] coursesTwo = attributes[3].split("\\$");
-insertQuery = "Insert into tbl_exchange_unstable_pairs values (?,?,?,?,?,?)";
-preparedStatement = connection.prepareStatement(insertQuery);
-preparedStatement.setString(1, attributes[0]);
-preparedStatement.setString(2, coursesOne[0]);
-preparedStatement.setString(3, coursesOne[1]);
-preparedStatement.setString(4, attributes[2]);
-preparedStatement.setString(5, coursesTwo[0]);
-preparedStatement.setString(6, coursesTwo[1]);
-          preparedStatement.executeUpdate();
-
-
+        insertQuery = "Insert into tbl_exchange_unstable_pairs values (?,?,?,?,?,?)";
+        preparedStatement = connection.prepareStatement(insertQuery);
+        preparedStatement.setString(1, attributes[0]);
+        preparedStatement.setString(2, coursesOne[0]);
+        preparedStatement.setString(3, coursesOne[1]);
+        preparedStatement.setString(4, attributes[2]);
+        preparedStatement.setString(5, coursesTwo[0]);
+        preparedStatement.setString(6, coursesTwo[1]);
+        preparedStatement.executeUpdate();
         line = br.readLine();
-}
+      }
     }
     catch(Exception e)
     {

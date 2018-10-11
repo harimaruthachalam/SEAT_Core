@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS `tbl_course_preference` (
   `course_id` varchar(15) NOT NULL,
   `inside_or_outside` varchar(10) NOT NULL,
   `preference_number` int(10) NOT NULL,
-  PRIMARY KEY (`roll_number`,`course_id`),
+  PRIMARY KEY (`roll_number`,`course_id`,`inside_or_outside`),
   KEY `course_id` (`course_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
