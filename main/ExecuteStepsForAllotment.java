@@ -1,9 +1,13 @@
 package main;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Date;
+import java.sql.*;
 
 import models.Batch;
 import models.BatchSpecificMandatedElectives;
@@ -31,8 +35,8 @@ import services.dataInput.*;
 import services.dataInput.dataTransformFromCSV.*;
 
 /*
- * This is the function where the execution of the program starts
- */
+* This is the function where the execution of the program starts
+*/
 public class ExecuteStepsForAllotment {
 
 	public static boolean GUIpresentGlobal;
@@ -45,21 +49,21 @@ public class ExecuteStepsForAllotment {
 		ArrayList<Course> courseList;
 		ArrayList<Slot> slots;
 		String errorMsg;
-        ArrayList<DepartmentSpecificMaxCreditLimit> deptSpecificMaxCreditLimitInfo = new ArrayList<DepartmentSpecificMaxCreditLimit>();
-        ArrayList<CourseSpecificHighPriorityStudents> courseSpecificHighPriorityInfo = new ArrayList<CourseSpecificHighPriorityStudents>();
-        ArrayList<CourseSpecificInsideDepartmentStudents> courseSpecificInsideDeptInfo = new ArrayList<CourseSpecificInsideDepartmentStudents>();
-        ArrayList<BatchSpecificMandatedElectives> batchSpecificMandatedElectivesInfo = new ArrayList<BatchSpecificMandatedElectives>();
-        ArrayList<Batch> listOfBatches = new ArrayList<Batch>();
-        GUIpresentGlobal = GUIpresent;
+		ArrayList<DepartmentSpecificMaxCreditLimit> deptSpecificMaxCreditLimitInfo = new ArrayList<DepartmentSpecificMaxCreditLimit>();
+		ArrayList<CourseSpecificHighPriorityStudents> courseSpecificHighPriorityInfo = new ArrayList<CourseSpecificHighPriorityStudents>();
+		ArrayList<CourseSpecificInsideDepartmentStudents> courseSpecificInsideDeptInfo = new ArrayList<CourseSpecificInsideDepartmentStudents>();
+		ArrayList<BatchSpecificMandatedElectives> batchSpecificMandatedElectivesInfo = new ArrayList<BatchSpecificMandatedElectives>();
+		ArrayList<Batch> listOfBatches = new ArrayList<Batch>();
+		GUIpresentGlobal = GUIpresent;
 
-        //Creating the output folder if it doesn't exist
-        new File(outputFolder).mkdir();
+		//Creating the output folder if it doesn't exist
+		new File(outputFolder).mkdir();
 
-      	/* CHECKING FILE FORMATS FOR INPUT DATA (to ensure that the file reading doesn't face any error)*/
-        printProgressNotification("Checking file formats of Input files");
+		/* CHECKING FILE FORMATS FOR INPUT DATA (to ensure that the file reading doesn't face any error)*/
+		printProgressNotification("Checking file formats of Input files");
 
-        //Check slots file format
-        errorMsg = CheckInputFormats.checkSlotsFileFormat(slotsFile);
+		//Check slots file format
+		errorMsg = CheckInputFormats.checkSlotsFileFormat(slotsFile);
 		if (errorMsg!=null){
 			printMessage("Exiting due to error in the format of the slots file. " + errorMsg);
 			System.exit(1);
@@ -136,7 +140,7 @@ public class ExecuteStepsForAllotment {
 
 		//Read the inside department config file
 		errorMsgList = new String[1]; //We are using an array for the error since we want to simulate a pass by reference for the errorMsgList argument
-        courseSpecificInsideDeptInfo = PopulateInsideDepartmentConfigs.execute(insideDepartmentConfigFile,courseList,errorMsgList);
+		courseSpecificInsideDeptInfo = PopulateInsideDepartmentConfigs.execute(insideDepartmentConfigFile,courseList,errorMsgList);
 		if (courseSpecificInsideDeptInfo==null){ //There was some error. That is why it is null
 			printMessage("Exiting. " + errorMsgList[0]);
 			System.exit(1);
@@ -190,19 +194,19 @@ public class ExecuteStepsForAllotment {
 
 
 		/* CALCULATE ELECTIVE CREDITS LEFT  FOR EACH STUDENT */
-        for (Student st : studentList){
+		for (Student st : studentList){
 			//Calculate the max elective credits that the student has
 			st.calculateMaxElectiveCredits();
 			st.electiveCreditsLeft = st.getMaxElectiveCreditsInSem();
-        }
+		}
 
 
 
 
 		/* INPUT SANITIZATION */
-        printProgressNotification("Sanitizing Input......");
-        errorMsg = InputSanitization.sanitize(studentList, courseList,deptSpecificMaxCreditLimitInfo);
-        if (errorMsg==null){ //If there were no errors
+		printProgressNotification("Sanitizing Input......");
+		errorMsg = InputSanitization.sanitize(studentList, courseList,deptSpecificMaxCreditLimitInfo);
+		if (errorMsg==null){ //If there were no errors
 			PrintInputDataErrorLog.execute("No errors",outputFolder + "/" + Constants.inputDataErrorLogFileName);
 		}
 		else{ //Else if there was an error, log it
@@ -223,92 +227,132 @@ public class ExecuteStepsForAllotment {
 		//Do not shift the previous 3 lines of code to a function. Java uses pass by value, and these statments in a function will have no effect in the main function
 		*/
 
-        /* RUN THE MAIN ALGORITHM */
-        if(algorithm==1){
-        	printProgressNotification("Running the Iterative HR algorithm......");
-            IterativeHRalgorithm.runAlgorithm(studentList,courseList);
-        }
-        else if(algorithm==2){
-        	printProgressNotification("Running the First Preference Allotment algorithm......");
-            FirstPreferenceAllotmentAlgorithm.runAlgorithm(studentList,courseList);
-        }
-        else if(algorithm==3){
-        	printProgressNotification("Running the Slotwise HR algorithm (with Heuristic 1)......");
-            ArrayList<Slot> slotOrderingUsed = SlotBasedHRalgorithm.runAlgorithm(studentList,courseList,slots,1);
-            PrintSlotOrderingUsed.execute(slotOrderingUsed,outputFolder + "/" + Constants.slotOrderingOutputFileName);
-        }
-        else if(algorithm==4){
-        	printProgressNotification("Running the Slotwise HR algorithm (with Heuristic 2)......");
-            ArrayList<Slot> slotOrderingUsed = SlotBasedHRalgorithm.runAlgorithm(studentList,courseList,slots,2);
-            PrintSlotOrderingUsed.execute(slotOrderingUsed,outputFolder + "/" + Constants.slotOrderingOutputFileName);
-        }
-        else{
-        	printProgressNotification("ERROR : Input for Algorithm number was incorrect. Exiting");
-            System.exit(1);
-        }
-
-
-        /* OUTPUT SANITIZATION */
-        printProgressNotification("Sanitizing Output ....");
-        errorMsg = OutputSanitization.sanitize(studentList, courseList);
-        if (errorMsg!=null){
-        	printMessage("Output Sanitization : Exiting. " + errorMsg);
+		/* RUN THE MAIN ALGORITHM */
+		if(algorithm==1){
+			printProgressNotification("Running the Iterative HR algorithm......");
+			IterativeHRalgorithm.runAlgorithm(studentList,courseList);
+		}
+		else if(algorithm==2){
+			printProgressNotification("Running the First Preference Allotment algorithm......");
+			FirstPreferenceAllotmentAlgorithm.runAlgorithm(studentList,courseList);
+		}
+		else if(algorithm==3){
+			printProgressNotification("Running the Slotwise HR algorithm (with Heuristic 1)......");
+			ArrayList<Slot> slotOrderingUsed = SlotBasedHRalgorithm.runAlgorithm(studentList,courseList,slots,1);
+			PrintSlotOrderingUsed.execute(slotOrderingUsed,outputFolder + "/" + Constants.slotOrderingOutputFileName);
+		}
+		else if(algorithm==4){
+			printProgressNotification("Running the Slotwise HR algorithm (with Heuristic 2)......");
+			ArrayList<Slot> slotOrderingUsed = SlotBasedHRalgorithm.runAlgorithm(studentList,courseList,slots,2);
+			PrintSlotOrderingUsed.execute(slotOrderingUsed,outputFolder + "/" + Constants.slotOrderingOutputFileName);
+		}
+		else{
+			printProgressNotification("ERROR : Input for Algorithm number was incorrect. Exiting");
 			System.exit(1);
 		}
 
 
-        /* COMPUTE STATISTICS */
-        GetStatistics.computePerStudentStatistics(studentList);
-        GetStatistics.computeMandatedStudentStatistics(studentList, batchSpecificMandatedElectivesInfo);
-        GetStatistics.computeBatchWiseAllotmentStatistics(studentList, listOfBatches);
+		/* OUTPUT SANITIZATION */
+		printProgressNotification("Sanitizing Output ....");
+		errorMsg = OutputSanitization.sanitize(studentList, courseList);
+		if (errorMsg!=null){
+			printMessage("Output Sanitization : Exiting. " + errorMsg);
+			System.exit(1);
+		}
 
-        /* COMPUTE THE REASONS FOR ALL THE POSSIBLE STUDENT-COURSE ALLOTMENTS THAT WERE NOT MADE*/
-        ReasonsForNotAllottingPreferences.computeReasonsonsForNotAllottingPreferences(originalStudentList);
 
-        /* COMPUTE THE LIST OF EXCHANGE UNSTABLE PAIRS */
-        String exchangeUnstablePairs = ExchangeUnstablePairs.computeExchangeUnstablePairs(studentList);
+		/* COMPUTE STATISTICS */
+		GetStatistics.computePerStudentStatistics(studentList);
+		GetStatistics.computeMandatedStudentStatistics(studentList, batchSpecificMandatedElectivesInfo);
+		GetStatistics.computeBatchWiseAllotmentStatistics(studentList, listOfBatches);
 
-        /* PRINT OUTPUT */
-        printProgressNotification("Printing Output ....");
-        //Write the output pairs of student-course
-        PrintOutput.execute(studentList,outputFolder + "/output.csv");
-        //Write the per student statistics
-        PrintPerStudentStatistics.execute(studentList,outputFolder + "/perStudentStatistics.csv");
-        //Write the aggregate statistics
-        PrintAggregateStatistics.execute(studentList,outputFolder + "/aggregateStatistics.csv");
-        //Write the number of rejections statistic
-        PrintRejections.execute(courseList,outputFolder + "/rejections.csv");
-        //Write the list of student preferences that have capacity 0. Not compulsory. Just so that if we feel like the course could be taken by SEAT students, we can do something about it.*/
-        PrintPreferencesWithZeroCapacity.execute(studentList,outputFolder + "/preferencesWithZeroCapacity.csv");
-        //Write the set of courses allotted for each student
-        PrintPerStudentAllottedCourses.execute(studentList,outputFolder + "/perStudentAllottedCourses.csv");
-        //Write the set of students allotted to each course
-        PrintPerCourseAllottedStudents.execute(studentList,courseList,outputFolder + "/perCourseAllotedStudents.csv");
-        //Write the reason for every student-course pair that was not allotted
-        PrintReasonsForNotAllottingPreferences.execute(studentList,outputFolder + "/reasonsForNotAllottingPreferences.csv");
-      //Write the reason for every student-course pair that was not allotted
-        CreateFolderForStudentEmails.execute(studentList,outputFolder+"/studentEmails");
-        //Write out the set of exchange unstable pairs for this allotment
-        PrintExchangeUnstablePairs.execute(exchangeUnstablePairs,outputFolder + "/exchangeUnstablePairs.csv");
-        //Write the mandated elective statistics for this allotment
-        PrintMandatedCourseStatistics.execute(batchSpecificMandatedElectivesInfo,outputFolder+"/mandatedElectiveStatistics.csv");
-        //Write the batchwise allotment statistics for this allotment
-        PrintBatchWiseAllottmentStatistics.execute(listOfBatches,outputFolder+"/batchwiseAllotmentStatistics.csv");
+		/* COMPUTE THE REASONS FOR ALL THE POSSIBLE STUDENT-COURSE ALLOTMENTS THAT WERE NOT MADE*/
+		ReasonsForNotAllottingPreferences.computeReasonsonsForNotAllottingPreferences(originalStudentList);
 
-				//Write to Database
-        printProgressNotification("Writing Output to DB....");
-				ImportBatchSpecificMandatedElectives.execute(batchSpecificMandatedElectivesFile);
-				ImportSlots.execute(slotsFile);
-				ImportCourses.execute(courseListFile);
-				ImportHighPriority.execute(highPriorityCoursePreferencesConfigFile);
-								ImportInsideDepartmentSpec.execute(insideDepartmentConfigFile);
-								ImportMaxCrediLimit.execute(departmentWiseMaxCreditLimitFile);
-				ImportStudentList.execute(studentListFile);
-				ImportCoursePreferenceList.execute(coursePreferenceListFile);
-				ImportStudentPreferenceList.execute(studentPreferenceListFile);
-				ImportExchangeUnstablePairs.execute(outputFolder + "/exchangeUnstablePairs.csv");
-				ImportOutput.execute(outputFolder + "/output.csv");
+		/* COMPUTE THE LIST OF EXCHANGE UNSTABLE PAIRS */
+		String exchangeUnstablePairs = ExchangeUnstablePairs.computeExchangeUnstablePairs(studentList);
 
+		/* PRINT OUTPUT */
+		printProgressNotification("Printing Output ....");
+		//Write the output pairs of student-course
+		PrintOutput.execute(studentList,outputFolder + "/output.csv");
+		//Write the per student statistics
+		PrintPerStudentStatistics.execute(studentList,outputFolder + "/perStudentStatistics.csv");
+		//Write the aggregate statistics
+		PrintAggregateStatistics.execute(studentList,outputFolder + "/aggregateStatistics.csv");
+		//Write the number of rejections statistic
+		PrintRejections.execute(courseList,outputFolder + "/rejections.csv");
+		//Write the list of student preferences that have capacity 0. Not compulsory. Just so that if we feel like the course could be taken by SEAT students, we can do something about it.*/
+		PrintPreferencesWithZeroCapacity.execute(studentList,outputFolder + "/preferencesWithZeroCapacity.csv");
+		//Write the set of courses allotted for each student
+		PrintPerStudentAllottedCourses.execute(studentList,outputFolder + "/perStudentAllottedCourses.csv");
+		//Write the set of students allotted to each course
+		PrintPerCourseAllottedStudents.execute(studentList,courseList,outputFolder + "/perCourseAllotedStudents.csv");
+		//Write the reason for every student-course pair that was not allotted
+		PrintReasonsForNotAllottingPreferences.execute(studentList,outputFolder + "/reasonsForNotAllottingPreferences.csv");
+		//Write the reason for every student-course pair that was not allotted
+		CreateFolderForStudentEmails.execute(studentList,outputFolder+"/studentEmails");
+		//Write out the set of exchange unstable pairs for this allotment
+		PrintExchangeUnstablePairs.execute(exchangeUnstablePairs,outputFolder + "/exchangeUnstablePairs.csv");
+		//Write the mandated elective statistics for this allotment
+		PrintMandatedCourseStatistics.execute(batchSpecificMandatedElectivesInfo,outputFolder+"/mandatedElectiveStatistics.csv");
+		//Write the batchwise allotment statistics for this allotment
+		PrintBatchWiseAllottmentStatistics.execute(listOfBatches,outputFolder+"/batchwiseAllotmentStatistics.csv");
+
+		//Write to Database
+		printProgressNotification("Writing Output to DB....");
+
+
+
+		long time = date.getTime();
+		Files.copy(File("config/config.cfg").path(), File("config/configTemp" + time + ".cfg").path());
+		File file = new File("config/config.cfg");
+		FileWriter fr = new FileWriter(file, true);
+		fr.write("dbname = db_seat" + time);
+		fr.close();
+
+		Class.forName("com.mysql.jdbc.Driver");
+
+		Connection connection = DriverManager.getConnection("jdbc:mysql://" +
+		configFile.getProperty("hostname") +
+		":" +
+		configFile.getProperty("port") +
+		"/" +
+		"?autoReconnect=true&useSSL=false",
+		configFile.getProperty("username"), configFile.getProperty("password"));
+
+
+		Statement statement = connection.createStatement();
+		int Result=statement.executeUpdate("CREATE DATABASE IF NOT EXISTS `db_seat" + time + "` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci");
+		statement.close();
+
+
+		Files.copy(File("sql/db_seat.sql").path(), File("sql/db_seat" + time + ".sql").path());
+		file = new File("sql/db_seat.sql");
+		fr = new FileWriter(file, true);
+		fr.seek(0);
+		fr.write(("use db_seat" + time).getBytes());
+		fr.close();
+		InputStream inputstream = new FileInputStream("sql/db_seat.sql");
+		executeScript(Connection connection, InputStream inputstream);
+		// Init DB code here
+
+		ImportBatchSpecificMandatedElectives.execute(batchSpecificMandatedElectivesFile);
+		ImportSlots.execute(slotsFile);
+		ImportCourses.execute(courseListFile);
+		ImportHighPriority.execute(highPriorityCoursePreferencesConfigFile);
+		ImportInsideDepartmentSpec.execute(insideDepartmentConfigFile);
+		ImportMaxCrediLimit.execute(departmentWiseMaxCreditLimitFile);
+		ImportStudentList.execute(studentListFile);
+		ImportCoursePreferenceList.execute(coursePreferenceListFile);
+		ImportStudentPreferenceList.execute(studentPreferenceListFile);
+		ImportExchangeUnstablePairs.execute(outputFolder + "/exchangeUnstablePairs.csv");
+		ImportOutput.execute(outputFolder + "/output.csv");
+
+		Files.copy(File("config/configTemp" + time + ".cfg").path(), File("config/config.cfg").path());
+		new File("config/configTemp" + time + ".cfg").delete();
+		Files.copy(File("sql/db_seat" + time + ".sql").path(), File("sql/db_seat.sql").path());
+		new File("sql/db_seat" + time + ".sql").delete();
 	}
 
 	//Just a function which sends the message to be printed to the correct output
@@ -331,4 +375,32 @@ public class ExecuteStepsForAllotment {
 			MainWithoutGUI.printProgress(s);
 		}
 	}
+
+	public static void executeScript(Connection conn, InputStream in)
+	throws SQLException
+	{
+		Scanner s = new Scanner(in);
+		s.useDelimiter("/\\*[\\s\\S]*?\\*/|--[^\\r\\n]*|;");
+
+		Statement st = null;
+
+		try
+		{
+			st = conn.createStatement();
+
+			while (s.hasNext())
+			{
+				String line = s.next().trim();
+
+				if (!line.isEmpty())
+				st.execute(line);
+			}
+		}
+		finally
+		{
+			if (st != null)
+			st.close();
+		}
+	}
+
 }
