@@ -303,71 +303,73 @@ public class ExecuteStepsForAllotment {
 		//Write the batchwise allotment statistics for this allotment
 		PrintBatchWiseAllottmentStatistics.execute(listOfBatches,outputFolder+"/batchwiseAllotmentStatistics.csv");
 
-		//Write to Database
-		printProgressNotification("Writing Output to DB....");
-
-
-		Date date = new Date();
-		long time = date.getTime();
-		Files.copy(new File("config/config.cfg").toPath(), new File("config/configTemp" + time + ".cfg").toPath());
-		File file = new File("config/config.cfg");
-		FileWriter fr = new FileWriter(file, true);
-		fr.write("dbname = db_seat" + time);
-		fr.close();
-
-		Properties configFile = new java.util.Properties();
-		try {
-			FileInputStream stream = new FileInputStream(new File("config/config.cfg"));
-			configFile.load(stream);
-
-
-			Class.forName("com.mysql.jdbc.Driver");
-
-			Connection connection = DriverManager.getConnection("jdbc:mysql://" +
-			configFile.getProperty("hostname") +
-			":" +
-			configFile.getProperty("port") +
-			"/" +
-			"?autoReconnect=true&useSSL=false",
-			configFile.getProperty("username"), configFile.getProperty("password"));
-
-
-			Statement statement = connection.createStatement();
-			int Result=statement.executeUpdate("CREATE DATABASE IF NOT EXISTS `db_seat" + time + "` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci");
-			statement.close();
-
-
-			Files.copy(new File("sql/db_seat.sql").toPath(), new File("sql/db_seat" + time + ".sql").toPath());
-			file = new File("sql/db_seat.sql");
-			RandomAccessFile f = new RandomAccessFile(file, "rw");
-			f.seek(0);
-			f.write(("use `db_seat" + time + "`;").getBytes());
-			f.close();
-			InputStream inputstream = new FileInputStream("sql/db_seat.sql");
-			executeScript(connection, inputstream);
-			// Init DB code here
-
-			ImportBatchSpecificMandatedElectives.execute(batchSpecificMandatedElectivesFile);
-			ImportSlots.execute(slotsFile);
-			ImportCourses.execute(courseListFile);
-			ImportHighPriority.execute(highPriorityCoursePreferencesConfigFile);
-			ImportInsideDepartmentSpec.execute(insideDepartmentConfigFile);
-			ImportMaxCrediLimit.execute(departmentWiseMaxCreditLimitFile);
-			ImportStudentList.execute(studentListFile);
-			ImportCoursePreferenceList.execute(coursePreferenceListFile);
-			ImportStudentPreferenceList.execute(studentPreferenceListFile);
-			ImportExchangeUnstablePairs.execute(outputFolder + "/exchangeUnstablePairs.csv");
-			ImportOutput.execute(outputFolder + "/output.csv");
-
-			new File("config/config.cfg").delete();
-			Files.copy(new File("config/configTemp" + time + ".cfg").toPath(), new File("config/config.cfg").toPath());
-			new File("config/configTemp" + time + ".cfg").delete();
-			new File("sql/db_seat.sql").delete();
-			Files.copy(new File("sql/db_seat" + time + ".sql").toPath(), new File("sql/db_seat.sql").toPath());
-			new File("sql/db_seat" + time + ".sql").delete();
-		} catch (Exception eta) {
-			eta.printStackTrace();
-		}
+		// //Write to Database
+		// printProgressNotification("Writing Output to DB....");
+		//
+		//
+		// Date date = new Date();
+		// long time = date.getTime();
+		//
+		// Files.copy(new File("config/config.cfg").toPath(), new File("config/configTemp" + time + ".cfg").toPath());
+		// File file = new File("config/config.cfg");
+		// FileWriter fr = new FileWriter(file, true);
+		// fr.write("dbname = db_seat" + time);
+		// fr.close();
+		// printProgressNotification("Creating new DB....");
+		//
+		// Properties configFile = new java.util.Properties();
+		// try {
+		// 	FileInputStream stream = new FileInputStream(new File("config/config.cfg"));
+		// 	configFile.load(stream);
+		//
+		//
+		// 	Class.forName("com.mysql.jdbc.Driver");
+		//
+		// 	Connection connection = DriverManager.getConnection("jdbc:mysql://" +
+		// 	configFile.getProperty("hostname") +
+		// 	":" +
+		// 	configFile.getProperty("port") +
+		// 	"/" +
+		// 	"?autoReconnect=true&useSSL=false",
+		// 	configFile.getProperty("username"), configFile.getProperty("password"));
+		//
+		//
+		// 	Statement statement = connection.createStatement();
+		// 	int Result=statement.executeUpdate("CREATE DATABASE IF NOT EXISTS `db_seat" + time + "` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci");
+		// 	statement.close();
+		//
+		//
+		// 	Files.copy(new File("sql/db_seat.sql").toPath(), new File("sql/db_seat" + time + ".sql").toPath());
+		// 	file = new File("sql/db_seat.sql");
+		// 	RandomAccessFile f = new RandomAccessFile(file, "rw");
+		// 	f.seek(0);
+		// 	f.write(("use `db_seat" + time + "`;").getBytes());
+		// 	f.close();
+		// 	InputStream inputstream = new FileInputStream("sql/db_seat.sql");
+		// 	executeScript(connection, inputstream);
+		// 	// Init DB code here
+		//
+		// 	ImportBatchSpecificMandatedElectives.execute(batchSpecificMandatedElectivesFile);
+		// 	ImportSlots.execute(slotsFile);
+		// 	ImportCourses.execute(courseListFile);
+		// 	ImportHighPriority.execute(highPriorityCoursePreferencesConfigFile);
+		// 	ImportInsideDepartmentSpec.execute(insideDepartmentConfigFile);
+		// 	ImportMaxCrediLimit.execute(departmentWiseMaxCreditLimitFile);
+		// 	ImportStudentList.execute(studentListFile);
+		// 	ImportCoursePreferenceList.execute(coursePreferenceListFile);
+		// 	ImportStudentPreferenceList.execute(studentPreferenceListFile);
+		// 	ImportExchangeUnstablePairs.execute(outputFolder + "/exchangeUnstablePairs.csv");
+		// 	ImportOutput.execute(outputFolder + "/output.csv");
+		//
+		// 	new File("config/config.cfg").delete();
+		// 	Files.copy(new File("config/configTemp" + time + ".cfg").toPath(), new File("config/config.cfg").toPath());
+		// 	new File("config/configTemp" + time + ".cfg").delete();
+		// 	new File("sql/db_seat.sql").delete();
+		// 	Files.copy(new File("sql/db_seat" + time + ".sql").toPath(), new File("sql/db_seat.sql").toPath());
+		// 	new File("sql/db_seat" + time + ".sql").delete();
+		// } catch (Exception eta) {
+		// 	eta.printStackTrace();
+		// }
 	}
 
 	//Just a function which sends the message to be printed to the correct output
