@@ -19,26 +19,32 @@ public class MainWithoutGUI {
 
 		Scanner sc = new Scanner (System.in);
 		boolean generateFreshCoursePreferences=true;
+		boolean isCommandLinePrompt = false;
 
 		/* TAKING USER INPUT AND SENDING IT TO THE EXECUTE STEPS FOR ALLOTMENT FUNCTION*/
 
 		//Read slots file
+		if(isCommandLinePrompt)
 		System.out.println("Please enter the input csv file name where the slot timings are stored");
 		String slotsFile = sc.nextLine();
 
 		//Read student list file
+		if(isCommandLinePrompt)
 		System.out.println("Please enter the input csv file name where the list of students+CGPAs in the above format is stored");
 		String studentListFile = sc.nextLine();
 
 		//Read course list file
+		if(isCommandLinePrompt)
 		System.out.println("Please enter the input csv file name where the list of courses+rankingCriteria+capacity in the above format is stored");
 		String courseListFile = sc.nextLine();
 
 		//Read student preference list file
+		if(isCommandLinePrompt)
 		System.out.println("Please enter the input csv file name where the preference list in the above format are stored");
 		String studentPreferenceListFile = sc.nextLine();
 
 		//Take the input on whether the course preference list is to be generated or read from an existing file.
+		if(isCommandLinePrompt)
 		System.out.println("Course Preference List Generation. Please enter 1 to create New Course Preference Lists, 2 to read from existing Course Preference List from a file: ");
 		int inp=sc.nextInt();
 		sc.nextLine(); //This is necessary because the sc.nextInt() doesn't consume the '\n' and this is read by the sc.nextLine() appearing after this. Hence this is just meant to consume the '\n' character
@@ -46,12 +52,14 @@ public class MainWithoutGUI {
 
 		//If you want to create a fresh course preference list
 		if(inp==1){
+		if(isCommandLinePrompt)
 			System.out.println("Please enter the location of file where you want to save the freshly generated course preferences: ");
 			coursePreferenceListFile = sc.nextLine();
 			generateFreshCoursePreferences = true;
 		}
 		//Otherwise if you want to read the course preference list from a file
 		else if(inp==2){
+		if(isCommandLinePrompt)
 			System.out.println("Please enter the location of file from where you want the course preferences to be read: ");
 			coursePreferenceListFile = sc.nextLine();
 			generateFreshCoursePreferences = false;
@@ -63,44 +71,54 @@ public class MainWithoutGUI {
 		}
 
 		//Reading which algorithm to use
+		if(isCommandLinePrompt){
 		System.out.println("Which algorithm to run?");
 		System.out.println("1. Iterative HR");
 		System.out.println("2. First Preference Allotment");
 		System.out.println("3. Slotwise HR (with Heuristic 1)");
 		System.out.println("4. Slotwise HR (with Heuristic 2)");
+	}
 		int algorithm = sc.nextInt();
 		sc.nextLine(); //This is necessary because the sc.nextInt() doesn't consume the '\n' and this is read by the sc.nextLine() appearing after this. Hence this is just meant to consume the '\n' character
 
 		//Reading the folder to which the output is to be printed
+		if(isCommandLinePrompt)
 		System.out.println("Please enter output folder to print to");
 		String outputFolder = sc.nextLine();
 
 		//Read the list of courses that consider other department students as inside department. Read the User Manual for more instructions
+		if(isCommandLinePrompt)
 		System.out.println("Please enter the input csv file name where the list of courses that consider other department students as inside department. If you do not require this functionality, just enter the name of a blank csv file.");
 		String insideDepartmentConfigFile = sc.nextLine();
 
 		//Read the list of courses that consider some students as high priority
+		if(isCommandLinePrompt)
 		System.out.println("Please enter the input csv file name where the list of courses that consider certain students as high priority students. If you do not require this functionality, just enter the name of a blank csv file.");
 		String highPriorityCoursePreferencesConfigFile = sc.nextLine();
 
 		//Read the batches and their specified mandated electives
+		if(isCommandLinePrompt)
 		System.out.println("Please enter the input csv file name where the list of batched and the corresponding mandated electives are listed. If you do not require this functionality, just enter the name of a blank csv file.");
 		String batchSpecificMandatedElectivesFile = sc.nextLine();
 
 		//Read the deparment&year wise limit on the max credits for students
+		if(isCommandLinePrompt)
 		System.out.println("Please enter the input csv file name where the the deparment&year wise limit on the max credits for students");
 		String departmentWiseMaxCreditLimitFile = sc.nextLine();
 
 		//Read if we want to save to DB
+		if(isCommandLinePrompt){
 		System.out.println("Save to DB?");
 		System.out.println("1. Yes");
 		System.out.println("2. No");
+	}
 		int isSaveToDB = sc.nextInt();
 		sc.nextLine(); //This is necessary because the sc.nextInt() doesn't consume the '\n' and this is read by the sc.nextLine() appearing after this. Hence this is just meant to consume the '\n' character
 		String nameOfTheDatabase = null;
 		if (isSaveToDB == 1)
 		{
 			//Read the name of the Database
+			if(isCommandLinePrompt)
 			System.out.println("Please enter the name of the Database");
 			nameOfTheDatabase = sc.nextLine();
 		}
