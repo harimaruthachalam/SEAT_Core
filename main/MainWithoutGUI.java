@@ -17,6 +17,8 @@ public class MainWithoutGUI {
 
 	public static void main(String[] args) throws IOException {
 
+		System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
+
 		Scanner sc = new Scanner (System.in);
 		boolean generateFreshCoursePreferences=true;
 		boolean isCommandLinePrompt = false;
