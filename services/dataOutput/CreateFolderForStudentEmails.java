@@ -131,7 +131,7 @@ public class CreateFolderForStudentEmails{
 				}
 			}
 
-			bw.write("\nNote that there will be no Round-2 for the allocation of Jan-May 2019.\nPlease note that paper requests submitted to academic section cannot be entertained by SEAT. If you have an issue you must email to seat@wmail.iitm.ac.in with the details of your issue. \n\n");
+			bw.write("\nNote that there will be no Round-2 for the allocation of Jan-May 2019. Any changes to the allotment can be done only via ADD-DROP which will be enabled in the first week of the Jan-May 2019 semester.\n\nNote that paper requests submitted to academic section cannot be entertained by SEAT.\n\n");
 			bw.write("Best Regards,\n");
 			bw.write("SEAT Team\n");
 			bw.close();
