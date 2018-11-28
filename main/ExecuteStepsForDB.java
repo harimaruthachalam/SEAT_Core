@@ -171,6 +171,7 @@ public class ExecuteStepsForDB {
 			Files.copy(new File("sql/db_seat" + time + ".sql").toPath(), new File("sql/db_seat.sql").toPath());
 			new File("sql/db_seat" + time + ".sql").delete();
 		} catch (Exception eta) {
+		printProgressNotification("Error occured while creating new DB....");
 			eta.printStackTrace();
 		}
 	}
