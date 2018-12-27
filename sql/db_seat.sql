@@ -226,6 +226,13 @@ CREATE TABLE IF NOT EXISTS `tbl_student_preference_list` (
   KEY `course_id` (`course_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
+DROP TABLE IF EXISTS `tbl_command_line`;
+CREATE TABLE IF NOT EXISTS `tbl_command_line` (
+  `command_line` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
 --
 -- Constraints for dumped tables
 --

@@ -163,6 +163,7 @@ public class ExecuteStepsForDB {
 			ImportStudentPreferenceList.execute(studentPreferenceListFile);
 			ImportExchangeUnstablePairs.execute(outputFolder + "/exchangeUnstablePairs.csv");
 			ImportOutput.execute(outputFolder + "/output.csv");
+			ImportCommandLine.execute();
 
 			new File("config/config.cfg").delete();
 			Files.copy(new File("config/configTemp" + time + ".cfg").toPath(), new File("config/config.cfg").toPath());
