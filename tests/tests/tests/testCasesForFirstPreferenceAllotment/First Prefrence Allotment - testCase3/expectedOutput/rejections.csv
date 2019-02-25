@@ -1,9 +1,0 @@
-Course ID,Number of Rejections,Number of FirstPreference Rejections,Course Capacity,Number of Rejections / Capacity,Number of FirstPreference Rejections / Capacity
-EE1000$inside,0,0,3,0.0,0.0
-EE1000$outside,2,0,2,1.0,0.0
-EE1001$inside,0,0,2,0.0,0.0
-EE1001$outside,0,0,3,0.0,0.0
-EE1002$inside,0,0,2,0.0,0.0
-EE1002$outside,0,0,3,0.0,0.0
-EE1003$inside,0,0,2,0.0,0.0
-EE1003$outside,1,1,3,0.33,0.33
